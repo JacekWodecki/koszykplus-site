@@ -28,7 +28,7 @@
   </ul>
 
   <h2>2. Administrator danych</h2>
-  <p>Administratorem danych osobowych w zakresie opisanym w punktach 8 i 9 jest
+  <p>Administratorem danych osobowych w zakresie opisanym w punktach 9 i 10 jest
   <strong>Jacek Wodecki</strong>, twórca aplikacji Koszyk+ (dalej „twórca”).
   Kontakt we wszystkich sprawach dotyczących prywatności:
   <a href="mailto:jacekwodecki@gmail.com">jacekwodecki@gmail.com</a>.</p>
@@ -37,14 +37,15 @@
   <h2>3. Dane przechowywane wyłącznie na Twoim urządzeniu</h2>
   <p>Na urządzeniu (w pamięci aplikacji, jej widżetu i rozszerzeń) przechowywane są:
   listy zakupów i ich zawartość, historia i ulubione produkty, własne kategorie,
-  ustawienia aplikacji, kroki przepisów zaimportowanych do list oraz — jeśli się
+  ustawienia aplikacji, kroki przepisów zaimportowanych do list, wydarzenia
+  grupujące listy, paragony i rozliczenia (punkt 7) oraz — jeśli się
   zalogujesz — dane konta opisane w punkcie 5. Te dane <strong>nie są przesyłane do
   twórcy</strong>. Twórca nie ma do nich dostępu i nie jest ich administratorem.
   Usunięcie aplikacji usuwa je z urządzenia.</p>
 
   <h2>4. Synchronizacja przez iCloud</h2>
-  <p>Jeśli Twoje urządzenie jest zalogowane do iCloud, listy, produkty, historia
-  i własne kategorie są automatycznie zapisywane w <strong>prywatnej bazie Twojego
+  <p>Jeśli Twoje urządzenie jest zalogowane do iCloud, listy, produkty, historia,
+  własne kategorie, wydarzenia oraz paragony i rozliczenia są automatycznie zapisywane w <strong>prywatnej bazie Twojego
   konta iCloud</strong> (usługa Apple CloudKit), żeby były dostępne na Twoich
   urządzeniach. Synchronizację wyłączysz w Ustawieniach systemu: [Twoje imię] →
   iCloud → aplikacje używające iCloud → Koszyk+. Do rozróżnienia urządzeń aplikacja
@@ -67,6 +68,18 @@
   uczestnik może też opuścić listę. Dane wspólnych list przechowuje Apple w iCloud
   właściciela listy.</p>
 
+  <h3>Wspólne wydarzenia i rozliczenia</h3>
+  <p>Wydarzenie (np. „Morze 2026”) grupuje kilka list. Zaproszenie do wydarzenia
+  obejmuje wszystkie jego listy wraz z paragonami i rozliczeniami — uczestnicy widzą
+  je tak samo jak wspólne listy. Na wspólnej liście lub w wydarzeniu uczestnicy
+  widzą dodane paragony: sklep, datę, kwotę, pozycje z paragonu, notatkę, kto
+  zapłacił i jak podzielono kwotę, a także salda („kto komu oddaje”) i zapisane zwroty.</p>
+  <p>Żeby rozliczenia liczyły się między osobami, a nie urządzeniami, aplikacja
+  zapisuje przy wspólnej liście identyfikator Twojego konta iCloud nadany przez
+  Apple tej aplikacji (losowy ciąg znaków, inny w każdej aplikacji; nie jest to
+  Twój Apple ID ani adres e-mail) razem z imieniem. Widzą go uczestnicy danej listy
+  lub wydarzenia; nie trafia do twórcy.</p>
+
   <h2>5. Logowanie przez Apple</h2>
   <p>Logowanie przez Apple (Sign in with Apple) jest dobrowolne — aplikacja działa
   w pełni bez niego. Po zalogowaniu Apple przekazuje aplikacji identyfikator konta
@@ -81,26 +94,45 @@
 
   <h2>6. Import przepisów</h2>
   <p>Gdy udostępnisz do Koszyk+ link do posta lub filmu z Instagrama, TikToka,
-  Facebooka albo YouTube, aplikacja pobiera jego tytuł i opis bezpośrednio z danego
+  Facebooka albo YouTube albo link do udostępnionej rozmowy ChatGPT, aplikacja pobiera jego tytuł i opis bezpośrednio z danego
   serwisu, żeby utworzyć listę składników. Serwis otrzymuje przy tym zwykłe
   zapytanie sieciowe — adres strony, Twój adres IP i informacje techniczne
   przeglądarki — tak jak przy otwarciu tej strony w przeglądarce. Odpowiedzialność
-  za te dane ponosi operator danego serwisu (Meta Platforms, TikTok, Google)
+  za te dane ponosi operator danego serwisu (Meta Platforms, TikTok, Google, OpenAI)
   na zasadach swojej polityki prywatności. Twórca nie otrzymuje ani linku, ani
   pobranej treści.</p>
-  <p>Tekst udostępniony bez linku (np. odpowiedź z ChatGPT albo notatka) jest
-  przetwarzany wyłącznie na Twoim urządzeniu.</p>
+  <p>Tekst lub plik tekstowy udostępniony bez linku (np. odpowiedź albo plik
+  z ChatGPT, notatka) jest przetwarzany wyłącznie na Twoim urządzeniu.</p>
 
-  <h2>7. Czego aplikacja nie robi</h2>
+  <h2>7. Paragony, rozliczenia i wydatki</h2>
+  <p>Możesz dodać do listy paragon: wpisać go ręcznie, zeskanować aparatem albo
+  wybrać zdjęcie. <strong>Aparat</strong> włącza się tylko wtedy, gdy wybierzesz
+  „Skanuj paragon”, i wymaga Twojej zgody w systemie. Przy wyborze zdjęcia aplikacja
+  dostaje wyłącznie to jedno zdjęcie, które wskażesz — nie ma dostępu do reszty
+  biblioteki. Tekst paragonu jest odczytywany <strong>na urządzeniu</strong>
+  (rozpoznawanie tekstu wbudowane w system Apple). <strong>Zdjęcie nie jest
+  zapisywane ani wysyłane</strong> — zachowywane są tylko odczytane i sprawdzone
+  przez Ciebie dane: sklep, data, kwota, pozycje, podział i notatka.</p>
+  <p>Na tej podstawie aplikacja liczy salda i proponuje, kto komu ile oddaje.
+  <strong>Koszyk+ nie przesyła ani nie przechowuje pieniędzy</strong> i nie jest usługą
+  płatniczą — „Rozlicz” zapisuje tylko informację, że zwrot nastąpił; pieniądze
+  przekazujecie sobie poza aplikacją.</p>
+  <p>Pulpit „Wydatki” (podsumowanie miesięczne, kategorie, sklepy) jest liczony
+  wyłącznie na urządzeniu z Twoich paragonów i nie jest nigdzie wysyłany. Dane
+  paragonów są przechowywane i synchronizowane tak jak listy (punkty 3 i 4).
+  Powitanie na ekranie głównym (pora dnia, święta, niedziele handlowe) wynika
+  z samej daty w urządzeniu — aplikacja nie używa lokalizacji.</p>
+
+  <h2>8. Czego aplikacja nie robi</h2>
   <ul>
     <li>nie wyświetla reklam i nie zawiera zewnętrznych bibliotek reklamowych ani analitycznych,</li>
     <li>nie śledzi Cię w innych aplikacjach ani witrynach i nie używa identyfikatora reklamowego (IDFA),</li>
-    <li>nie pobiera Twojej lokalizacji, kontaktów, zdjęć (poza zrzutami, które sam(a) wybierzesz do zgłoszenia — punkt 8) ani danych o zdrowiu,</li>
+    <li>nie pobiera Twojej lokalizacji, kontaktów, zdjęć (poza zrzutami, które sam(a) wybierzesz do zgłoszenia — punkt 9 — oraz zdjęć paragonów, które sam(a) wybierzesz do odczytu — punkt 7) ani danych o zdrowiu,</li>
     <li>nie sprzedaje ani nie udostępnia danych osobowych do celów marketingowych,</li>
     <li>nie zawiera obecnie płatności. Jeśli się pojawią, obsłuży je Apple przez App Store — twórca nie otrzyma danych Twojej karty.</li>
   </ul>
 
-  <h2>8. Zgłoszenia i kontakt z twórcą</h2>
+  <h2>9. Zgłoszenia i kontakt z twórcą</h2>
   <p>Gdy zgłaszasz błąd, proponujesz funkcję albo piszesz do twórcy, wiadomość
   wysyłasz sam(a) — ze swojej aplikacji pocztowej albo innym wybranym przez siebie
   sposobem. Twórca przetwarza wtedy: Twój adres e-mail i podpis, treść wiadomości,
@@ -115,7 +147,7 @@
     <li><strong>Odbiorcy:</strong> dostawca skrzynki poczty elektronicznej twórcy (Google), na której przechowywana jest korespondencja. Twórca nie udostępnia jej nikomu innemu.</li>
   </ul>
 
-  <h2>9. Testy TestFlight</h2>
+  <h2>10. Testy TestFlight</h2>
   <p>Jeśli testujesz wersję beta przez TestFlight, Apple przekazuje twórcy dane
   niezbędne do prowadzenia testów: adres e-mail i imię oraz nazwisko (jeśli
   zaproszenie wysłano na adres e-mail), informacje o instalacji i sesjach, model
@@ -132,14 +164,14 @@
   statystyki i raporty awarii. Zgodę wycofasz w Ustawieniach: Prywatność
   i ochrona → Analiza i ulepszenia.</p>
 
-  <h2>10. Przekazywanie danych poza Europejski Obszar Gospodarczy</h2>
+  <h2>11. Przekazywanie danych poza Europejski Obszar Gospodarczy</h2>
   <p>Apple i Google mogą przetwarzać dane w Stanach Zjednoczonych. Przekazanie
   odbywa się na podstawie decyzji Komisji Europejskiej stwierdzającej odpowiedni
   stopień ochrony (EU-U.S. Data Privacy Framework), w którym uczestniczą ci
   dostawcy, lub standardowych klauzul umownych zatwierdzonych przez Komisję.</p>
 
-  <h2>11. Twoje prawa</h2>
-  <p>W zakresie danych przetwarzanych przez twórcę (punkty 8 i 9) masz prawo do:
+  <h2>12. Twoje prawa</h2>
+  <p>W zakresie danych przetwarzanych przez twórcę (punkty 9 i 10) masz prawo do:
   dostępu do danych, ich sprostowania, usunięcia, ograniczenia przetwarzania,
   przenoszenia danych oraz <strong>wniesienia sprzeciwu</strong> wobec przetwarzania
   opartego na prawnie uzasadnionym interesie (art. 15–21 RODO). Aby skorzystać
@@ -154,26 +186,28 @@
   odpowiedzieć na wiadomość. Twórca nie podejmuje wobec Ciebie decyzji opartych
   wyłącznie na zautomatyzowanym przetwarzaniu, w tym profilowania.</p>
 
-  <h2>12. Jak usunąć swoje dane</h2>
+  <h2>13. Jak usunąć swoje dane</h2>
   <ul>
     <li><strong>Z urządzenia:</strong> usuń aplikację Koszyk+.</li>
     <li><strong>Z iCloud:</strong> Ustawienia → [Twoje imię] → iCloud → Zarządzaj pamięcią → Koszyk+ → Usuń dane. Wyłączenie Koszyk+ w ustawieniach iCloud zatrzymuje synchronizację.</li>
-    <li><strong>Ze wspólnej listy:</strong> wycofaj udostępnienie (właściciel) albo opuść listę (uczestnik).</li>
+    <li><strong>Ze wspólnej listy lub wydarzenia:</strong> wycofaj udostępnienie (właściciel) albo opuść listę lub wydarzenie (uczestnik).</li>
+    <li><strong>Paragony i rozliczenia:</strong> usuń pojedynczy wpis w rozliczeniach listy albo usuń listę lub wydarzenie razem z paragonami.</li>
     <li><strong>Logowanie przez Apple:</strong> wyloguj się w aplikacji i odbierz jej dostęp w ustawieniach Apple ID.</li>
     <li><strong>Korespondencja i dane z testów u twórcy:</strong> napisz na <a href="mailto:jacekwodecki@gmail.com">jacekwodecki@gmail.com</a>.</li>
   </ul>
 
-  <h2>13. Bezpieczeństwo</h2>
+  <h2>14. Bezpieczeństwo</h2>
   <p>Dane na urządzeniu chroni system operacyjny, w tym szyfrowanie urządzenia.
   Połączenia z iCloud i z serwisami przy imporcie przepisów są szyfrowane (HTTPS).
+  Zdjęcia paragonów nie opuszczają urządzenia.
   Twórca nie przechowuje Twoich list na żadnym własnym serwerze.</p>
 
-  <h2>14. Dzieci</h2>
+  <h2>15. Dzieci</h2>
   <p>Aplikacja jest przeznaczona dla ogólnego odbiorcy i nie jest kierowana do
   dzieci. Twórca świadomie nie zbiera danych osób poniżej 16. roku życia. Jeśli
   uważasz, że dziecko przesłało twórcy swoje dane, napisz — zostaną usunięte.</p>
 
-  <h2>15. Zmiany polityki</h2>
+  <h2>16. Zmiany polityki</h2>
   <p>Polityka może się zmienić, np. gdy w aplikacji pojawią się nowe funkcje.
   Aktualna wersja jest zawsze dostępna pod tym adresem, z datą wejścia w życie
   na początku dokumentu. O istotnych zmianach twórca poinformuje w aplikacji
@@ -199,7 +233,7 @@
   </ul>
 
   <h2>2. Data controller</h2>
-  <p>The controller of personal data described in sections 8 and 9 is
+  <p>The controller of personal data described in sections 9 and 10 is
   <strong>Jacek Wodecki</strong>, the developer of Koszyk+ (the “developer”).
   Contact for all privacy matters:
   <a href="mailto:jacekwodecki@gmail.com">jacekwodecki@gmail.com</a>.</p>
@@ -208,13 +242,13 @@
   <h2>3. Data stored only on your device</h2>
   <p>Your device stores (in the app, its widget and extensions): shopping lists and
   their contents, product history and favourites, custom categories, app settings,
-  recipe steps imported into lists and, if you sign in, the account data described
-  in section 5. This data is <strong>not sent to the developer</strong>. The developer has
+  recipe steps imported into lists, events grouping lists, receipts and settlements
+  (section 7) and, if you sign in, the account data described in section 5. This data is <strong>not sent to the developer</strong>. The developer has
   no access to it and is not its controller. Deleting the app removes it from the device.</p>
 
   <h2>4. iCloud sync</h2>
-  <p>If your device is signed in to iCloud, lists, items, history and custom
-  categories are automatically stored in the <strong>private database of your iCloud
+  <p>If your device is signed in to iCloud, lists, items, history, custom
+  categories, events, receipts and settlements are automatically stored in the <strong>private database of your iCloud
   account</strong> (Apple CloudKit) so they are available on your devices. You can turn
   sync off in system Settings: [your name] → iCloud → Apps Using iCloud → Koszyk+. To
   tell devices apart, the app creates a random device identifier that is not linked to
@@ -235,6 +269,18 @@
   Apple. You can stop sharing at any time, and participants can leave a list. Shared
   list data is stored by Apple in the list owner's iCloud.</p>
 
+  <h3>Shared events and settlements</h3>
+  <p>An event (e.g. “Seaside 2026”) groups several lists. An invitation to an event
+  covers all of its lists, including receipts and settlements, which participants see
+  just like shared lists. On a shared list or event, participants can see the receipts
+  added there: shop, date, amount, line items, note, who paid and how the amount was
+  split, as well as balances (“who owes whom”) and recorded repayments.</p>
+  <p>So that balances are calculated between people rather than devices, the app stores,
+  with the shared list, the identifier Apple assigns to your iCloud account for this app
+  (a random string that differs between apps; it is not your Apple ID or email address)
+  together with your name. It is visible to the participants of that list or event and
+  is not sent to the developer.</p>
+
   <h2>5. Sign in with Apple</h2>
   <p>Sign in with Apple is optional — the app is fully usable without it. When you
   sign in, Apple gives the app an account identifier and — only on the first sign-in
@@ -248,24 +294,42 @@
 
   <h2>6. Recipe import</h2>
   <p>When you share a link to a post or video from Instagram, TikTok, Facebook or
-  YouTube to Koszyk+, the app fetches its title and description directly from that
+  YouTube, or a link to a shared ChatGPT conversation, to Koszyk+, the app fetches its title and description directly from that
   service to build the ingredient list. The service receives an ordinary network
   request — the page address, your IP address and technical browser information —
   just as when you open the page in a browser. That data is the responsibility of the
-  service operator (Meta Platforms, TikTok, Google) under its own privacy policy. The
+  service operator (Meta Platforms, TikTok, Google, OpenAI) under its own privacy policy. The
   developer receives neither the link nor the fetched content.</p>
-  <p>Text shared without a link (e.g. a ChatGPT answer or a note) is processed on your device only.</p>
+  <p>Text or a text file shared without a link (e.g. a ChatGPT answer or file, a note) is processed on your device only.</p>
 
-  <h2>7. What the app does not do</h2>
+  <h2>7. Receipts, settlements and spending</h2>
+  <p>You can add a receipt to a list: type it in, scan it with the camera or pick a
+  photo. The <strong>camera</strong> turns on only when you choose “Scan receipt” and
+  requires your permission in the system. When you pick a photo, the app receives only
+  that single photo — it has no access to the rest of your library. The receipt text is
+  read <strong>on your device</strong> (Apple's built-in text recognition). <strong>The
+  photo is neither stored nor sent</strong> — only the data you have read and checked
+  is kept: shop, date, amount, line items, split and note.</p>
+  <p>From this the app calculates balances and suggests who owes whom how much.
+  <strong>Koszyk+ does not transfer or hold money</strong> and is not a payment
+  service — “Settle” only records that a repayment happened; you transfer money to each
+  other outside the app.</p>
+  <p>The “Spending” dashboard (monthly summary, categories, shops) is calculated only on
+  your device from your receipts and is not sent anywhere. Receipt data is stored and
+  synced like your lists (sections 3 and 4). The greeting on the home screen (time of
+  day, holidays, trading Sundays) is based solely on the date on your device — the app
+  does not use your location.</p>
+
+  <h2>8. What the app does not do</h2>
   <ul>
     <li>it shows no ads and contains no third-party advertising or analytics libraries,</li>
     <li>it does not track you across other apps or websites and does not use the advertising identifier (IDFA),</li>
-    <li>it does not access your location, contacts, photos (other than screenshots you choose to attach to a report — section 8) or health data,</li>
+    <li>it does not access your location, contacts, photos (other than screenshots you choose to attach to a report — section 9 — and receipt photos you choose to read — section 7) or health data,</li>
     <li>it does not sell or share personal data for marketing,</li>
     <li>it currently has no payments. If they are added, Apple will handle them through the App Store — the developer will not receive your card details.</li>
   </ul>
 
-  <h2>8. Reports and contacting the developer</h2>
+  <h2>9. Reports and contacting the developer</h2>
   <p>When you report a bug, suggest a feature or write to the developer, you send the
   message yourself — from your mail app or another channel of your choice. The
   developer then processes: your email address and signature, the message, any
@@ -279,7 +343,7 @@
     <li><strong>Recipients:</strong> the provider of the developer's mailbox (Google), where correspondence is stored. The developer does not share it with anyone else.</li>
   </ul>
 
-  <h2>9. TestFlight testing</h2>
+  <h2>10. TestFlight testing</h2>
   <p>If you test a beta version through TestFlight, Apple provides the developer with
   the data needed to run the tests: your email address and name (if you were invited
   by email), installation and session information, device model and OS version, crash
@@ -295,14 +359,14 @@
   reports. You can withdraw this in Settings: Privacy &amp; Security → Analytics &amp;
   Improvements.</p>
 
-  <h2>10. Transfers outside the European Economic Area</h2>
+  <h2>11. Transfers outside the European Economic Area</h2>
   <p>Apple and Google may process data in the United States. Such transfers rely on the
   European Commission's adequacy decision (EU-U.S. Data Privacy Framework), in which
   these providers participate, or on standard contractual clauses approved by the
   Commission.</p>
 
-  <h2>11. Your rights</h2>
-  <p>For data processed by the developer (sections 8 and 9) you have the right to
+  <h2>12. Your rights</h2>
+  <p>For data processed by the developer (sections 9 and 10) you have the right to
   access, rectification, erasure, restriction of processing, data portability and to
   <strong>object</strong> to processing based on legitimate interest (Arts. 15–21 GDPR).
   To exercise these rights, write to
@@ -316,26 +380,27 @@
   to your message. The developer does not make decisions about you based solely on
   automated processing, including profiling.</p>
 
-  <h2>12. How to delete your data</h2>
+  <h2>13. How to delete your data</h2>
   <ul>
     <li><strong>From your device:</strong> delete the Koszyk+ app.</li>
     <li><strong>From iCloud:</strong> Settings → [your name] → iCloud → Manage Storage → Koszyk+ → Delete Data. Turning Koszyk+ off in iCloud settings stops sync.</li>
-    <li><strong>From a shared list:</strong> stop sharing (owner) or leave the list (participant).</li>
+    <li><strong>From a shared list or event:</strong> stop sharing (owner) or leave the list or event (participant).</li>
+    <li><strong>Receipts and settlements:</strong> delete an individual entry in a list's balances, or delete the list or event together with its receipts.</li>
     <li><strong>Sign in with Apple:</strong> sign out in the app and revoke its access in your Apple ID settings.</li>
     <li><strong>Correspondence and test data held by the developer:</strong> write to <a href="mailto:jacekwodecki@gmail.com">jacekwodecki@gmail.com</a>.</li>
   </ul>
 
-  <h2>13. Security</h2>
+  <h2>14. Security</h2>
   <p>Data on your device is protected by the operating system, including device
   encryption. Connections to iCloud and to services during recipe import are encrypted
-  (HTTPS). The developer does not store your lists on any server of their own.</p>
+  (HTTPS). Receipt photos never leave your device. The developer does not store your lists on any server of their own.</p>
 
-  <h2>14. Children</h2>
+  <h2>15. Children</h2>
   <p>The app is intended for a general audience and is not directed at children. The
   developer does not knowingly collect data from anyone under 16. If you believe a
   child has sent the developer their data, please get in touch and it will be deleted.</p>
 
-  <h2>15. Changes to this policy</h2>
+  <h2>16. Changes to this policy</h2>
   <p>This policy may change, for example when new features are added. The current
   version is always available at this address, with its effective date at the top.
   The developer will announce significant changes in the app or in the update notes.</p>
