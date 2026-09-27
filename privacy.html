@@ -23,7 +23,7 @@
   <ul>
     <li>Twórca aplikacji <strong>nie ma własnego serwera</strong> i nie ma dostępu do Twoich list zakupów.</li>
     <li>Aplikacja <strong>nie zawiera reklam, analityki ani narzędzi śledzących</strong> i nie używa identyfikatora reklamowego.</li>
-    <li>Listy są przechowywane na Twoim urządzeniu, a jeśli włączysz synchronizację — w <strong>Twoim</strong> koncie iCloud, zarządzanym przez Apple.</li>
+    <li>Listy są przechowywane na Twoim urządzeniu, a jeśli jesteś zalogowany(-a) do iCloud — także w <strong>Twoim</strong> koncie iCloud, zarządzanym przez Apple.</li>
     <li>Twórca przetwarza Twoje dane osobowe tylko wtedy, gdy sam(a) się z nim skontaktujesz (np. zgłaszając błąd) albo bierzesz udział w testach TestFlight.</li>
   </ul>
 
@@ -43,11 +43,16 @@
   Usunięcie aplikacji usuwa je z urządzenia.</p>
 
   <h2>4. Synchronizacja przez iCloud</h2>
-  <p>Jeśli włączysz synchronizację (albo zalogujesz się — patrz punkt 5), listy,
-  produkty, historia i własne kategorie są zapisywane w <strong>prywatnej bazie
-  Twojego konta iCloud</strong> (usługa Apple CloudKit), żeby były dostępne na Twoich
-  urządzeniach. Do rozróżnienia urządzeń aplikacja tworzy losowy identyfikator
-  urządzenia, niezwiązany z numerem seryjnym ani identyfikatorem reklamowym.</p>
+  <p>Jeśli Twoje urządzenie jest zalogowane do iCloud, listy, produkty, historia
+  i własne kategorie są automatycznie zapisywane w <strong>prywatnej bazie Twojego
+  konta iCloud</strong> (usługa Apple CloudKit), żeby były dostępne na Twoich
+  urządzeniach. Synchronizację wyłączysz w Ustawieniach systemu: [Twoje imię] →
+  iCloud → aplikacje używające iCloud → Koszyk+. Do rozróżnienia urządzeń aplikacja
+  tworzy losowy identyfikator urządzenia, niezwiązany z numerem seryjnym ani
+  identyfikatorem reklamowym.</p>
+  <p>Aby podpisać Cię na wspólnych listach, gdy nie używasz logowania przez Apple,
+  aplikacja może odczytać z iCloud imię i nazwisko powiązane z Twoim kontem iCloud.
+  Są one przechowywane wyłącznie na urządzeniu i nie trafiają do twórcy.</p>
   <p>Dane te przechowuje Apple Inc. na zasadach
   <a href="https://www.apple.com/legal/privacy/">polityki prywatności Apple</a>
   i warunków iCloud. Twórca nie ma dostępu do prywatnej bazy Twojego konta iCloud
@@ -68,9 +73,9 @@
   oraz — tylko przy pierwszym logowaniu i tylko jeśli na to pozwolisz — imię,
   nazwisko i adres e-mail (możesz wybrać ukrycie adresu e-mail). Te dane są
   zapisywane <strong>wyłącznie na Twoim urządzeniu</strong> i służą do podpisania Cię
-  na wspólnych listach, wyświetlenia inicjałów i włączenia synchronizacji iCloud.
-  Nie są wysyłane do twórcy. Na wspólnych listach widoczne jest tylko Twoje imię.</p>
-  <p>Wylogowanie usuwa dane konta z urządzenia i wyłącza synchronizację. Dostęp
+  na wspólnych listach i wyświetlenia inicjałów. Nie są wysyłane do twórcy.
+  Na wspólnych listach widoczne jest tylko Twoje imię.</p>
+  <p>Wylogowanie usuwa dane konta z urządzenia. Dostęp
   aplikacji do konta Apple odbierzesz w Ustawieniach systemu: Apple ID → Zaloguj się
   przez Apple → Koszyk+ → Przestań używać.</p>
 
@@ -152,7 +157,7 @@
   <h2>12. Jak usunąć swoje dane</h2>
   <ul>
     <li><strong>Z urządzenia:</strong> usuń aplikację Koszyk+.</li>
-    <li><strong>Z iCloud:</strong> Ustawienia → [Twoje imię] → iCloud → Zarządzaj pamięcią → Koszyk+ → Usuń dane. Wyłączenie synchronizacji w aplikacji usuwa z urządzenia listy udostępnione Ci przez innych.</li>
+    <li><strong>Z iCloud:</strong> Ustawienia → [Twoje imię] → iCloud → Zarządzaj pamięcią → Koszyk+ → Usuń dane. Wyłączenie Koszyk+ w ustawieniach iCloud zatrzymuje synchronizację.</li>
     <li><strong>Ze wspólnej listy:</strong> wycofaj udostępnienie (właściciel) albo opuść listę (uczestnik).</li>
     <li><strong>Logowanie przez Apple:</strong> wyloguj się w aplikacji i odbierz jej dostęp w ustawieniach Apple ID.</li>
     <li><strong>Korespondencja i dane z testów u twórcy:</strong> napisz na <a href="mailto:jacekwodecki@gmail.com">jacekwodecki@gmail.com</a>.</li>
@@ -189,7 +194,7 @@
   <ul>
     <li>The developer <strong>has no server of its own</strong> and no access to your shopping lists.</li>
     <li>The app <strong>contains no ads, analytics or tracking tools</strong> and does not use the advertising identifier.</li>
-    <li>Your lists are stored on your device and, if you turn on sync, in <strong>your</strong> iCloud account, operated by Apple.</li>
+    <li>Your lists are stored on your device and, if you are signed in to iCloud, also in <strong>your</strong> iCloud account, operated by Apple.</li>
     <li>The developer processes your personal data only when you contact them (e.g. to report a bug) or take part in TestFlight testing.</li>
   </ul>
 
@@ -208,11 +213,15 @@
   no access to it and is not its controller. Deleting the app removes it from the device.</p>
 
   <h2>4. iCloud sync</h2>
-  <p>If you turn on sync (or sign in — see section 5), lists, items, history and
-  custom categories are stored in the <strong>private database of your iCloud
-  account</strong> (Apple CloudKit) so they are available on your devices. To tell
-  devices apart, the app creates a random device identifier that is not linked to
+  <p>If your device is signed in to iCloud, lists, items, history and custom
+  categories are automatically stored in the <strong>private database of your iCloud
+  account</strong> (Apple CloudKit) so they are available on your devices. You can turn
+  sync off in system Settings: [your name] → iCloud → Apps Using iCloud → Koszyk+. To
+  tell devices apart, the app creates a random device identifier that is not linked to
   the serial number or the advertising identifier.</p>
+  <p>To show your name on shared lists when you do not use Sign in with Apple, the app
+  may read the name associated with your iCloud account from iCloud. It is stored on
+  the device only and is not sent to the developer.</p>
   <p>This data is stored by Apple Inc. under
   <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a> and the
   iCloud terms. The developer has no access to the private database of your iCloud
@@ -231,10 +240,9 @@
   sign in, Apple gives the app an account identifier and — only on the first sign-in
   and only if you allow it — your first name, last name and email address (you can
   choose to hide your email). This data is stored <strong>only on your device</strong>
-  and is used to show your name on shared lists, display your initials and turn on
-  iCloud sync. It is not sent to the developer. Only your first name is visible on
-  shared lists.</p>
-  <p>Signing out removes the account data from the device and turns off sync. You can
+  and is used to show your name on shared lists and display your initials. It is not
+  sent to the developer. Only your first name is visible on shared lists.</p>
+  <p>Signing out removes the account data from the device. You can
   revoke the app's access in system Settings: Apple ID → Sign in with Apple →
   Koszyk+ → Stop Using.</p>
 
@@ -311,7 +319,7 @@
   <h2>12. How to delete your data</h2>
   <ul>
     <li><strong>From your device:</strong> delete the Koszyk+ app.</li>
-    <li><strong>From iCloud:</strong> Settings → [your name] → iCloud → Manage Storage → Koszyk+ → Delete Data. Turning off sync in the app removes lists shared with you by others from the device.</li>
+    <li><strong>From iCloud:</strong> Settings → [your name] → iCloud → Manage Storage → Koszyk+ → Delete Data. Turning Koszyk+ off in iCloud settings stops sync.</li>
     <li><strong>From a shared list:</strong> stop sharing (owner) or leave the list (participant).</li>
     <li><strong>Sign in with Apple:</strong> sign out in the app and revoke its access in your Apple ID settings.</li>
     <li><strong>Correspondence and test data held by the developer:</strong> write to <a href="mailto:jacekwodecki@gmail.com">jacekwodecki@gmail.com</a>.</li>
