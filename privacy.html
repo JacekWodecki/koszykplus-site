@@ -11,7 +11,7 @@
   <nav><a href="index.html">← Basket+</a> <a href="#en">English</a></nav>
 
   <h1>Polityka prywatności aplikacji Basket+</h1>
-  <p class="muted">Obowiązuje od 9 października 2026 r.</p>
+  <p class="muted">Obowiązuje od 17 października 2026 r.</p>
 
   <p>Niniejsza polityka wyjaśnia, jakie informacje przetwarza aplikacja Basket+
   (iOS, iPadOS, macOS, watchOS, wraz z widżetem i rozszerzeniem udostępniania),
@@ -22,7 +22,7 @@
   <h2>1. W skrócie</h2>
   <ul>
     <li>Twórca aplikacji <strong>nie ma własnego serwera</strong> i nie ma dostępu do Twoich list zakupów.</li>
-    <li>W wersji <strong>Plus</strong> aplikacja nie zawiera reklam. W wersji <strong>Free</strong> wyświetla reklamy przez Google AdMob — za Twoją zgodą w EOG/UK/CH i bez uprawnienia do śledzenia między aplikacjami (punkt 20).</li>
+    <li>W wersji <strong>Plus</strong> aplikacja nie zawiera reklam. W wersji <strong>Free</strong> wyświetla reklamy przez Google AdMob — za Twoją zgodą w EOG/UK/CH; możesz zobaczyć systemową prośbę o zgodę na śledzenie (ATT), ale reklamy pozostają niespersonalizowane niezależnie od tej decyzji (punkt 20).</li>
     <li>Listy są przechowywane na Twoim urządzeniu, a jeśli jesteś zalogowany(-a) do iCloud — także w <strong>Twoim</strong> koncie iCloud, zarządzanym przez Apple.</li>
     <li>Twórca przetwarza Twoje dane osobowe tylko wtedy, gdy sam(a) się z nim skontaktujesz (np. zgłaszając błąd) albo bierzesz udział w testach TestFlight.</li>
   </ul>
@@ -147,7 +147,7 @@
   <h2>8. Czego aplikacja nie robi</h2>
   <ul>
     <li>wersja Plus nie wyświetla żadnych reklam; wersja Free wyświetla reklamy wyłącznie przez Google AdMob, na zasadach i za zgodą opisaną w punkcie 20,</li>
-    <li>nie prosi o uprawnienie do śledzenia między aplikacjami (App Tracking Transparency) i nie odczytuje identyfikatora reklamowego (IDFA) — patrz punkt 20,</li>
+    <li>nie odczytuje identyfikatora reklamowego (IDFA) bez wymaganej zgody — w wersji Free aplikacja może poprosić o zgodę na śledzenie między aplikacjami (App Tracking Transparency) wyłącznie w celu pomiaru skuteczności reklam Google AdMob; reklamy pozostają niespersonalizowane niezależnie od tej decyzji — patrz punkt 20,</li>
     <li>nie nagrywa dźwięku w tle — mikrofon działa tylko podczas włączonego przez Ciebie dyktowania (punkt 17) albo nagrywania wiadomości głosowej (punkt 18),</li>
     <li>nie pobiera Twojej lokalizacji, kontaktów ani danych o zdrowiu; otrzymuje tylko zdjęcia, które sam(a) wybierzesz do zgłoszenia (punkt 9), odczytu paragonu (punkt 7) lub wysłania w rozmowie (punkt 18),</li>
     <li>nie sprzedaje ani nie udostępnia danych osobowych do celów marketingowych,</li>
@@ -318,21 +318,32 @@
   <strong>Google User Messaging Platform (UMP)</strong> zgodny z ramami IAB TCF —
   wybierasz w nim, na co się zgadzasz (lub nie). Decyzję możesz zmienić w każdej
   chwili w Ustawieniach → „Opcje prywatności reklam” (widoczne tylko tam, gdzie
-  wymaga tego Twój region). Aplikacja <strong>nie prosi o uprawnienie do
-  śledzenia między aplikacjami (App Tracking Transparency)</strong> i nie
-  odczytuje identyfikatora reklamowego (IDFA) Twojego urządzenia — reklamy
-  Google mogą być kontekstowe/niespersonalizowane na podstawie samego żądania
-  reklamy (m.in. przybliżona lokalizacja z adresu IP, typ urządzenia, wersja
-  systemu i identyfikator instalacji SDK), a przy zgodzie — spersonalizowane na
-  zasadach, które wybierzesz w formularzu UMP.</p>
+  wymaga tego Twój region).</p>
+  <p>W wersji <strong>Free</strong> aplikacja może dodatkowo poprosić Cię o
+  systemową zgodę na śledzenie między aplikacjami (<strong>App Tracking
+  Transparency</strong>) — wyłącznie w celu pomiaru skuteczności reklam Google
+  AdMob. Niezależnie od tej decyzji (zgoda, odmowa albo brak odpowiedzi)
+  reklamy w Basket+ <strong>pozostają niespersonalizowane</strong> — aplikacja
+  wyłącza personalizację reklam Google na poziomie całego SDK, zanim padnie
+  pierwszy request reklamowy. Jeśli zgodzisz się na śledzenie, Google AdMob
+  może odczytać identyfikator reklamowy (IDFA) Twojego urządzenia wyłącznie do
+  pomiaru skuteczności reklam (np. unikalnych wyświetleń i konwersji) — nie do
+  ich personalizacji. Przy odmowie albo braku zgody AdMob nie odczytuje IDFA,
+  a reklamy opierają się wyłącznie na danych samego żądania reklamy (m.in.
+  przybliżona lokalizacja z adresu IP, typ urządzenia, wersja systemu i
+  identyfikator instalacji SDK).</p>
+  <p>Gdy aplikacja rozpoznaje aktywną subskrypcję <strong>Basket+ Plus</strong>,
+  nie inicjuje żadnego z powyższych mechanizmów — nie wyświetla formularza UMP,
+  nie pyta o zgodę ATT i nie uruchamia Google Mobile Ads SDK.</p>
   <p>Dane przetwarzane w związku z żądaniem i wyświetleniem reklamy są
   przetwarzane przez Google jako niezależnego administratora, na zasadach jego
-  własnej polityki prywatności i (w EOG/UK/CH) na podstawie Twojej zgody
-  wyrażonej w formularzu UMP. Listę partnerów reklamowych i szczegóły możesz
-  sprawdzić w formularzu „Opcje prywatności reklam” albo w
+  własnej polityki prywatności i na podstawie Twojej zgody — w EOG/UK/CH
+  wyrażonej w formularzu UMP, a w przypadku identyfikatora reklamowego (IDFA) —
+  wyrażonej w systemowym oknie ATT. Listę partnerów reklamowych i szczegóły
+  możesz sprawdzić w formularzu „Opcje prywatności reklam” albo w
   <a href="https://support.google.com/admob/answer/9012903" target="_blank" rel="noopener">polityce prywatności Google</a>.
   Zgodę na przetwarzanie danych do celów analitycznych i poprawy produktu w
-  ramach Google Mobile Ads SDK również kontroluje ten sam formularz.</p>
+  ramach Google Mobile Ads SDK również kontroluje formularz UMP.</p>
 
   <h2>21. Zmiany polityki</h2>
   <p>Polityka może się zmienić, np. gdy w aplikacji pojawią się nowe funkcje.
@@ -344,7 +355,7 @@
 
   <h1 id="en" lang="en">Basket+ Privacy Policy</h1>
   <div lang="en">
-  <p class="muted">Effective October 9, 2026. The Polish version above prevails in case of discrepancy.</p>
+  <p class="muted">Effective October 17, 2026. The Polish version above prevails in case of discrepancy.</p>
 
   <p>This policy explains what information the Basket+ app (iOS, iPadOS, macOS,
   watchOS, including its widget and share extension) processes, who is responsible
@@ -354,7 +365,7 @@
   <h2>1. Summary</h2>
   <ul>
     <li>The developer <strong>has no server of its own</strong> and no access to your shopping lists.</li>
-    <li>The <strong>Plus</strong> tier contains no ads. The <strong>Free</strong> tier shows ads through Google AdMob — with your consent in the EEA/UK/CH and without App Tracking Transparency permission (section 20).</li>
+    <li>The <strong>Plus</strong> tier contains no ads. The <strong>Free</strong> tier shows ads through Google AdMob — with your consent in the EEA/UK/CH; you may see the system App Tracking Transparency (ATT) prompt, but ads remain non-personalised regardless of that choice (section 20).</li>
     <li>Your lists are stored on your device and, if you are signed in to iCloud, also in <strong>your</strong> iCloud account, operated by Apple.</li>
     <li>The developer processes your personal data only when you contact them (e.g. to report a bug) or take part in TestFlight testing.</li>
   </ul>
@@ -472,7 +483,7 @@
   <h2>8. What the app does not do</h2>
   <ul>
     <li>the Plus tier shows no ads at all; the Free tier shows ads only through Google AdMob, on the terms and with the consent described in section 20,</li>
-    <li>it does not request App Tracking Transparency permission and does not read the advertising identifier (IDFA) — see section 20,</li>
+    <li>it does not read the advertising identifier (IDFA) without the required consent — in the Free tier the app may ask for App Tracking Transparency (ATT) permission solely to measure Google AdMob ad performance; ads remain non-personalised regardless of that choice — see section 20,</li>
     <li>it does not record audio in the background — the microphone is used only while you dictate after starting it yourself (section 17) or record a voice message (section 18),</li>
     <li>it does not access your location, contacts or health data; it receives only photos you select for a report (section 9), receipt recognition (section 7) or a conversation (section 18),</li>
     <li>it does not sell or share personal data for marketing,</li>
@@ -634,21 +645,32 @@
   <strong>Google User Messaging Platform (UMP)</strong> form compliant with
   the IAB TCF framework, where you choose what you agree to (or don't). You
   can change that choice at any time in Settings → "Ad privacy options"
-  (shown only where your region requires it). The app
-  <strong>does not request App Tracking Transparency</strong> permission and
-  does not read your device's advertising identifier (IDFA) — Google's ads may
-  be contextual/non-personalised based on the ad request itself (including
-  approximate location from your IP address, device type, OS version and the
-  SDK's install identifier), or, with your consent, personalised on the terms
-  you choose in the UMP form.</p>
+  (shown only where your region requires it).</p>
+  <p>In the <strong>Free</strong> tier, the app may additionally ask for your
+  system-level consent to track you across apps (<strong>App Tracking
+  Transparency</strong>) — solely to measure the performance of Google AdMob
+  ads. Regardless of that choice (allow, deny, or no response), ads in
+  Basket+ <strong>remain non-personalised</strong> — the app disables Google
+  ad personalisation at the SDK level before the first ad request. If you
+  allow tracking, Google AdMob may read your device's advertising identifier
+  (IDFA) only to measure ad performance (e.g. unique impressions and
+  conversions) — not to personalise ads. If you deny or haven't responded,
+  AdMob does not read the IDFA, and ads rely only on data from the ad request
+  itself (including approximate location from your IP address, device type,
+  OS version and the SDK's install identifier).</p>
+  <p>When the app recognises an active <strong>Basket+ Plus</strong>
+  subscription, it does not start any of the above mechanisms — it does not
+  show the UMP form, does not ask for ATT consent and does not start the
+  Google Mobile Ads SDK.</p>
   <p>Data processed in connection with requesting and showing an ad is
   processed by Google as an independent controller, under its own privacy
-  policy and, in the EEA/UK/CH, on the basis of the consent you give in the UMP
-  form. You can review the list of ad partners and further details in the "Ad
-  privacy options" form or in
+  policy and on the basis of your consent — in the EEA/UK/CH given in the UMP
+  form, and for the advertising identifier (IDFA), given in the system ATT
+  prompt. You can review the list of ad partners and further details in the
+  "Ad privacy options" form or in
   <a href="https://support.google.com/admob/answer/9012903" target="_blank" rel="noopener">Google's privacy policy</a>.
   Consent to processing for analytics and product-improvement purposes within
-  the Google Mobile Ads SDK is controlled by the same form.</p>
+  the Google Mobile Ads SDK is also controlled by the UMP form.</p>
 
   <h2>21. Changes to this policy</h2>
   <p>This policy may change, for example when new features are added. The current
