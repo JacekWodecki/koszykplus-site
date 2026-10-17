@@ -321,20 +321,25 @@
   wymaga tego Twój region).</p>
   <p>W wersji <strong>Free</strong> aplikacja może dodatkowo poprosić Cię o
   systemową zgodę na śledzenie między aplikacjami (<strong>App Tracking
-  Transparency</strong>) — wyłącznie w celu pomiaru skuteczności reklam Google
-  AdMob. Niezależnie od tej decyzji (zgoda, odmowa albo brak odpowiedzi)
-  reklamy w Basket+ <strong>pozostają niespersonalizowane</strong> — aplikacja
-  wyłącza personalizację reklam Google na poziomie całego SDK, zanim padnie
-  pierwszy request reklamowy. Jeśli zgodzisz się na śledzenie, Google AdMob
-  może odczytać identyfikator reklamowy (IDFA) Twojego urządzenia wyłącznie do
-  pomiaru skuteczności reklam (np. unikalnych wyświetleń i konwersji) — nie do
-  ich personalizacji. Przy odmowie albo braku zgody AdMob nie odczytuje IDFA,
-  a reklamy opierają się wyłącznie na danych samego żądania reklamy (m.in.
-  przybliżona lokalizacja z adresu IP, typ urządzenia, wersja systemu i
-  identyfikator instalacji SDK).</p>
-  <p>Gdy aplikacja rozpoznaje aktywną subskrypcję <strong>Basket+ Plus</strong>,
-  nie inicjuje żadnego z powyższych mechanizmów — nie wyświetla formularza UMP,
-  nie pyta o zgodę ATT i nie uruchamia Google Mobile Ads SDK.</p>
+  Transparency</strong>). Niezależnie od tej decyzji (zgoda, odmowa albo brak
+  odpowiedzi) reklamy w Basket+ <strong>pozostają niespersonalizowane</strong>
+  — aplikacja wyłącza personalizację reklam Google na poziomie całego SDK,
+  zanim padnie pierwszy request reklamowy. Jeśli zgodzisz się na śledzenie,
+  Google AdMob może wykorzystać identyfikator reklamowy (IDFA) Twojego
+  urządzenia do pomiaru skuteczności reklam (np. unikalnych wyświetleń i
+  konwersji) oraz powiązanych celów analitycznych SDK — nigdy jednak do
+  personalizacji reklam, która pozostaje wyłączona niezależnie od tej decyzji.
+  Przy odmowie albo braku zgody AdMob nie odczytuje IDFA, a reklamy opierają
+  się wyłącznie na danych samego żądania reklamy (m.in. przybliżona lokalizacja
+  z adresu IP, typ urządzenia, wersja systemu i identyfikator instalacji SDK).</p>
+  <p>Jeśli masz aktywną subskrypcję <strong>Basket+ Plus</strong> już przy
+  uruchomieniu aplikacji, żaden z powyższych mechanizmów nie jest inicjowany —
+  aplikacja nie wyświetla formularza UMP, nie pyta o zgodę ATT i nie uruchamia
+  Google Mobile Ads SDK. Jeśli aktywujesz Plus w trakcie sesji, w której
+  wcześniej wyświetlano reklamy Free, raz uruchomiony mechanizm reklamowy
+  Google może pozostać technicznie aktywny do końca tej sesji (Google Mobile
+  Ads SDK nie udostępnia sposobu jego zatrzymania) — nie pokazuje Ci już
+  jednak żadnych reklam, bo o tym decyduje wyłącznie Twoja subskrypcja.</p>
   <p>Dane przetwarzane w związku z żądaniem i wyświetleniem reklamy są
   przetwarzane przez Google jako niezależnego administratora, na zasadach jego
   własnej polityki prywatności i na podstawie Twojej zgody — w EOG/UK/CH
@@ -648,20 +653,25 @@
   (shown only where your region requires it).</p>
   <p>In the <strong>Free</strong> tier, the app may additionally ask for your
   system-level consent to track you across apps (<strong>App Tracking
-  Transparency</strong>) — solely to measure the performance of Google AdMob
-  ads. Regardless of that choice (allow, deny, or no response), ads in
-  Basket+ <strong>remain non-personalised</strong> — the app disables Google
-  ad personalisation at the SDK level before the first ad request. If you
-  allow tracking, Google AdMob may read your device's advertising identifier
-  (IDFA) only to measure ad performance (e.g. unique impressions and
-  conversions) — not to personalise ads. If you deny or haven't responded,
-  AdMob does not read the IDFA, and ads rely only on data from the ad request
-  itself (including approximate location from your IP address, device type,
-  OS version and the SDK's install identifier).</p>
-  <p>When the app recognises an active <strong>Basket+ Plus</strong>
-  subscription, it does not start any of the above mechanisms — it does not
-  show the UMP form, does not ask for ATT consent and does not start the
-  Google Mobile Ads SDK.</p>
+  Transparency</strong>). Regardless of that choice (allow, deny, or no
+  response), ads in Basket+ <strong>remain non-personalised</strong> — the
+  app disables Google ad personalisation at the SDK level before the first ad
+  request. If you allow tracking, Google AdMob may use your device's
+  advertising identifier (IDFA) to measure ad performance (e.g. unique
+  impressions and conversions) and for the SDK's related analytics purposes
+  — never to personalise ads, which stays off regardless of that choice. If
+  you deny or haven't responded, AdMob does not read the IDFA, and ads rely
+  only on data from the ad request itself (including approximate location
+  from your IP address, device type, OS version and the SDK's install
+  identifier).</p>
+  <p>If you already have an active <strong>Basket+ Plus</strong> subscription
+  when the app launches, none of the above mechanisms are started — the app
+  does not show the UMP form, does not ask for ATT consent and does not start
+  the Google Mobile Ads SDK. If you activate Plus during a session in which
+  Free-tier ads were already shown, the ad mechanism Google already started
+  may remain technically active for the rest of that session (the Google
+  Mobile Ads SDK provides no way to stop it) — but it will no longer show you
+  any ads, since that is controlled solely by your subscription status.</p>
   <p>Data processed in connection with requesting and showing an ad is
   processed by Google as an independent controller, under its own privacy
   policy and on the basis of your consent — in the EEA/UK/CH given in the UMP
