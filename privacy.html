@@ -236,13 +236,14 @@
   <p><strong>Reklamy niespersonalizowane.</strong> Przed pierwszym żądaniem reklamy aplikacja ustawia w Google Mobile Ads SDK
   tryb niespersonalizowany (ustawienie „publisher privacy personalization” na „wyłączone”) i wyłącza identyfikator
   pierwszej strony wydawcy. Według dokumentacji Google takie żądania są obsługiwane bez personalizacji także wtedy,
-  gdy w formularzu UMP wyrazisz zgodę na personalizację. Reklamy nadal mogą być dobierane kontekstowo
-  i mierzone (np. liczba wyświetleń).</p>
+  gdy w formularzu UMP wyrazisz zgodę na personalizację. Zgodnie z dokumentacją Google reklamy niespersonalizowane
+  nadal mogą korzystać z plików cookie lub mobilnych identyfikatorów reklamowych do ograniczania powtarzalności reklam
+  (frequency capping) i zbiorczych raportów reklamowych; mogą też być dobierane kontekstowo.</p>
   <p><strong>Jakie dane mogą trafić do Google.</strong> Zgodnie z dokumentacją i manifestem prywatności Google Mobile Ads SDK
   w związku z żądaniem i wyświetleniem reklamy Google może przetwarzać m.in.: adres IP (na jego podstawie przybliżoną lokalizację),
   informacje o urządzeniu i systemie, dane o wyświetlonych reklamach i interakcjach z nimi, dane diagnostyczne i wydajnościowe oraz
   identyfikator urządzenia. <strong>Identyfikator reklamowy (IDFA)</strong> jest dostępny dla SDK tylko wtedy, gdy zgodzisz
-  się na śledzenie w oknie ATT; Google może go użyć do pomiaru skuteczności reklam i celów analitycznych SDK, nie do personalizacji
+  się na śledzenie w oknie ATT; Google może go użyć do pomiaru skuteczności reklam, ograniczania ich powtarzalności i celów analitycznych SDK, nie do personalizacji
   reklam w Basket+. Przy odmowie lub braku zgody IDFA nie jest udostępniany, a reklamy opierają się na danych samego żądania
   (m.in. przybliżonej lokalizacji z adresu IP, typie urządzenia, wersji systemu i identyfikatorze instalacji SDK).</p>
   <p>Dane te Google przetwarza jako niezależny administrator, na zasadach swojej
@@ -305,7 +306,7 @@
   <ul>
     <li><strong>Dane na urządzeniu</strong> (punkt 4): do czasu usunięcia aplikacji lub danych w aplikacji.</li>
     <li><strong>Cache mediów z rozmów na urządzeniu:</strong> aplikacja ogranicza go do ok. 100 MB i 250 plików i usuwa najstarsze pliki.</li>
-    <li><strong>Dane w iCloud</strong> (punkty 5 i 8): do czasu ich usunięcia przez Ciebie. Usunięcie listy, produktu, paragonu lub wydarzenia w aplikacji oznacza je jako usunięte i synchronizuje to oznaczenie między urządzeniami przez iCloud; zapisane w iCloud dane aplikacji usuniesz całkowicie w Ustawieniach systemu: [Twoje imię] → iCloud → Zarządzaj pamięcią → Basket+ → Usuń dane. Wyłączenie Basket+ w ustawieniach iCloud zatrzymuje synchronizację.</li>
+    <li><strong>Dane w iCloud</strong> (punkty 5 i 8): do czasu ich usunięcia przez Ciebie. Usunięcie listy, produktu, paragonu lub wydarzenia w aplikacji oznacza je jako usunięte i synchronizuje to oznaczenie między urządzeniami przez iCloud; zapisane w iCloud dane aplikacji usuniesz całkowicie w Ustawieniach systemu: [Twoje imię] → iCloud → Zarządzaj pamięcią → Basket+ → Usuń dane (opcja jest dostępna, gdy system wyświetla Basket+ na liście aplikacji). Wyłączenie Basket+ w ustawieniach iCloud zatrzymuje synchronizację.</li>
     <li><strong>Wspólne listy i wydarzenia:</strong> właściciel wycofuje udostępnienie, uczestnik opuszcza listę lub wydarzenie. Dane wspólnej listy zapisane w iCloud właściciela pozostają u niego do czasu ich usunięcia przez niego.</li>
     <li><strong>Rozmowy i media:</strong> dostęp tracisz, opuszczając listę lub wydarzenie albo gdy właściciel zakończy udostępnianie; pojedynczych wiadomości nie można obecnie usunąć (punkt 5).</li>
     <li><strong>Stan subskrypcji Plus:</strong> lokalnie do usunięcia aplikacji; dane zakupu przechowuje Apple.</li>
@@ -553,13 +554,13 @@
   in system Settings → Privacy &amp; Security → Tracking.</p>
   <p><strong>Non-personalised ads.</strong> Before the first ad request the app sets the Google Mobile Ads SDK to non-personalised mode (the
   “publisher privacy personalization” setting is set to “disabled”) and disables the publisher first-party identifier. According to Google's
-  documentation such requests are served without personalisation even if you agree to personalisation in the UMP form. Ads may still be
-  selected contextually and measured (e.g. the number of impressions).</p>
+  documentation such requests are served without personalisation even if you agree to personalisation in the UMP form. According to Google's documentation, non-personalised ads may
+  still use cookies or mobile advertising identifiers for frequency capping and aggregated ad reporting; they may also be selected contextually.</p>
   <p><strong>What data may go to Google.</strong> According to Google's documentation and the privacy manifest of the Google Mobile Ads SDK, in
   connection with an ad request and display Google may process, among other things: the IP address (from which approximate location is derived),
   device and system information, data about ads shown and interactions with them, diagnostic and performance data, and a device identifier.
   The <strong>advertising identifier (IDFA)</strong> is available to the SDK only if you agree to tracking in the ATT prompt; Google may use it to measure
-  ad effectiveness and for the SDK's analytics purposes, not to personalise ads in Basket+. If you decline or do not respond, the IDFA is not
+  ad effectiveness, limit how often ads repeat and for the SDK's analytics purposes, not to personalise ads in Basket+. If you decline or do not respond, the IDFA is not
   provided and ads rely only on data of the request itself (including approximate location from the IP address, device type, system version and the
   SDK installation identifier).</p>
   <p>Google processes this data as an independent controller under its
@@ -611,7 +612,7 @@
   <ul>
     <li><strong>Data on the device</strong> (section 4): until you delete the app or the data within the app.</li>
     <li><strong>Media cache from conversations on the device:</strong> the app limits it to about 100 MB and 250 files and deletes the oldest files.</li>
-    <li><strong>Data in iCloud</strong> (sections 5 and 8): until you delete it. Deleting a list, product, receipt or event in the app marks it as deleted and syncs that mark between devices through iCloud; you can remove the app data stored in iCloud entirely in system Settings: [Your name] → iCloud → Manage Storage → Basket+ → Delete Data. Turning Basket+ off in iCloud settings stops sync.</li>
+    <li><strong>Data in iCloud</strong> (sections 5 and 8): until you delete it. Deleting a list, product, receipt or event in the app marks it as deleted and syncs that mark between devices through iCloud; you can remove the app data stored in iCloud entirely in system Settings: [Your name] → iCloud → Manage Storage → Basket+ → Delete Data (available when the system lists Basket+ among the apps). Turning Basket+ off in iCloud settings stops sync.</li>
     <li><strong>Shared lists and events:</strong> the owner withdraws the share, a participant leaves the list or event. Data of a shared list stored in the owner's iCloud stays there until the owner deletes it.</li>
     <li><strong>Conversations and media:</strong> you lose access by leaving the list or event or when the owner ends the sharing; individual messages cannot currently be deleted (section 5).</li>
     <li><strong>Plus subscription status:</strong> locally until the app is deleted; purchase data is kept by Apple.</li>
