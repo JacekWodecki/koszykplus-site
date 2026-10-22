@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jacekwodecki.github.io/koszykplus-site/sitemap.xml

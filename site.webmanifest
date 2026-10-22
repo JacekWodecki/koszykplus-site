@@ -1,0 +1,17 @@
+{
+  "name": "Basket+",
+  "short_name": "Basket+",
+  "description": "Zakupy ogarnięte razem.",
+  "start_url": "./index.html",
+  "display": "browser",
+  "background_color": "#fffdf9",
+  "theme_color": "#df432f",
+  "icons": [
+    {
+      "src": "assets/app-icon.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
