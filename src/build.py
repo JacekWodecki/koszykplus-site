@@ -40,7 +40,9 @@ ORDER = "pl en bg hr cs da nl et fi fr de el hu ga it lv lt mt pt ro sk sl es sv
 SCREEN_NAMES = ["dashboard-real", "event-organization", "list-chat", "list-detail", "receipt-history", "reports-6m"]
 DEFAULT_SCREENS_SRC = "/Users/jacekwodecki/Desktop/Basket+/site-screens"
 # stare / alternatywne adresy -> język docelowy
-ALIASES = {"cz": "cs"}
+ALIASES = {}  # np. {"cz": "cs"} - dodatkowe przekierowania (domyślnie brak)
+# Opcjonalna informacja o dostępności w krajach + mailto (domyślnie WYŁĄCZONA; wymaga kluczy availability.* w i18n).
+AVAILABILITY_NOTICE = os.environ.get("BASKET_AVAILABILITY_NOTICE") == "1"
 STATIC_PAGES = {
     "support": "/support.html",
     "support_en": "/support-en.html",
@@ -187,10 +189,10 @@ class Builder:
         t = json.loads(json.dumps(self.langs[code]))  # kopia
         meta = t["meta"]
         canonical = SITE + lang_url(code)
-        mail_notify = "mailto:%s?subject=%s&body=%s" % (
-            EMAIL,
-            urlquote(t["availability"]["mail_subject"]),
-            urlquote(t["availability"]["mail_body"]))
+        mail_notify = ""
+        if AVAILABILITY_NOTICE:
+            av = t["availability"]
+            mail_notify = "mailto:%s?subject=%s&body=%s" % (EMAIL, urlquote(av["mail_subject"]), urlquote(av["mail_body"]))
         support = "/support.html" if code == "pl" else "/support-en.html"
         privacy = "/privacy.html" if code == "pl" else "/privacy.html#en"
         langs = [{
@@ -202,7 +204,7 @@ class Builder:
         xdef = X_DEFAULT_LANG if X_DEFAULT_LANG in self.langs else DEFAULT_LANG
         links = {
             "support": support, "privacy": privacy, "email": "mailto:" + EMAIL,
-            "notify": tmpl.esc(mail_notify), "icloud": "#icloud", "plans": "#plus",
+            "icloud": "#icloud", "plans": "#plus",
         }
         # <a href> w rich() jest już wstawiane jako gotowy HTML, więc notify ma zescapowane &.
         sb = self.screens_base(code)
@@ -211,6 +213,7 @@ class Builder:
             base, jpg = sb[name]
             pic[key] = self.picture(base, jpg, get_path(t, altkey), sizes, eager)
         ctx = dict(t)
+        ctx.setdefault("availability", {})
         ctx["links"] = links
         ctx["page"] = {
             "canonical": canonical, "home_url": lang_url(code), "alternates": alternates,
@@ -221,7 +224,7 @@ class Builder:
             "langs": langs, "store_url": STORE_URL, "apple_logo": APPLE_LOGO,
             "support_url": support, "privacy_url": privacy,
             "support_foreign": code not in ("pl", "en"), "show_docs_note": code not in ("pl", "en"),
-            "mail_notify": mail_notify, "pic": pic,
+            "mail_notify": mail_notify, "availability_notice": AVAILABILITY_NOTICE, "pic": pic,
         }
         return ctx
 

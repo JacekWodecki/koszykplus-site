@@ -82,6 +82,8 @@ def check_i18n(i18n_dir):
         flat.pop("meta.code", None)
         refk = {k: v for k, v in ref.items() if k != "meta.code"}
         for key in refk:
+            if key.startswith("availability.") and not build.AVAILABILITY_NOTICE:
+                continue
             if key not in flat:
                 err("%s: brak klucza %s" % (code, key))
         for key in flat:
@@ -387,7 +389,7 @@ def check_redirects(codes, langs):
             err("en.html: canonical powinien wskazywać /en/")
         if not any(m.get("http-equiv") == "refresh" and "/en/" in m.get("content", "") for m in p.metas):
             err("en.html: brak meta refresh -> /en/")
-    if "cs" in langs:
+    if False:
         path = os.path.join(ROOT, "cz", "index.html")
         if not os.path.exists(path):
             err("brak cz/index.html (przekierowanie do /cs/)")
@@ -485,7 +487,31 @@ def check_static_pages():
 
 
 # ---------- dokumentacja schematu ----------
-PHRASES = """## Frazy dla tłumaczy (SEO)
+PHRASES = """## Słownik i wyrażenia wymagające szczególnej uwagi
+
+Tłumacz naturalnym językiem (nie kalką z polskiego/angielskiego), konsekwentnie w całym pliku:
+
+| Pojęcie | Zasada |
+|---|---|
+| Basket+, Basket+ Free, Basket+ Plus | nazwy własne – bez tłumaczenia i bez odmiany; „Plus” i „Free” zostają jak w nazwie planu |
+| iCloud, CloudKit, App Store, Apple Watch, iPhone, iPad, CarPlay, Google AdMob | nazwy własne – bez tłumaczenia; odmieniaj tylko jeśli język tego wymaga (np. fiński: iCloudissa) |
+| „wspólna lista” / „udostępnianie” | używaj terminologii z aplikacji i systemu Apple w danym języku (shared list / Share) |
+| „wydarzenie” (Events) | funkcja Plus: grupowanie list wokół jednego zdarzenia (wyjazd, impreza), NIE „wydarzenie kalendarza” |
+| „rozliczanie wydatków” | dzielenie kosztów i zwroty między osobami (settling up), nie „księgowość” |
+| „reklamy natywne” | reklamy dopasowane wyglądem do aplikacji (native ads), nie „banery” |
+| „zgoda na śledzenie” | systemowe pytanie Apple (App Tracking Transparency) – użyj oficjalnego tłumaczenia Apple |
+| „EOG” | Europejski Obszar Gospodarczy (EEA) |
+| „konto Apple” | Apple Account – użyj aktualnej nazwy Apple w danym języku |
+
+Szczególnie uważaj na (błędne tłumaczenie zmieniłoby fakty prawne/produktowe):
+- `plans.ads_items.*` i `faq.items.5.a` – opis reklam: personalizacja wyłączona, ale **nie** „brak identyfikatorów”; zgoda tam, gdzie wymaga prawa; w Plus brak reklam;
+- `plans.group_rows.*.result` i `icloud.cards.*.text` – kto potrzebuje Plus i iCloud (każdy uczestnik wydarzenia ma **własny** Plus; zwykła lista działa w Free);
+- `plans.price_note`, `faq.items.6.a` – bez kwot; cena i okres próbny są w aplikacji/App Store;
+- `analytics.caption_note` – dane na zrzutach to **przykłady**, nie „prawdziwe dane”;
+- `hero.title`, `*.title` – gra słów/rytm: nie tłumacz dosłownie, oddaj sens „zakupy układają się same” i „mniej stukania, więcej kupowania”;
+- `trust.items.*` – „bez konta Basket+” (nie „bez konta w ogóle” – iCloud/Apple Account jest używane do synchronizacji).
+
+## Frazy dla tłumaczy (SEO)
 
 Teksty mają brzmieć naturalnie w danym języku, ale **title, description, hero.lead, lists.text, sharing.text i analytics.text**
 powinny zawierać (w naturalnej formie, nie jako upychanie słów kluczowych) odpowiedniki fraz, których szukają użytkownicy:
@@ -508,7 +534,7 @@ Plik jest **generowany**: `python3 src/validate.py --write-schema-doc` z `i18n/_
 (język bazowy). Każdy `i18n/<kod>.json` musi mieć **dokładnie te same klucze**, te same typy i te same długości list. Walidacja: `python3 src/validate.py`.
 
 Kod języka = nazwa pliku (`cs.json` → `/cs/`; polski jest pod `/`). Kody UE: bg, hr, cs, da, nl, en, et, fi, fr, de, el, hu, ga, it, lv, lt, mt, pl, pt (pt-PT), ro, sk, sl, es, sv.
-Dodanie języka = dodanie pliku `i18n/<kod>.json` (oraz opcjonalnie zrzutów w `site-screens/<kod>/`) i uruchomienie `python3 src/build.py`.
+Dodanie języka = dodanie pliku `i18n/<kod>.json` (oraz opcjonalnie zrzutów w `site-screens/<kod>/`; zero pracy w HTML) i uruchomienie `python3 src/build.py`.
 
 ## Zasady
 
@@ -519,7 +545,7 @@ Dodanie języka = dodanie pliku `i18n/<kod>.json` (oraz opcjonalnie zrzutów w `
 - **Nie tłumaczymy**: „Basket+”, „Basket+ Free/Plus” (nazwy planów: tłumaczone mogą być tylko słowa Free/Plus, jeśli tak robi aplikacja – domyślnie zostają), „App Store”, „iCloud”, „Google AdMob”, adresu hello@basketplus.app.
 - **Brak cen**: nie wpisuj kwot ani nazw walut. Cena i okres próbny są widoczne w aplikacji/App Store.
 - **Fakty o produkcie** (reklamy, iCloud, Free/Plus, dostępność) są sprawdzone z kodem aplikacji – nie rozszerzaj ich i nie dodawaj funkcji ani liczb. W szczególności: nie wymieniaj modeli Garmin, nie podawaj dat premiery w kolejnych krajach.
-- **Dostępność dziś**: tylko App Store w Polsce; w innych krajach „wkrótce”, bez daty.
+- **Dostępność**: aplikacja jest w App Store; przycisk „Pobierz w App Store” prowadzi do `https://apps.apple.com/app/id6816518437` (Apple przekierowuje do sklepu kraju użytkownika) i towarzyszy mu kod QR. Strona nie wymienia krajów ani dat. Klucze `availability.*` są opcjonalne (wyłączona flaga `AVAILABILITY_NOTICE` w `src/build.py`).
 - **Polityka prywatności i wsparcie** są tylko po polsku i angielsku (nie tłumaczymy polityki). Stopka dodaje odpowiednią informację (`footer.docs_note`).
 - `alt` zrzutów opisują, co widać; nie pisz „zrzut ekranu” na początku. Dane na zrzutach to dane przykładowe – nie nazywaj ich „prawdziwymi”.
 - Każdy tekst niepusty; stringi nie mogą zawierać `{{`, `{%` ani znaczników HTML.

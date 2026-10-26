@@ -10,7 +10,7 @@
     "title": "Basket+ – wspólna lista zakupów na iPhone",
     "description": "Basket+ to aplikacja do wspólnych list zakupów na iPhone. Planuj zakupy, udostępniaj listy i kontroluj wydatki. Poznaj wersję Free i Plus.",
     "og_title": "Basket+ – wspólna lista zakupów na iPhone",
-    "og_description": "Aplikacja do list zakupów: wspólne listy, paragony i rozliczanie wspólnych zakupów w jednym spokojnym miejscu. W App Store w Polsce.",
+    "og_description": "Aplikacja do list zakupów: wspólne listy, paragony i rozliczanie wspólnych zakupów w jednym spokojnym miejscu. Pobierz z App Store.",
     "og_image_alt": "Basket+ – aplikacja do wspólnych list zakupów na iPhone",
     "app_description": "Aplikacja do list zakupów na iPhone’a: wspólna lista zakupów, czat, wydarzenia, paragony, raporty i rozliczanie wspólnych zakupów."
   },
@@ -27,7 +27,7 @@
     "lang_list_aria": "Języki strony"
   },
   "hero": {
-    "eyebrow": "Dostępna w App Store w Polsce",
+    "eyebrow": "Dostępna w App Store",
     "title": "Zakupy, które\n*układają się same.*",
     "lead": "Basket+ to aplikacja do list zakupów na iPhone’a: wspólna lista zakupów, paragony i rozliczanie wspólnych zakupów w jednym spokojnym miejscu.",
     "store_small": "Pobierz w",
@@ -55,9 +55,18 @@
   "trust": {
     "aria": "Najważniejsze informacje",
     "items": [
-      { "title": "Bez konta Basket+", "text": "Działa lokalnie, iCloud synchronizuje" },
-      { "title": "24 języki", "text": "dla domów bez granic" },
-      { "title": "Natywnie dla Apple", "text": "także widżety i zegarek" }
+      {
+        "title": "Bez konta Basket+",
+        "text": "Działa lokalnie, iCloud synchronizuje"
+      },
+      {
+        "title": "24 języki",
+        "text": "dla domów bez granic"
+      },
+      {
+        "title": "Natywnie dla Apple",
+        "text": "także widżety i zegarek"
+      }
     ]
   },
   "lists": {
@@ -137,10 +146,22 @@
     "group_title": "Przykład: grupa z Free i Plus",
     "group_intro": "Jedna osoba ma Plus, pozostałe korzystają z Free. Co mogą razem?",
     "group_rows": [
-      { "what": "Zwykła wspólna lista", "result": "Wszyscy dodają i odhaczają produkty oraz piszą na czacie listy. Plus nie jest potrzebny nikomu." },
-      { "what": "Wydarzenie", "result": "Każdy uczestnik potrzebuje własnego Plus. Plus jednej osoby nie odblokowuje wydarzenia innym – osoba bez Plus zobaczy w zaproszeniu, że wydarzenie wymaga Plus, i nie dołączy do niego." },
-      { "what": "Paragony, raporty, rozliczenia", "result": "Dostępne tylko dla osoby z własnym Plus." },
-      { "what": "Gdy Plus wygaśnie", "result": "Dane zostają. Wydarzenie jest wtedy tylko do odczytu i można je opuścić." }
+      {
+        "what": "Zwykła wspólna lista",
+        "result": "Wszyscy dodają i odhaczają produkty oraz piszą na czacie listy. Plus nie jest potrzebny nikomu."
+      },
+      {
+        "what": "Wydarzenie",
+        "result": "Każdy uczestnik potrzebuje własnego Plus. Plus jednej osoby nie odblokowuje wydarzenia innym – osoba bez Plus zobaczy w zaproszeniu, że wydarzenie wymaga Plus, i nie dołączy do niego."
+      },
+      {
+        "what": "Paragony, raporty, rozliczenia",
+        "result": "Dostępne tylko dla osoby z własnym Plus."
+      },
+      {
+        "what": "Gdy Plus wygaśnie",
+        "result": "Dane zostają. Wydarzenie jest wtedy tylko do odczytu i można je opuścić."
+      }
     ]
   },
   "icloud": {
@@ -148,31 +169,72 @@
     "title": "Bez konta Basket+.\nZ iCloud, gdy go chcesz.",
     "text": "Co działa bez iCloud, a co go wymaga.",
     "cards": [
-      { "title": "Brak konta Basket+", "text": "Nie zakładasz konta ani się nie logujesz. Nie prowadzimy własnej bazy kont użytkowników." },
-      { "title": "Z iCloud", "text": "Gdy jesteś zalogowany(-a) do iCloud, listy synchronizują się automatycznie między Twoimi urządzeniami, a udostępnianie opiera się na zaproszeniach Apple. Dane są w Twoim koncie iCloud." },
-      { "title": "Bez iCloud", "text": "Bez konta iCloud lub gdy Basket+ jest wyłączony w ustawieniach iCloud, aplikacja działa lokalnie na urządzeniu – bez synchronizacji i udostępniania." },
-      { "title": "Warunki udostępniania", "text": "Obie strony potrzebują iCloud i Basket+; zaproszenie przyjmuje się w systemowym oknie Apple. Zwykłą listę przyjmie także osoba z Free, wydarzenie wymaga własnego Plus." }
+      {
+        "title": "Brak konta Basket+",
+        "text": "Nie zakładasz konta ani się nie logujesz. Nie prowadzimy własnej bazy kont użytkowników."
+      },
+      {
+        "title": "Z iCloud",
+        "text": "Gdy jesteś zalogowany(-a) do iCloud, listy synchronizują się automatycznie między Twoimi urządzeniami, a udostępnianie opiera się na zaproszeniach Apple. Dane są w Twoim koncie iCloud."
+      },
+      {
+        "title": "Bez iCloud",
+        "text": "Bez konta iCloud lub gdy Basket+ jest wyłączony w ustawieniach iCloud, aplikacja działa lokalnie na urządzeniu – bez synchronizacji i udostępniania."
+      },
+      {
+        "title": "Warunki udostępniania",
+        "text": "Obie strony potrzebują iCloud i Basket+; zaproszenie przyjmuje się w systemowym oknie Apple. Zwykłą listę przyjmie także osoba z Free, wydarzenie wymaga własnego Plus."
+      }
     ]
   },
   "faq": {
     "label": "FAQ",
     "title": "Krótko i konkretnie.",
     "items": [
-      { "q": "Czy do korzystania z Basket+ potrzebuję konta?", "a": "Nie. Basket+ nie wymaga zakładania konta ani logowania. Synchronizacja i udostępnianie korzystają z iCloud, jeśli jesteś do niego zalogowany(-a)." },
-      { "q": "Czy aplikacja działa bez iCloud?", "a": "Tak, lokalnie na urządzeniu. Bez iCloud nie ma synchronizacji między urządzeniami ani udostępniania list innym osobom." },
-      { "q": "Czy wspólne listy są płatne?", "a": "Nie. Zwykłe udostępnianie list i rozmowa na wspólnej liście są częścią Basket+ Free. Wydarzenia wymagają Plus." },
-      { "q": "Kto może dołączyć do wspólnej listy lub wydarzenia?", "a": "Do zwykłej listy – każdy, kto ma Basket+ i iCloud, także w Free. Do wydarzenia – tylko osoby z własnym, aktywnym Plus; Plus innej osoby niczego nie odblokowuje." },
-      { "q": "Co dokładnie zawiera Basket+ Plus?", "a": "Plus odblokowuje wydarzenia, paragony, raporty, rozliczanie wydatków i usuwa reklamy dla subskrybenta." },
-      { "q": "Jakie reklamy są w wersji Free?", "a": "Dyskretne, natywne reklamy Google AdMob na ekranie głównym i w Wydatkach, bez personalizacji. Tam, gdzie wymaga tego prawo, dopiero po Twojej zgodzie. Plus je usuwa. Szczegóły: [[polityka prywatności|privacy]]." },
-      { "q": "Ile kosztuje Plus i czy jest okres próbny?", "a": "Cenę i ewentualny okres próbny zobaczysz w aplikacji oraz w App Store, zanim cokolwiek kupisz. Nie podajemy ich na stronie." },
-      { "q": "Jak synchronizują się moje dane?", "a": "Przez iCloud i CloudKit. Dane pozostają na Twoich urządzeniach i w Twoim koncie iCloud; nie prowadzimy własnej bazy kont użytkowników." },
-      { "q": "Czy można anulować subskrypcję?", "a": "Tak. Subskrypcją zarządzasz w ustawieniach konta Apple. Po anulowaniu dostęp Plus pozostaje aktywny do końca opłaconego okresu." },
-      { "q": "W jakich krajach jest Basket+?", "a": "Dziś w App Store w Polsce. W kolejnych krajach pojawi się wkrótce, bez konkretnej daty. Czekasz na swój kraj? [[Napisz do nas|notify]] – odpowiadamy ręcznie." },
-      { "q": "Gdzie uzyskam pomoc?", "a": "Napisz na [[hello@basketplus.app|email]] lub skorzystaj z [[strony wsparcia|support]]." }
+      {
+        "q": "Czy do korzystania z Basket+ potrzebuję konta?",
+        "a": "Nie. Basket+ nie wymaga zakładania konta ani logowania. Synchronizacja i udostępnianie korzystają z iCloud, jeśli jesteś do niego zalogowany(-a)."
+      },
+      {
+        "q": "Czy aplikacja działa bez iCloud?",
+        "a": "Tak, lokalnie na urządzeniu. Bez iCloud nie ma synchronizacji między urządzeniami ani udostępniania list innym osobom."
+      },
+      {
+        "q": "Czy wspólne listy są płatne?",
+        "a": "Nie. Zwykłe udostępnianie list i rozmowa na wspólnej liście są częścią Basket+ Free. Wydarzenia wymagają Plus."
+      },
+      {
+        "q": "Kto może dołączyć do wspólnej listy lub wydarzenia?",
+        "a": "Do zwykłej listy – każdy, kto ma Basket+ i iCloud, także w Free. Do wydarzenia – tylko osoby z własnym, aktywnym Plus; Plus innej osoby niczego nie odblokowuje."
+      },
+      {
+        "q": "Co dokładnie zawiera Basket+ Plus?",
+        "a": "Plus odblokowuje wydarzenia, paragony, raporty, rozliczanie wydatków i usuwa reklamy dla subskrybenta."
+      },
+      {
+        "q": "Jakie reklamy są w wersji Free?",
+        "a": "Dyskretne, natywne reklamy Google AdMob na ekranie głównym i w Wydatkach, bez personalizacji. Tam, gdzie wymaga tego prawo, dopiero po Twojej zgodzie. Plus je usuwa. Szczegóły: [[polityka prywatności|privacy]]."
+      },
+      {
+        "q": "Ile kosztuje Plus i czy jest okres próbny?",
+        "a": "Cenę i ewentualny okres próbny zobaczysz w aplikacji oraz w App Store, zanim cokolwiek kupisz. Nie podajemy ich na stronie."
+      },
+      {
+        "q": "Jak synchronizują się moje dane?",
+        "a": "Przez iCloud i CloudKit. Dane pozostają na Twoich urządzeniach i w Twoim koncie iCloud; nie prowadzimy własnej bazy kont użytkowników."
+      },
+      {
+        "q": "Czy można anulować subskrypcję?",
+        "a": "Tak. Subskrypcją zarządzasz w ustawieniach konta Apple. Po anulowaniu dostęp Plus pozostaje aktywny do końca opłaconego okresu."
+      },
+      {
+        "q": "Gdzie uzyskam pomoc?",
+        "a": "Napisz na [[hello@basketplus.app|email]] lub skorzystaj z [[strony wsparcia|support]]."
+      }
     ]
   },
   "closing": {
-    "eyebrow": "Dostępna w App Store w Polsce",
+    "eyebrow": "Dostępna teraz",
     "title": "Miejsce na zakupy.\nI spokój wokół nich.",
     "icon_alt": "Ikona aplikacji Basket+"
   },

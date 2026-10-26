@@ -4,7 +4,7 @@ Plik jest **generowany**: `python3 src/validate.py --write-schema-doc` z `i18n/_
 (język bazowy). Każdy `i18n/<kod>.json` musi mieć **dokładnie te same klucze**, te same typy i te same długości list. Walidacja: `python3 src/validate.py`.
 
 Kod języka = nazwa pliku (`cs.json` → `/cs/`; polski jest pod `/`). Kody UE: bg, hr, cs, da, nl, en, et, fi, fr, de, el, hu, ga, it, lv, lt, mt, pl, pt (pt-PT), ro, sk, sl, es, sv.
-Dodanie języka = dodanie pliku `i18n/<kod>.json` (oraz opcjonalnie zrzutów w `site-screens/<kod>/`) i uruchomienie `python3 src/build.py`.
+Dodanie języka = dodanie pliku `i18n/<kod>.json` (oraz opcjonalnie zrzutów w `site-screens/<kod>/`; zero pracy w HTML) i uruchomienie `python3 src/build.py`.
 
 ## Zasady
 
@@ -15,7 +15,7 @@ Dodanie języka = dodanie pliku `i18n/<kod>.json` (oraz opcjonalnie zrzutów w `
 - **Nie tłumaczymy**: „Basket+”, „Basket+ Free/Plus” (nazwy planów: tłumaczone mogą być tylko słowa Free/Plus, jeśli tak robi aplikacja – domyślnie zostają), „App Store”, „iCloud”, „Google AdMob”, adresu hello@basketplus.app.
 - **Brak cen**: nie wpisuj kwot ani nazw walut. Cena i okres próbny są widoczne w aplikacji/App Store.
 - **Fakty o produkcie** (reklamy, iCloud, Free/Plus, dostępność) są sprawdzone z kodem aplikacji – nie rozszerzaj ich i nie dodawaj funkcji ani liczb. W szczególności: nie wymieniaj modeli Garmin, nie podawaj dat premiery w kolejnych krajach.
-- **Dostępność dziś**: tylko App Store w Polsce; w innych krajach „wkrótce”, bez daty.
+- **Dostępność**: aplikacja jest w App Store; przycisk „Pobierz w App Store” prowadzi do `https://apps.apple.com/app/id6816518437` (Apple przekierowuje do sklepu kraju użytkownika) i towarzyszy mu kod QR. Strona nie wymienia krajów ani dat. Klucze `availability.*` są opcjonalne (wyłączona flaga `AVAILABILITY_NOTICE` w `src/build.py`).
 - **Polityka prywatności i wsparcie** są tylko po polsku i angielsku (nie tłumaczymy polityki). Stopka dodaje odpowiednią informację (`footer.docs_note`).
 - `alt` zrzutów opisują, co widać; nie pisz „zrzut ekranu” na początku. Dane na zrzutach to dane przykładowe – nie nazywaj ich „prawdziwymi”.
 - Każdy tekst niepusty; stringi nie mogą zawierać `{{`, `{%` ani znaczników HTML.
@@ -37,7 +37,7 @@ Kolumna „Lista” oznacza liczbę elementów tablicy (identyczna we wszystkich
 | `seo.title` | 60 | <title> strony i og:title bazowo. TWARDY limit 60 znaków. Wzór: 'Basket+ – <fraza użytkownika: wspólna lista zakupów na iPhone>'. Unikalny w każdym języku. | Basket+ – wspólna lista zakupów na iPhone |
 | `seo.description` | 160 | meta description. TWARDY limit 160 znaków; ~120-160. Fraza 'aplikacja do wspólnych list zakupów na iPhone', zachęta do działania, wzmianka o Free i Plus. Unikalny. | Basket+ to aplikacja do wspólnych list zakupów na iPhone. Planuj za… |
 | `seo.og_title` | 70 | og:title i twitter:title (może być identyczny z seo.title). | Basket+ – wspólna lista zakupów na iPhone |
-| `seo.og_description` | 200 | og:description i twitter:description (podgląd przy udostępnianiu linku). Wspomnij, że aplikacja jest w App Store w Polsce. | Aplikacja do list zakupów: wspólne listy, paragony i rozliczanie ws… |
+| `seo.og_description` | 200 | og:description i twitter:description (podgląd przy udostępnianiu linku). Zakończ zachętą do pobrania z App Store. | Aplikacja do list zakupów: wspólne listy, paragony i rozliczanie ws… |
 | `seo.og_image_alt` | 120 | Tekst alternatywny grafiki og-image (og:image:alt). | Basket+ – aplikacja do wspólnych list zakupów na iPhone |
 | `seo.app_description` | 250 | Opis aplikacji w JSON-LD (SoftwareApplication.description). Zwykły tekst, bez znaczników, bez obietnic cen/ocen. | Aplikacja do list zakupów na iPhone’a: wspólna lista zakupów, czat,… |
 | **ui** | | | |
@@ -52,7 +52,7 @@ Kolumna „Lista” oznacza liczbę elementów tablicy (identyczna we wszystkich
 | `ui.lang_menu_aria` | 50 | aria-label przycisku otwierającego listę języków. | Wybierz język strony |
 | `ui.lang_list_aria` | 40 | aria-label listy języków w stopce. | Języki strony |
 | **hero** | | | |
-| `hero.eyebrow` | 50 | Status nad nagłówkiem: dostępność w App Store w Polsce (dziś tylko Polska). | Dostępna w App Store w Polsce |
+| `hero.eyebrow` | 50 | Status nad nagłówkiem: aplikacja jest dostępna w App Store (bez wymieniania krajów). | Dostępna w App Store |
 | `hero.title` | 46 | H1. Dwie linie rozdzielone \n; druga w *gwiazdkach* = akcent kolorem (dokładnie jedna para *…*). Max ~22 znaki na linię. | Zakupy, które↵*układają się same.* |
 | `hero.lead` | 230 | Akapit pod H1. Powinien zawierać naturalnie frazy: 'aplikacja do list zakupów', 'wspólna lista zakupów', 'lista zakupów na iPhone', 'rozliczanie wspólnych zakupów'. | Basket+ to aplikacja do list zakupów na iPhone’a: wspólna lista zak… |
 | `hero.store_small` | 22 | Mała etykieta nad 'App Store' w przycisku (EN: 'Download on the'). Samo 'App Store' nie jest tłumaczone. | Pobierz w |
@@ -67,14 +67,14 @@ Kolumna „Lista” oznacza liczbę elementów tablicy (identyczna we wszystkich
 | `hero.note_top` | 34 | Dekoracyjna plakietka (aria-hidden) przy zrzucie. | Gotowe na wspólne zakupy |
 | `hero.note_bottom` | 30 | Dekoracyjna plakietka (aria-hidden) przy zrzucie. | Dodawaj po swojemu |
 | **availability** | | | |
-| `availability.title` | 24 | Nagłówek bloku o dostępności (pod przyciskami App Store). | Dostępność |
-| `availability.text` | 180 | FAKT: dziś aplikacja jest w App Store w Polsce; w innych krajach 'wkrótce' BEZ konkretnej daty. | Dziś Basket+ jest w App Store w Polsce. W kolejnych krajach pojawi … |
-| `availability.store_hint` | 130 | Wyjaśnienie, że komunikat sklepu 'niedostępne' oznacza brak aplikacji w kraju użytkownika. | Jeśli App Store pokazuje „niedostępne”, aplikacji nie ma jeszcze w … |
-| `availability.notify_text` | 150 | Zachęta do wysłania e-maila. MUSI zawierać: odpowiadamy ręcznie; niczego nie zapisujemy/nie zbieramy na stronie (brak formularzy). | Czekasz na swój kraj? Napisz do nas – odpowiadamy ręcznie i niczego… |
-| `availability.notify_link` | 45 | Tekst linku mailto (hello@basketplus.app). | Daj znać, że czekasz |
-| `availability.mail_subject` | 70 | Gotowy temat wiadomości (w języku strony). Bez znaków specjalnych poza interpunkcją. | Basket+ w moim kraju |
-| `availability.mail_body` | 300 | Gotowa treść wiadomości: powitanie, '…chcę korzystać z Basket+ w tym kraju: ' (użytkownik dopisuje kraj), pozdrowienie. Użyj \n dla nowych linii. | Dzień dobry,↵↵chcę korzystać z Basket+ w tym kraju: ↵↵Pozdrawiam |
-| `availability.short` | 90 | Jednozdaniowa wersja informacji o dostępności (sekcja końcowa). | Dziś w App Store w Polsce, w innych krajach wkrótce. |
+| `availability.title` | 24 | (OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Nagłówek bloku o dostępności (pod przyciskami App Store). | Dostępność |
+| `availability.text` | 180 | (OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) FAKT: dziś aplikacja jest w App Store w Polsce; w innych krajach 'wkrótce' BEZ konkretnej daty. | Dziś Basket+ jest w App Store w Polsce. W kolejnych krajach pojawi … |
+| `availability.store_hint` | 130 | (OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Wyjaśnienie, że komunikat sklepu 'niedostępne' oznacza brak aplikacji w kraju użytkownika. | Jeśli App Store pokazuje „niedostępne”, aplikacji nie ma jeszcze w … |
+| `availability.notify_text` | 150 | (OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Zachęta do wysłania e-maila. MUSI zawierać: odpowiadamy ręcznie; niczego nie zapisujemy/nie zbieramy na stronie (brak formularzy). | Czekasz na swój kraj? Napisz do nas – odpowiadamy ręcznie i niczego… |
+| `availability.notify_link` | 45 | (OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Tekst linku mailto (hello@basketplus.app). | Daj znać, że czekasz |
+| `availability.mail_subject` | 70 | (OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Gotowy temat wiadomości (w języku strony). Bez znaków specjalnych poza interpunkcją. | Basket+ w moim kraju |
+| `availability.mail_body` | 300 | (OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Gotowa treść wiadomości: powitanie, '…chcę korzystać z Basket+ w tym kraju: ' (użytkownik dopisuje kraj), pozdrowienie. Użyj \n dla nowych linii. | Dzień dobry,↵↵chcę korzystać z Basket+ w tym kraju: ↵↵Pozdrawiam |
+| `availability.short` | 90 | (OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Jednozdaniowa wersja informacji o dostępności (sekcja końcowa). | Dziś w App Store w Polsce, w innych krajach wkrótce. |
 | **trust** | | | |
 | `trust.aria` | 40 | aria-label paska z trzema faktami. | Najważniejsze informacje |
 | `trust.items.*.title` | 28 | Pogrubiony fakt. 1: bez konta Basket+; 2: 24 języki aplikacji; 3: natywnie dla Apple. Zachowaj kolejność i liczbę (3). Lista: 3 el. | Bez konta Basket+ |
@@ -143,10 +143,10 @@ Kolumna „Lista” oznacza liczbę elementów tablicy (identyczna we wszystkich
 | **faq** | | | |
 | `faq.label` | 12 | Etykieta sekcji FAQ. | FAQ |
 | `faq.title` | 40 | H2 sekcji FAQ. | Krótko i konkretnie. |
-| `faq.items.*.q` | 92 | Pytanie FAQ (11 pozycji, ta sama kolejność; trafia do JSON-LD FAQPage). Lista: 11 el. | Czy do korzystania z Basket+ potrzebuję konta? |
-| `faq.items.*.a` | 340 | Odpowiedź FAQ (trafia do JSON-LD jako zwykły tekst). Znaczniki: [[etykieta\|privacy]], [[etykieta\|support]], [[etykieta\|email]], [[etykieta\|notify]] – ta sama liczba i nazwy jak w pl.json. Lista: 11 el. | Nie. Basket+ nie wymaga zakładania konta ani logowania. Synchroniza… |
+| `faq.items.*.q` | 92 | Pytanie FAQ (10 pozycji, ta sama kolejność; trafia do JSON-LD FAQPage). Lista: 10 el. | Czy do korzystania z Basket+ potrzebuję konta? |
+| `faq.items.*.a` | 340 | Odpowiedź FAQ (trafia do JSON-LD jako zwykły tekst). Znaczniki: [[etykieta\|privacy]], [[etykieta\|support]], [[etykieta\|email]] – ta sama liczba i nazwy jak w pl.json. Lista: 10 el. | Nie. Basket+ nie wymaga zakładania konta ani logowania. Synchroniza… |
 | **closing** | | | |
-| `closing.eyebrow` | 50 | Status nad hasłem końcowym (dostępność w App Store w Polsce). | Dostępna w App Store w Polsce |
+| `closing.eyebrow` | 50 | Status nad hasłem końcowym: dostępna teraz (bez wymieniania krajów). | Dostępna teraz |
 | `closing.title` | 62 | H2 końcowe, dwie linie (\n). | Miejsce na zakupy.↵I spokój wokół nich. |
 | `closing.icon_alt` | 50 | Alt ikony aplikacji. | Ikona aplikacji Basket+ |
 | **footer** | | | |
@@ -160,6 +160,30 @@ Kolumna „Lista” oznacza liczbę elementów tablicy (identyczna we wszystkich
 | `footer.terms` | 30 | Link do warunków Apple (EULA). | Warunki korzystania |
 | `footer.docs_note` | 120 | Informacja pod kolumnami: wsparcie i polityka prywatności są dostępne po polsku i angielsku (pokazywana na stronach innych niż pl/en). | Wsparcie i polityka prywatności są dostępne po polsku i angielsku. |
 | `footer.copyright` | 90 | Linia praw autorskich: © 2026 Basket+. Aplikacja tworzona niezależnie w Polsce. | © 2026 Basket+. Aplikacja tworzona niezależnie w Polsce. |
+
+## Słownik i wyrażenia wymagające szczególnej uwagi
+
+Tłumacz naturalnym językiem (nie kalką z polskiego/angielskiego), konsekwentnie w całym pliku:
+
+| Pojęcie | Zasada |
+|---|---|
+| Basket+, Basket+ Free, Basket+ Plus | nazwy własne – bez tłumaczenia i bez odmiany; „Plus” i „Free” zostają jak w nazwie planu |
+| iCloud, CloudKit, App Store, Apple Watch, iPhone, iPad, CarPlay, Google AdMob | nazwy własne – bez tłumaczenia; odmieniaj tylko jeśli język tego wymaga (np. fiński: iCloudissa) |
+| „wspólna lista” / „udostępnianie” | używaj terminologii z aplikacji i systemu Apple w danym języku (shared list / Share) |
+| „wydarzenie” (Events) | funkcja Plus: grupowanie list wokół jednego zdarzenia (wyjazd, impreza), NIE „wydarzenie kalendarza” |
+| „rozliczanie wydatków” | dzielenie kosztów i zwroty między osobami (settling up), nie „księgowość” |
+| „reklamy natywne” | reklamy dopasowane wyglądem do aplikacji (native ads), nie „banery” |
+| „zgoda na śledzenie” | systemowe pytanie Apple (App Tracking Transparency) – użyj oficjalnego tłumaczenia Apple |
+| „EOG” | Europejski Obszar Gospodarczy (EEA) |
+| „konto Apple” | Apple Account – użyj aktualnej nazwy Apple w danym języku |
+
+Szczególnie uważaj na (błędne tłumaczenie zmieniłoby fakty prawne/produktowe):
+- `plans.ads_items.*` i `faq.items.5.a` – opis reklam: personalizacja wyłączona, ale **nie** „brak identyfikatorów”; zgoda tam, gdzie wymaga prawa; w Plus brak reklam;
+- `plans.group_rows.*.result` i `icloud.cards.*.text` – kto potrzebuje Plus i iCloud (każdy uczestnik wydarzenia ma **własny** Plus; zwykła lista działa w Free);
+- `plans.price_note`, `faq.items.6.a` – bez kwot; cena i okres próbny są w aplikacji/App Store;
+- `analytics.caption_note` – dane na zrzutach to **przykłady**, nie „prawdziwe dane”;
+- `hero.title`, `*.title` – gra słów/rytm: nie tłumacz dosłownie, oddaj sens „zakupy układają się same” i „mniej stukania, więcej kupowania”;
+- `trust.items.*` – „bez konta Basket+” (nie „bez konta w ogóle” – iCloud/Apple Account jest używane do synchronizacji).
 
 ## Frazy dla tłumaczy (SEO)
 

@@ -38,7 +38,7 @@
  },
  "seo.og_description": {
   "max": 200,
-  "ctx": "og:description i twitter:description (podgląd przy udostępnianiu linku). Wspomnij, że aplikacja jest w App Store w Polsce."
+  "ctx": "og:description i twitter:description (podgląd przy udostępnianiu linku). Zakończ zachętą do pobrania z App Store."
  },
  "seo.og_image_alt": {
   "max": 120,
@@ -90,7 +90,7 @@
  },
  "hero.eyebrow": {
   "max": 50,
-  "ctx": "Status nad nagłówkiem: dostępność w App Store w Polsce (dziś tylko Polska)."
+  "ctx": "Status nad nagłówkiem: aplikacja jest dostępna w App Store (bez wymieniania krajów)."
  },
  "hero.title": {
   "max": 46,
@@ -148,35 +148,43 @@
  },
  "availability.title": {
   "max": 24,
-  "ctx": "Nagłówek bloku o dostępności (pod przyciskami App Store)."
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Nagłówek bloku o dostępności (pod przyciskami App Store).",
+  "optional": true
  },
  "availability.text": {
   "max": 180,
-  "ctx": "FAKT: dziś aplikacja jest w App Store w Polsce; w innych krajach 'wkrótce' BEZ konkretnej daty."
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) FAKT: dziś aplikacja jest w App Store w Polsce; w innych krajach 'wkrótce' BEZ konkretnej daty.",
+  "optional": true
  },
  "availability.store_hint": {
   "max": 130,
-  "ctx": "Wyjaśnienie, że komunikat sklepu 'niedostępne' oznacza brak aplikacji w kraju użytkownika."
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Wyjaśnienie, że komunikat sklepu 'niedostępne' oznacza brak aplikacji w kraju użytkownika.",
+  "optional": true
  },
  "availability.notify_text": {
   "max": 150,
-  "ctx": "Zachęta do wysłania e-maila. MUSI zawierać: odpowiadamy ręcznie; niczego nie zapisujemy/nie zbieramy na stronie (brak formularzy)."
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Zachęta do wysłania e-maila. MUSI zawierać: odpowiadamy ręcznie; niczego nie zapisujemy/nie zbieramy na stronie (brak formularzy).",
+  "optional": true
  },
  "availability.notify_link": {
   "max": 45,
-  "ctx": "Tekst linku mailto (hello@basketplus.app)."
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Tekst linku mailto (hello@basketplus.app).",
+  "optional": true
  },
  "availability.mail_subject": {
   "max": 70,
-  "ctx": "Gotowy temat wiadomości (w języku strony). Bez znaków specjalnych poza interpunkcją."
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Gotowy temat wiadomości (w języku strony). Bez znaków specjalnych poza interpunkcją.",
+  "optional": true
  },
  "availability.mail_body": {
   "max": 300,
-  "ctx": "Gotowa treść wiadomości: powitanie, '…chcę korzystać z Basket+ w tym kraju: ' (użytkownik dopisuje kraj), pozdrowienie. Użyj \\n dla nowych linii."
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Gotowa treść wiadomości: powitanie, '…chcę korzystać z Basket+ w tym kraju: ' (użytkownik dopisuje kraj), pozdrowienie. Użyj \\n dla nowych linii.",
+  "optional": true
  },
  "availability.short": {
   "max": 90,
-  "ctx": "Jednozdaniowa wersja informacji o dostępności (sekcja końcowa)."
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Jednozdaniowa wersja informacji o dostępności (sekcja końcowa).",
+  "optional": true
  },
  "trust.aria": {
   "max": 40,
@@ -436,21 +444,20 @@
  },
  "faq.items.*.q": {
   "max": 92,
-  "ctx": "Pytanie FAQ (11 pozycji, ta sama kolejność; trafia do JSON-LD FAQPage)."
+  "ctx": "Pytanie FAQ (10 pozycji, ta sama kolejność; trafia do JSON-LD FAQPage)."
  },
  "faq.items.*.a": {
   "max": 340,
-  "ctx": "Odpowiedź FAQ (trafia do JSON-LD jako zwykły tekst). Znaczniki: [[etykieta|privacy]], [[etykieta|support]], [[etykieta|email]], [[etykieta|notify]] – ta sama liczba i nazwy jak w pl.json.",
+  "ctx": "Odpowiedź FAQ (trafia do JSON-LD jako zwykły tekst). Znaczniki: [[etykieta|privacy]], [[etykieta|support]], [[etykieta|email]] – ta sama liczba i nazwy jak w pl.json.",
   "links": [
    "privacy",
    "support",
-   "email",
-   "notify"
+   "email"
   ]
  },
  "closing.eyebrow": {
   "max": 50,
-  "ctx": "Status nad hasłem końcowym (dostępność w App Store w Polsce)."
+  "ctx": "Status nad hasłem końcowym: dostępna teraz (bez wymieniania krajów)."
  },
  "closing.title": {
   "max": 62,
