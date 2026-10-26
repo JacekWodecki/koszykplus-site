@@ -1,0 +1,174 @@
+{
+  "meta": {"html_lang": "hu", "hreflang": "hu", "og_locale": "hu_HU", "native_name": "Magyar", "short": "HU"},
+  "seo": {
+    "title": "Basket+ – megosztott bevásárlólista iPhone-ra",
+    "description": "A Basket+ megosztott bevásárlólisták alkalmazása iPhone-ra. Tervezd meg a bevásárlást, oszd meg a listákat, kövesd a kiadásokat. Free és Plus verzió.",
+    "og_title": "Basket+ – megosztott bevásárlólista iPhone-ra",
+    "og_description": "Bevásárlólista-alkalmazás: megosztott listák, nyugták és a közös vásárlások elszámolása egy nyugodt helyen. Töltsd le az App Store-ból.",
+    "og_image_alt": "Basket+ – megosztott bevásárlólisták alkalmazása iPhone-ra",
+    "app_description": "Bevásárlólista-alkalmazás iPhone-ra: megosztott bevásárlólista, csevegés, események, nyugták, jelentések és a közös vásárlások elszámolása."
+  },
+  "ui": {
+    "skip_link": "Ugrás a tartalomhoz",
+    "brand_aria": "Basket+ – kezdőlap",
+    "nav_aria": "Főmenü",
+    "nav_features": "Funkciók",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free és Plus",
+    "nav_faq": "GYIK",
+    "nav_support": "Támogatás",
+    "lang_menu_aria": "Az oldal nyelvének kiválasztása",
+    "lang_list_aria": "Az oldal nyelvei"
+  },
+  "hero": {
+    "eyebrow": "Elérhető az App Store-ban",
+    "title": "Bevásárlás, ami\n*magától rendeződik.*",
+    "lead": "A Basket+ bevásárlólista-alkalmazás iPhone-ra: megosztott bevásárlólista, nyugták és a közös vásárlások elszámolása egy nyugodt helyen.",
+    "store_small": "Letöltés innen:",
+    "store_aria": "Letöltés innen: App Store – Basket+",
+    "qr_label": "Olvasd be a telefonoddal",
+    "qr_aria": "Olvasd be a telefonoddal – Basket+ az App Store-ban",
+    "qr_alt": "QR-kód, amely a Basket+ App Store-oldalára vezet",
+    "see_how": "Nézd meg, hogyan működik",
+    "platform_note": "iPhone-ra, iPadre és Apple Watchra tervezve.",
+    "visual_aria": "A Basket+ alkalmazás képernyője",
+    "alt": "A Basket+ főképernyője kabalafigurával, eseményekkel és bevásárlólistákkal",
+    "note_top": "Készen áll a közös bevásárlásra",
+    "note_bottom": "Add hozzá a magad módján"
+  },
+  "availability": {
+    "title": "Elérhetőség",
+    "text": "A Basket+ ma Lengyelországban érhető el az App Store-ban. További országokban hamarosan jelenik meg – konkrét dátum nélkül.",
+    "store_hint": "Ha az App Store „nem elérhető” üzenetet mutat, az alkalmazás még nincs meg az országodban.",
+    "notify_text": "Az országodra vársz? Írj nekünk – kézzel válaszolunk, az oldalon pedig semmit sem tárolunk.",
+    "notify_link": "Jelezd, hogy várod",
+    "mail_subject": "Basket+ az én országomban",
+    "mail_body": "Üdvözlöm!\n\nSzeretném használni a Basket+ alkalmazást ebben az országban: \n\nKöszönettel",
+    "short": "Ma az App Store-ban Lengyelországban, más országokban hamarosan."
+  },
+  "trust": {
+    "aria": "A legfontosabb tudnivalók",
+    "items": [
+      {"title": "Basket+-fiók nélkül", "text": "Helyben működik, az iCloud szinkronizál"},
+      {"title": "24 nyelv", "text": "határok nélküli otthonokért"},
+      {"title": "Natívan Apple-eszközökre", "text": "widgetekkel és órával is"}
+    ]
+  },
+  "lists": {
+    "label": "01 · Bevásárlólisták",
+    "title": "Kevesebb koppintás.\nTöbb vásárlás.",
+    "text": "Bevásárlólista iPhone-ra, amelyet úgy töltesz ki, ahogy gondolkodsz: írd be a terméket, add meg a mennyiséget és a mértékegységet, válassz kategóriát, pipáld ki a boltban, és térj vissza az előzményekhez, ha legközelebb újra kell.",
+    "bullets": [
+      "Gyors hozzáadás: egy vagy akár több termék egyszerre",
+      "Kategóriák, mennyiségek, mértékegységek és saját sorrend",
+      "Előzmények és kedvenc termékek kéznél"
+    ],
+    "alt": "Basket+ bevásárlólista kategóriákkal, mennyiségekkel és közös haladással",
+    "ticket1_name": "paradicsom",
+    "ticket1_qty": "4 db",
+    "ticket2_name": "tészta",
+    "ticket2_qty": "2 cs."
+  },
+  "sharing": {
+    "label": "02 · Közös bevásárlás",
+    "title": "Egy lista.\nMindenki képben van.",
+    "text": "Megosztott bevásárlólista: oszd meg a listát iCloudon keresztül, kövesd mások módosításait, és beszéld meg a részleteket a bevásárlás mellett futó csevegésben. A szokásos megosztás és a listák csevegése a Free verzióban is benne van. [[A megosztás feltételei|icloud]]",
+    "badge": "Listamegosztás és csevegés: Free",
+    "alt": "Beszélgetés egy ingyenes, megosztott Basket+ listán",
+    "pill_sent": "Elküldve",
+    "pill_received": "Megérkezett"
+  },
+  "events": {
+    "label": "03 · Események · Plus",
+    "title": "Terv, ami nem vész el az üzenetekben.",
+    "text": "Utazás, buli vagy családi ünnep. Fogd össze a listákat egyetlen eseménybe, rendezd az előkészületeket, és tartsd egy helyen a közös hátteret. Az esemény minden résztvevőjének saját Basket+ Plusra van szüksége.",
+    "chip": "Basket+ Plus",
+    "alt": "Basket+ Plus eseményképernyő három listával és elszámolásokkal",
+    "cal_month": "OKT",
+    "cal_day": "24",
+    "cal_title": "Hétvége a hegyekben",
+    "cal_meta": "3 lista · 4 fő"
+  },
+  "analytics": {
+    "label": "04 · Nyugták és jelentések · Plus",
+    "title": "A kiadások nem rejtély többé.",
+    "text": "Őrizd meg a nyugtákat, elemezd a kategóriákat és a boltokat, kövesd a trendeket, és számolj el a közös vásárlásokról – táblázat nélkül.",
+    "alt_report": "Basket+ Plus jelentés az elmúlt hat hónap kiadásairól",
+    "alt_receipts": "Basket+ Plus nyugtaelőzmények dátumokkal, boltokkal és összegekkel",
+    "caption_title": "6 hónap egy nézetben",
+    "caption_note": "Az alkalmazásban látható mintaadatok"
+  },
+  "plans": {
+    "label": "Basket+ Free és Plus",
+    "title": "Kezdd egy listával.\nBővítsd, amikor kell.",
+    "text": "A szokásos megosztott listák előfizetés nélkül is elérhetők maradnak. A Plus az események szervezését és a kiadások teljes képét adja hozzá.",
+    "free_kicker": "Mindennapokra",
+    "free_name": "Basket+ Free",
+    "free_items": ["Bevásárlólisták", "Listák megosztása iCloudon át", "Csevegés a listán"],
+    "free_ads": "Visszafogott hirdetéseket tartalmaz – leírás lent.",
+    "plus_kicker": "Több szervezettség",
+    "plus_name": "Basket+ Plus",
+    "plus_items": ["Minden, ami a Free verzióban van", "Események", "Nyugták és jelentések", "Költségelszámolás", "Hirdetések nélkül"],
+    "price_note": "Az árat és az esetleges próbaidőszakot vásárlás előtt az alkalmazásban és az App Store-ban láthatod – az oldalon nem tüntetjük fel. Az előfizetés arra az Apple-fiókra vonatkozik, amellyel megvásárolták.",
+    "ads_title": "Hirdetések a Free verzióban",
+    "ads_items": [
+      "A visszafogott, natív Google AdMob hirdetések két helyen jelennek meg: a főképernyőn és a Kiadásoknál. A bevásárlólistákon és a csevegésben nincsenek.",
+      "A hirdetések személyre szabása ki van kapcsolva. Ez nem jelenti, hogy a Google semmilyen azonosítót nem használ – használhat például mérésre és a megjelenési gyakoriság korlátozására.",
+      "Ahol a jogszabályok megkövetelik (EGT, Egyesült Királyság, Svájc), a hirdetések a hozzájárulásod nélkül nem töltődnek be. Az iPhone a követés engedélyezéséről is rákérdezhet; ha elutasítod, az alkalmazás tovább működik.",
+      "A Plusszal a hirdetések eltűnnek, és az alkalmazás sem kér be többé hirdetést."
+    ],
+    "ads_more": "Részletek: [[adatvédelmi irányelvek|privacy]].",
+    "group_title": "Példa: Free és Plus verziót használó csoport",
+    "group_intro": "Egy embernek van Plusza, a többiek a Free verziót használják. Mit tudnak együtt?",
+    "group_rows": [
+      {"what": "Szokásos megosztott lista", "result": "Mindenki hozzáad és kipipál termékeket, és írhat a lista csevegésében. Senkinek sem kell Plus."},
+      {"what": "Esemény", "result": "Minden résztvevőnek saját Plusra van szüksége. Egy ember Plusza nem nyitja fel az eseményt a többieknek – akinek nincs Plusza, a meghívóban látja, hogy az esemény Plust igényel, és nem tud csatlakozni."},
+      {"what": "Nyugták, jelentések, elszámolások", "result": "Csak a saját Plusszal rendelkező személy számára érhető el."},
+      {"what": "Ha a Plus lejár", "result": "Az adataid megmaradnak. Az esemény ekkor csak olvasható, és kiléphetsz belőle."}
+    ]
+  },
+  "icloud": {
+    "label": "iCloud és megosztás",
+    "title": "Basket+-fiók nélkül.\niClouddal, ha szeretnéd.",
+    "text": "Mi működik iCloud nélkül, és mihez kell az iCloud.",
+    "cards": [
+      {"title": "Nincs Basket+-fiók", "text": "Nem hozol létre fiókot, és nem jelentkezel be. Nem vezetünk saját felhasználói fiókadatbázist."},
+      {"title": "iClouddal", "text": "Ha be vagy jelentkezve az iCloudba, a listák automatikusan szinkronizálódnak az eszközeid között, a megosztás pedig az Apple meghívóira épül. Az adataid az iCloud-fiókodban vannak."},
+      {"title": "iCloud nélkül", "text": "iCloud-fiók nélkül, vagy ha a Basket+ ki van kapcsolva az iCloud beállításaiban, az alkalmazás helyben, az eszközön működik – szinkronizálás és megosztás nélkül."},
+      {"title": "A megosztás feltételei", "text": "Mindkét félnek szüksége van iCloudra és a Basket+ alkalmazásra; a meghívót az Apple rendszerablakában fogadják el. A szokásos listát a Free verziót használó személy is elfogadhatja, az esemény saját Plust igényel."}
+    ]
+  },
+  "faq": {
+    "label": "GYIK",
+    "title": "Röviden és világosan.",
+    "items": [
+      {"q": "Kell fiók a Basket+ használatához?", "a": "Nem. A Basket+ nem igényel fiókot vagy bejelentkezést. A szinkronizálás és a megosztás az iCloudot használja, ha be vagy jelentkezve."},
+      {"q": "Működik az alkalmazás iCloud nélkül?", "a": "Igen, helyben, az eszközön. iCloud nélkül nincs szinkronizálás az eszközök között, és a listák sem oszthatók meg másokkal."},
+      {"q": "Fizetős a megosztott lista?", "a": "Nem. A szokásos listamegosztás és a megosztott listán folyó beszélgetés a Basket+ Free része. Az események Plust igényelnek."},
+      {"q": "Ki csatlakozhat megosztott listához vagy eseményhez?", "a": "A szokásos listához bárki, akinek van Basket+ alkalmazása és iCloudja, Free verzióval is. Az eseményhez csak saját, aktív Plusszal rendelkezők; más Plusza számodra semmit sem nyit fel."},
+      {"q": "Pontosan mit tartalmaz a Basket+ Plus?", "a": "A Plus feloldja az eseményeket, a nyugtákat, a jelentéseket és a költségelszámolást, az előfizetőnek pedig eltávolítja a hirdetéseket."},
+      {"q": "Milyen hirdetések vannak a Free verzióban?", "a": "Visszafogott, natív Google AdMob hirdetések a főképernyőn és a Kiadásoknál, személyre szabás nélkül. Ahol a jogszabályok megkövetelik, csak a hozzájárulásod után. A Plus eltávolítja őket. Részletek: [[adatvédelmi irányelvek|privacy]]."},
+      {"q": "Mennyibe kerül a Plus, és van próbaidőszak?", "a": "Az árat és az esetleges próbaidőszakot az alkalmazásban és az App Store-ban látod, mielőtt bármit megvásárolnál. Az oldalon nem tüntetjük fel."},
+      {"q": "Hogyan szinkronizálódnak az adataim?", "a": "Az iCloudon és a CloudKiten keresztül. Az adataid az eszközeiden és az iCloud-fiókodban maradnak; nem vezetünk saját felhasználói fiókadatbázist."},
+      {"q": "Lemondhatom az előfizetést?", "a": "Igen. Az előfizetést az Apple-fiókod beállításaiban kezeled. Lemondás után a Plus a kifizetett időszak végéig aktív marad."},
+      {"q": "Hol kaphatok segítséget?", "a": "Írj a [[hello@basketplus.app|email]] címre, vagy keresd fel a [[támogatási oldalt|support]]."}
+    ]
+  },
+  "closing": {
+    "eyebrow": "Már elérhető",
+    "title": "Hely a bevásárlásnak.\nÉs nyugalom körülötte.",
+    "icon_alt": "A Basket+ alkalmazás ikonja"
+  },
+  "footer": {
+    "tagline": "A bevásárlás közösen megoldva.",
+    "col_app": "Alkalmazás",
+    "col_help": "Segítség",
+    "col_docs": "Dokumentumok",
+    "col_lang": "Nyelvek",
+    "support": "Támogatás és kapcsolat",
+    "privacy": "Adatvédelmi irányelvek",
+    "terms": "Felhasználási feltételek",
+    "docs_note": "A támogatás és az adatvédelmi irányelvek lengyelül és angolul érhetők el.",
+    "copyright": "© 2026 Basket+. Függetlenül, Lengyelországban készült alkalmazás."
+  }
+}

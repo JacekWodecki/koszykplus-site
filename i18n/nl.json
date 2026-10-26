@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "html_lang": "nl",
+    "hreflang": "nl",
+    "og_locale": "nl_NL",
+    "native_name": "Nederlands",
+    "short": "NL"
+  },
+  "seo": {
+    "title": "Basket+ – gedeelde boodschappenlijst voor iPhone",
+    "description": "Basket+ is een app voor gedeelde boodschappenlijsten op iPhone. Plan je boodschappen, deel lijsten en houd je uitgaven bij. Ontdek Free en Plus.",
+    "og_title": "Basket+ – gedeelde boodschappenlijst voor iPhone",
+    "og_description": "Een app voor boodschappenlijsten: gedeelde lijsten, bonnen en gezamenlijke uitgaven verrekenen op één rustige plek. Download hem in de App Store.",
+    "og_image_alt": "Basket+ – app voor gedeelde boodschappenlijsten op iPhone",
+    "app_description": "Boodschappenlijst-app voor iPhone: gedeelde boodschappenlijst, chat, evenementen, bonnen, rapporten en het verrekenen van gezamenlijke boodschappen."
+  },
+  "ui": {
+    "skip_link": "Ga naar de inhoud",
+    "brand_aria": "Basket+ – startpagina",
+    "nav_aria": "Hoofdnavigatie",
+    "nav_features": "Functies",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free en Plus",
+    "nav_faq": "FAQ",
+    "nav_support": "Support",
+    "lang_menu_aria": "Kies de taal van de pagina",
+    "lang_list_aria": "Talen van de pagina"
+  },
+  "hero": {
+    "eyebrow": "Beschikbaar in de App Store",
+    "title": "Boodschappen die\n*zichzelf regelen.*",
+    "lead": "Basket+ is een app voor boodschappenlijsten op iPhone: een gedeelde boodschappenlijst, bonnen en het verrekenen van gezamenlijke boodschappen op één rustige plek.",
+    "store_small": "Download in de",
+    "store_aria": "Download in de App Store – Basket+",
+    "qr_label": "Scan met je telefoon",
+    "qr_aria": "Scan met je telefoon – Basket+ in de App Store",
+    "qr_alt": "QR-code naar Basket+ in de App Store",
+    "see_how": "Zie hoe het werkt",
+    "platform_note": "Ontworpen voor iPhone, iPad en Apple Watch.",
+    "visual_aria": "Een scherm van Basket+",
+    "alt": "Het startscherm van Basket+ met mascotte, evenementen en boodschappenlijsten",
+    "note_top": "Klaar voor samen boodschappen",
+    "note_bottom": "Voeg toe op jouw manier"
+  },
+  "availability": {
+    "title": "Beschikbaarheid",
+    "text": "Basket+ staat nu in de App Store in Polen. Meer landen volgen binnenkort – nog zonder concrete datum.",
+    "store_hint": "Als de App Store “niet beschikbaar” meldt, is de app nog niet in jouw land.",
+    "notify_text": "Wacht je op jouw land? Mail ons – we reageren persoonlijk en slaan niets op via deze website.",
+    "notify_link": "Laat weten dat je wacht",
+    "mail_subject": "Basket+ in mijn land",
+    "mail_body": "Hallo,\n\nIk wil Basket+ graag gebruiken in dit land: \n\nMet vriendelijke groet",
+    "short": "Nu in de App Store in Polen, binnenkort meer landen."
+  },
+  "trust": {
+    "aria": "Belangrijkste informatie",
+    "items": [
+      {
+        "title": "Geen Basket+-account",
+        "text": "Werkt lokaal, iCloud synchroniseert"
+      },
+      {
+        "title": "24 talen",
+        "text": "voor huishoudens zonder grenzen"
+      },
+      {
+        "title": "Native voor Apple",
+        "text": "ook widgets en Apple Watch"
+      }
+    ]
+  },
+  "lists": {
+    "label": "01 · Boodschappenlijsten",
+    "title": "Minder tikken.\nMeer boodschappen.",
+    "text": "Een boodschappenlijst voor iPhone die je invult zoals je denkt: typ een product, voeg hoeveelheid en eenheid toe, kies een categorie, vink af in de winkel en vind het de volgende keer terug in je geschiedenis.",
+    "bullets": [
+      "Snel producten toevoegen, ook meerdere tegelijk",
+      "Categorieën, hoeveelheden, eenheden en eigen volgorde",
+      "Geschiedenis en favoriete producten binnen handbereik"
+    ],
+    "alt": "Een Basket+-boodschappenlijst met categorieën, hoeveelheden en gedeelde voortgang",
+    "ticket1_name": "tomaten",
+    "ticket1_qty": "4 st.",
+    "ticket2_name": "pasta",
+    "ticket2_qty": "2 pakken"
+  },
+  "sharing": {
+    "label": "02 · Samen boodschappen",
+    "title": "Eén lijst.\nIedereen op de hoogte.",
+    "text": "Een gedeelde boodschappenlijst: deel een lijst via iCloud, zie de wijzigingen van anderen en regel de details in het gesprek naast je boodschappen. Gewoon delen en de chat op de lijst zitten in Free. [[Voorwaarden voor delen|icloud]]",
+    "badge": "Lijsten delen en chatten: Free",
+    "alt": "Een gesprek op een gratis gedeelde Basket+-lijst",
+    "pill_sent": "Verstuurd",
+    "pill_received": "Ontvangen"
+  },
+  "events": {
+    "label": "03 · Evenementen · Plus",
+    "title": "Een plan dat niet zoekraakt in berichten.",
+    "text": "Een trip, een feestje of familiefeest. Bundel lijsten in één evenement, organiseer de voorbereidingen en houd alles bij elkaar. Elke deelnemer aan een evenement heeft een eigen Basket+ Plus nodig.",
+    "chip": "Basket+ Plus",
+    "alt": "Evenementscherm van Basket+ Plus met drie lijsten en verrekeningen",
+    "cal_month": "OKT",
+    "cal_day": "24",
+    "cal_title": "Weekend in de bergen",
+    "cal_meta": "3 lijsten · 4 personen"
+  },
+  "analytics": {
+    "label": "04 · Bonnen en rapporten · Plus",
+    "title": "Uitgaven zijn geen raadsel meer.",
+    "text": "Bewaar bonnen, analyseer categorieën en winkels, volg trends en verreken gezamenlijke boodschappen – zonder spreadsheet ernaast.",
+    "alt_report": "Een Basket+ Plus-rapport met de uitgaven van de afgelopen zes maanden",
+    "alt_receipts": "Bonnengeschiedenis in Basket+ Plus met data, winkels en bedragen",
+    "caption_title": "6 maanden in één overzicht",
+    "caption_note": "Voorbeeldgegevens uit de app"
+  },
+  "plans": {
+    "label": "Basket+ Free en Plus",
+    "title": "Begin met een lijst.\nGroei door als je er klaar voor bent.",
+    "text": "Gewone gedeelde lijsten blijven beschikbaar zonder abonnement. Plus voegt het plannen van evenementen en een compleet beeld van je uitgaven toe.",
+    "free_kicker": "Voor elke dag",
+    "free_name": "Basket+ Free",
+    "free_items": [
+      "Boodschappenlijsten",
+      "Lijsten delen via iCloud",
+      "Chat op de lijst"
+    ],
+    "free_ads": "Bevat discrete advertenties – uitleg hieronder.",
+    "plus_kicker": "Meer overzicht",
+    "plus_name": "Basket+ Plus",
+    "plus_items": [
+      "Alles uit Free",
+      "Evenementen",
+      "Bonnen en rapporten",
+      "Uitgaven verrekenen",
+      "Geen advertenties"
+    ],
+    "price_note": "De prijs en een eventuele proefperiode zie je in de app en in de App Store voordat je koopt – op deze website noemen we ze niet. Het abonnement hoort bij het Apple Account waarmee het is gekocht.",
+    "ads_title": "Advertenties in Free",
+    "ads_items": [
+      "Discrete native advertenties (in de stijl van de app) van Google AdMob verschijnen op twee plekken: op het startscherm en bij Uitgaven. Op boodschappenlijsten en in de chat zie je ze niet.",
+      "Personalisatie van advertenties staat uit. Dat betekent niet dat Google geen identifiers gebruikt – dat kan wel, bijvoorbeeld voor meting en om te beperken hoe vaak een advertentie verschijnt.",
+      "Waar de wet dat voorschrijft (EER, Verenigd Koninkrijk, Zwitserland) laden advertenties niet zonder jouw toestemming. Je iPhone kan ook om toestemming vragen om je te volgen; als je weigert, blijft de app gewoon werken.",
+      "Met Plus verdwijnen de advertenties en haalt de app ze ook niet meer op."
+    ],
+    "ads_more": "Details: [[privacybeleid|privacy]].",
+    "group_title": "Voorbeeld: een groep met Free en Plus",
+    "group_intro": "Eén persoon heeft Plus, de anderen gebruiken Free. Wat kunnen ze samen?",
+    "group_rows": [
+      {
+        "what": "Een gewone gedeelde lijst",
+        "result": "Iedereen voegt producten toe, vinkt ze af en chat op de lijst. Niemand heeft Plus nodig."
+      },
+      {
+        "what": "Een evenement",
+        "result": "Elke deelnemer heeft een eigen Plus nodig. Het Plus van één persoon ontgrendelt het evenement niet voor anderen – wie geen Plus heeft, ziet in de uitnodiging dat het evenement Plus vereist en kan niet meedoen."
+      },
+      {
+        "what": "Bonnen, rapporten, verrekeningen",
+        "result": "Alleen beschikbaar voor wie een eigen Plus heeft."
+      },
+      {
+        "what": "Als Plus afloopt",
+        "result": "Je gegevens blijven bewaard. Het evenement is dan alleen-lezen en je kunt het verlaten."
+      }
+    ]
+  },
+  "icloud": {
+    "label": "iCloud en delen",
+    "title": "Geen Basket+-account.\nMet iCloud, als je dat wilt.",
+    "text": "Wat werkt zonder iCloud en wat niet.",
+    "cards": [
+      {
+        "title": "Geen Basket+-account",
+        "text": "Je maakt geen account aan en logt nergens in. We hebben geen eigen database met gebruikersaccounts."
+      },
+      {
+        "title": "Met iCloud",
+        "text": "Als je bent ingelogd bij iCloud, synchroniseren je lijsten automatisch tussen je apparaten en werkt delen via uitnodigingen van Apple. Je gegevens staan in je eigen iCloud-account."
+      },
+      {
+        "title": "Zonder iCloud",
+        "text": "Zonder iCloud-account, of als Basket+ is uitgezet in de iCloud-instellingen, werkt de app lokaal op het apparaat – zonder synchronisatie en zonder delen."
+      },
+      {
+        "title": "Voorwaarden voor delen",
+        "text": "Beide kanten hebben iCloud en Basket+ nodig; de uitnodiging accepteer je in het systeemvenster van Apple. Een gewone lijst kan ook iemand met Free accepteren, voor een evenement is een eigen Plus nodig."
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Kort en duidelijk.",
+    "items": [
+      {
+        "q": "Heb ik een account nodig om Basket+ te gebruiken?",
+        "a": "Nee. Voor Basket+ hoef je geen account aan te maken of in te loggen. Synchronisatie en delen gebruiken iCloud, als je daarbij bent ingelogd."
+      },
+      {
+        "q": "Werkt de app zonder iCloud?",
+        "a": "Ja, lokaal op je apparaat. Zonder iCloud is er geen synchronisatie tussen apparaten en kun je lijsten niet met anderen delen."
+      },
+      {
+        "q": "Kosten gedeelde lijsten geld?",
+        "a": "Nee. Gewoon lijsten delen en praten op een gedeelde lijst zit in Basket+ Free. Evenementen vereisen Plus."
+      },
+      {
+        "q": "Wie kan meedoen aan een gedeelde lijst of een evenement?",
+        "a": "Een gewone lijst: iedereen met Basket+ en iCloud, ook met Free. Een evenement: alleen mensen met een eigen, actief Plus; het Plus van iemand anders ontgrendelt niets voor jou."
+      },
+      {
+        "q": "Wat zit er precies in Basket+ Plus?",
+        "a": "Plus ontgrendelt evenementen, bonnen, rapporten en het verrekenen van uitgaven, en haalt de advertenties weg voor de abonnee."
+      },
+      {
+        "q": "Welke advertenties zie ik in Free?",
+        "a": "Discrete native advertenties van Google AdMob op het startscherm en bij Uitgaven, zonder personalisatie. Waar de wet dat voorschrijft pas na jouw toestemming. Met Plus zijn ze weg. Details: [[privacybeleid|privacy]]."
+      },
+      {
+        "q": "Wat kost Plus en is er een proefperiode?",
+        "a": "De prijs en een eventuele proefperiode zie je in de app en in de App Store voordat je iets koopt. Op deze website noemen we ze niet."
+      },
+      {
+        "q": "Hoe worden mijn gegevens gesynchroniseerd?",
+        "a": "Via iCloud en CloudKit. Je gegevens blijven op je apparaten en in je iCloud-account; we hebben geen eigen database met gebruikersaccounts."
+      },
+      {
+        "q": "Kan ik mijn abonnement opzeggen?",
+        "a": "Ja. Je beheert het abonnement in de instellingen van je Apple Account. Na opzeggen blijft Plus actief tot het einde van de betaalde periode."
+      },
+      {
+        "q": "Waar kan ik hulp krijgen?",
+        "a": "Mail naar [[hello@basketplus.app|email]] of bezoek onze [[supportpagina|support]]."
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Nu beschikbaar",
+    "title": "Een plek voor je boodschappen.\nEn rust eromheen.",
+    "icon_alt": "App-icoon van Basket+"
+  },
+  "footer": {
+    "tagline": "Samen boodschappen geregeld.",
+    "col_app": "App",
+    "col_help": "Hulp",
+    "col_docs": "Documenten",
+    "col_lang": "Talen",
+    "support": "Support en contact",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden",
+    "docs_note": "Support en het privacybeleid zijn beschikbaar in het Pools en het Engels.",
+    "copyright": "© 2026 Basket+. Onafhankelijk gemaakt in Polen."
+  }
+}

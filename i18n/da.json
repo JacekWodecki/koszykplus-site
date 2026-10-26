@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "html_lang": "da",
+    "hreflang": "da",
+    "og_locale": "da_DK",
+    "native_name": "Dansk",
+    "short": "DA"
+  },
+  "seo": {
+    "title": "Basket+ – delt indkøbsliste til iPhone",
+    "description": "Basket+ er en app til delte indkøbslister på iPhone. Planlæg indkøbene, del lister og hold styr på udgifterne. Se versionerne Free og Plus.",
+    "og_title": "Basket+ – delt indkøbsliste til iPhone",
+    "og_description": "En app til indkøbslister: delte lister, kvitteringer og opgørelse af fælles udgifter ét roligt sted. Download fra App Store.",
+    "og_image_alt": "Basket+ – app til delte indkøbslister på iPhone",
+    "app_description": "Indkøbslisteapp til iPhone: delt indkøbsliste, chat, begivenheder, kvitteringer, rapporter og opgørelse af fælles indkøb."
+  },
+  "ui": {
+    "skip_link": "Gå til indholdet",
+    "brand_aria": "Basket+ – forside",
+    "nav_aria": "Hovednavigation",
+    "nav_features": "Funktioner",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free og Plus",
+    "nav_faq": "FAQ",
+    "nav_support": "Support",
+    "lang_menu_aria": "Vælg sidens sprog",
+    "lang_list_aria": "Sidens sprog"
+  },
+  "hero": {
+    "eyebrow": "Fås i App Store",
+    "title": "Indkøb, der\n*ordner sig selv.*",
+    "lead": "Basket+ er en app til indkøbslister på iPhone: en delt indkøbsliste, kvitteringer og opgørelse af fælles indkøb ét roligt sted.",
+    "store_small": "Hent i",
+    "store_aria": "Hent i App Store – Basket+",
+    "qr_label": "Scan med din telefon",
+    "qr_aria": "Scan med din telefon – Basket+ i App Store",
+    "qr_alt": "QR-kode til Basket+ i App Store",
+    "see_how": "Se, hvordan det virker",
+    "platform_note": "Lavet til iPhone, iPad og Apple Watch.",
+    "visual_aria": "En skærm i Basket+",
+    "alt": "Startskærmen i Basket+ med maskot, begivenheder og indkøbslister",
+    "note_top": "Klar til fælles indkøb",
+    "note_bottom": "Tilføj på din måde"
+  },
+  "availability": {
+    "title": "Tilgængelighed",
+    "text": "I dag findes Basket+ i App Store i Polen. Flere lande følger snart – uden en bestemt dato.",
+    "store_hint": "Hvis App Store viser ”ikke tilgængelig”, er appen endnu ikke i dit land.",
+    "notify_text": "Venter du på dit land? Skriv til os – vi svarer selv og gemmer ikke noget på hjemmesiden.",
+    "notify_link": "Giv os besked om, at du venter",
+    "mail_subject": "Basket+ i mit land",
+    "mail_body": "Hej,\n\njeg vil gerne bruge Basket+ i dette land: \n\nMed venlig hilsen",
+    "short": "I dag i App Store i Polen, flere lande snart."
+  },
+  "trust": {
+    "aria": "Vigtigste oplysninger",
+    "items": [
+      {
+        "title": "Ingen Basket+-konto",
+        "text": "Virker lokalt, iCloud synkroniserer"
+      },
+      {
+        "title": "24 sprog",
+        "text": "til hjem uden grænser"
+      },
+      {
+        "title": "Native til Apple",
+        "text": "også widgets og ur"
+      }
+    ]
+  },
+  "lists": {
+    "label": "01 · Indkøbslister",
+    "title": "Færre tryk.\nFlere indkøb.",
+    "text": "En indkøbsliste til iPhone, som du udfylder, som du tænker: skriv en vare, tilføj mængde og enhed, vælg kategori, afkryds i butikken og find varen i historikken næste gang.",
+    "bullets": [
+      "Tilføj varer hurtigt, også flere ad gangen",
+      "Kategorier, mængder, enheder og egen rækkefølge",
+      "Historik og favoritvarer lige ved hånden"
+    ],
+    "alt": "En indkøbsliste i Basket+ med kategorier, mængder og fælles fremdrift",
+    "ticket1_name": "tomater",
+    "ticket1_qty": "4 stk.",
+    "ticket2_name": "pasta",
+    "ticket2_qty": "2 pk."
+  },
+  "sharing": {
+    "label": "02 · Fælles indkøb",
+    "title": "Én liste.\nAlle er med.",
+    "text": "En delt indkøbsliste: del en liste via iCloud, se andres ændringer og afklar detaljerne i chatten lige ved siden af indkøbene. Almindelig deling og listechat er med i Free. [[Vilkår for deling|icloud]]",
+    "badge": "Deling og listechat: Free",
+    "alt": "En samtale på en gratis delt liste i Basket+",
+    "pill_sent": "Sendt",
+    "pill_received": "Modtaget"
+  },
+  "events": {
+    "label": "03 · Begivenheder · Plus",
+    "title": "En plan, der ikke forsvinder i beskeder.",
+    "text": "En tur, en fest eller en familiehøjtid. Saml lister i én begivenhed, organiser forberedelserne og bevar overblikket. Hver deltager i en begivenhed skal have sit eget Basket+ Plus.",
+    "chip": "Basket+ Plus",
+    "alt": "Begivenhedsskærm i Basket+ Plus med tre lister og opgørelser",
+    "cal_month": "OKT",
+    "cal_day": "24",
+    "cal_title": "Weekend i bjergene",
+    "cal_meta": "3 lister · 4 personer"
+  },
+  "analytics": {
+    "label": "04 · Kvitteringer og rapporter · Plus",
+    "title": "Udgifterne er ikke længere et mysterium.",
+    "text": "Gem kvitteringer, analysér kategorier og butikker, følg tendenser og gør fælles indkøb op – uden et regneark ved siden af.",
+    "alt_report": "En rapport i Basket+ Plus med udgifterne de seneste seks måneder",
+    "alt_receipts": "Kvitteringshistorik i Basket+ Plus med datoer, butikker og beløb",
+    "caption_title": "6 måneder i én visning",
+    "caption_note": "Eksempeldata vist i appen"
+  },
+  "plans": {
+    "label": "Basket+ Free og Plus",
+    "title": "Start med en liste.\nUdvid, når du har brug for det.",
+    "text": "Almindelige delte lister er fortsat tilgængelige uden abonnement. Plus tilføjer planlægning af begivenheder og et samlet overblik over dine udgifter.",
+    "free_kicker": "Til hverdagen",
+    "free_name": "Basket+ Free",
+    "free_items": [
+      "Indkøbslister",
+      "Deling af lister via iCloud",
+      "Chat på listen"
+    ],
+    "free_ads": "Indeholder diskrete reklamer – se nedenfor.",
+    "plus_kicker": "Mere overblik",
+    "plus_name": "Basket+ Plus",
+    "plus_items": [
+      "Alt fra Free",
+      "Begivenheder",
+      "Kvitteringer og rapporter",
+      "Udgiftsopgørelse",
+      "Ingen reklamer"
+    ],
+    "price_note": "Prisen og en eventuel prøveperiode kan ses i appen og i App Store, før du køber – vi oplyser dem ikke på hjemmesiden. Abonnementet gælder den Apple-konto, der har købt det.",
+    "ads_title": "Reklamer i Free",
+    "ads_items": [
+      "Diskrete native reklamer (tilpasset appens udseende) fra Google AdMob vises to steder: på startskærmen og i Udgifter. De vises ikke på indkøbslister eller i chatten.",
+      "Personalisering af reklamer er slået fra. Det betyder ikke, at Google ikke bruger nogen identifikatorer – de kan bruges fx til måling og til at begrænse, hvor ofte en reklame vises.",
+      "Hvor loven kræver det (EØS, Storbritannien, Schweiz), indlæses reklamer ikke uden dit samtykke. iPhone kan også spørge, om du vil tillade sporing; hvis du siger nej, virker appen stadig.",
+      "Med Plus forsvinder reklamerne, og appen anmoder ikke længere om dem."
+    ],
+    "ads_more": "Læs mere: [[privatlivspolitik|privacy]].",
+    "group_title": "Eksempel: en gruppe med Free og Plus",
+    "group_intro": "Én person har Plus, de andre bruger Free. Hvad kan de gøre sammen?",
+    "group_rows": [
+      {
+        "what": "En almindelig delt liste",
+        "result": "Alle tilføjer og afkrydser varer og skriver i listechatten. Ingen har brug for Plus."
+      },
+      {
+        "what": "En begivenhed",
+        "result": "Hver deltager skal have sit eget Plus. Én persons Plus låser ikke begivenheden op for andre – den, der ikke har Plus, kan i invitationen se, at begivenheden kræver Plus, og kan ikke deltage."
+      },
+      {
+        "what": "Kvitteringer, rapporter, opgørelser",
+        "result": "Kun tilgængelige for en person med sit eget Plus."
+      },
+      {
+        "what": "Når Plus udløber",
+        "result": "Dine data bliver. Begivenheden bliver skrivebeskyttet, og du kan forlade den."
+      }
+    ]
+  },
+  "icloud": {
+    "label": "iCloud og deling",
+    "title": "Ingen Basket+-konto.\nMed iCloud, når du vil.",
+    "text": "Hvad der virker uden iCloud, og hvad der kræver det.",
+    "cards": [
+      {
+        "title": "Ingen Basket+-konto",
+        "text": "Du opretter ingen konto og logger ikke ind. Vi har ikke vores egen database med brugerkonti."
+      },
+      {
+        "title": "Med iCloud",
+        "text": "Når du er logget ind på iCloud, synkroniseres listerne automatisk mellem dine enheder, og deling sker via invitationer fra Apple. Dine data ligger i din egen iCloud-konto."
+      },
+      {
+        "title": "Uden iCloud",
+        "text": "Uden en iCloud-konto, eller hvis Basket+ er slået fra i iCloud-indstillingerne, virker appen lokalt på enheden – uden synkronisering og deling."
+      },
+      {
+        "title": "Vilkår for deling",
+        "text": "Begge parter skal have iCloud og Basket+; invitationen accepteres i Apples systemvindue. En almindelig liste kan også accepteres af en person med Free, mens en begivenhed kræver eget Plus."
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Kort og klart.",
+    "items": [
+      {
+        "q": "Skal jeg have en konto for at bruge Basket+?",
+        "a": "Nej. Basket+ kræver hverken konto eller login. Synkronisering og deling bruger iCloud, hvis du er logget ind der."
+      },
+      {
+        "q": "Virker appen uden iCloud?",
+        "a": "Ja, lokalt på enheden. Uden iCloud er der ingen synkronisering mellem enheder og ingen deling af lister med andre."
+      },
+      {
+        "q": "Koster delte lister noget?",
+        "a": "Nej. Almindelig deling af lister og chat på en delt liste er en del af Basket+ Free. Begivenheder kræver Plus."
+      },
+      {
+        "q": "Hvem kan deltage i en delt liste eller en begivenhed?",
+        "a": "En almindelig liste: alle med Basket+ og iCloud, også med Free. En begivenhed: kun personer med eget, aktivt Plus; en andens Plus låser ikke noget op for dig."
+      },
+      {
+        "q": "Hvad indeholder Basket+ Plus helt præcist?",
+        "a": "Plus låser op for begivenheder, kvitteringer, rapporter og udgiftsopgørelse og fjerner reklamerne for abonnenten."
+      },
+      {
+        "q": "Hvilke reklamer vises i Free?",
+        "a": "Diskrete native reklamer fra Google AdMob på startskærmen og i Udgifter, uden personalisering. Hvor loven kræver det, først efter dit samtykke. Plus fjerner dem. Læs mere: [[privatlivspolitik|privacy]]."
+      },
+      {
+        "q": "Hvad koster Plus, og er der en prøveperiode?",
+        "a": "Prisen og en eventuel prøveperiode kan du se i appen og i App Store, før du køber noget. Vi oplyser dem ikke på hjemmesiden."
+      },
+      {
+        "q": "Hvordan synkroniseres mine data?",
+        "a": "Via iCloud og CloudKit. Dine data bliver på dine enheder og i din iCloud-konto; vi har ikke vores egen database med brugerkonti."
+      },
+      {
+        "q": "Kan jeg opsige abonnementet?",
+        "a": "Ja. Du administrerer abonnementet i indstillingerne for din Apple-konto. Efter opsigelse er Plus aktivt til udgangen af den betalte periode."
+      },
+      {
+        "q": "Hvor får jeg hjælp?",
+        "a": "Skriv til [[hello@basketplus.app|email]] eller besøg vores [[supportside|support]]."
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Tilgængelig nu",
+    "title": "Plads til indkøbene.\nOg ro omkring dem.",
+    "icon_alt": "Appikon for Basket+"
+  },
+  "footer": {
+    "tagline": "Indkøb, klaret sammen.",
+    "col_app": "App",
+    "col_help": "Hjælp",
+    "col_docs": "Dokumenter",
+    "col_lang": "Sprog",
+    "support": "Support og kontakt",
+    "privacy": "Privatlivspolitik",
+    "terms": "Brugsvilkår",
+    "docs_note": "Support og privatlivspolitikken findes på polsk og engelsk.",
+    "copyright": "© 2026 Basket+. Lavet uafhængigt i Polen."
+  }
+}

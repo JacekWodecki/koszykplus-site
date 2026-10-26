@@ -1,0 +1,238 @@
+{
+  "meta": {"html_lang": "lv", "hreflang": "lv", "og_locale": "lv_LV", "native_name": "Latviešu", "short": "LV"},
+  "seo": {
+    "title": "Basket+ – kopīgs iepirkumu saraksts iPhone tālrunim",
+    "description": "Basket+ ir kopīgu iepirkumu sarakstu lietotne iPhone tālrunim. Plānojiet pirkumus, kopīgojiet sarakstus un sekojiet izdevumiem. Iepazīstiet Free un Plus.",
+    "og_title": "Basket+ – kopīgs iepirkumu saraksts iPhone tālrunim",
+    "og_description": "Iepirkumu saraksta lietotne: kopīgi saraksti, čeki un kopīgo izdevumu sadalīšana vienā mierīgā vietā. Lejupielādējiet no App Store.",
+    "og_image_alt": "Basket+ – kopīgu iepirkumu sarakstu lietotne iPhone tālrunim",
+    "app_description": "Iepirkumu saraksta lietotne iPhone tālrunim: kopīgs iepirkumu saraksts, tērzēšana, pasākumi, čeki, pārskati un kopīgo izdevumu sadalīšana."
+  },
+  "ui": {
+    "skip_link": "Pāriet uz saturu",
+    "brand_aria": "Basket+ – sākumlapa",
+    "nav_aria": "Galvenā navigācija",
+    "nav_features": "Iespējas",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free un Plus",
+    "nav_faq": "BUJ",
+    "nav_support": "Atbalsts",
+    "lang_menu_aria": "Izvēlieties lapas valodu",
+    "lang_list_aria": "Lapas valodas"
+  },
+  "hero": {
+    "eyebrow": "Pieejama App Store",
+    "title": "Iepirkšanās, kas\n*sakārtojas pati.*",
+    "lead": "Basket+ ir iepirkumu saraksta lietotne iPhone tālrunim: kopīgs iepirkumu saraksts, čeki un kopīgo izdevumu sadalīšana – viss vienā mierīgā vietā.",
+    "store_small": "Lejupielādēt no",
+    "store_aria": "Lejupielādēt no App Store – Basket+",
+    "qr_label": "Skenējiet ar tālruni",
+    "qr_aria": "Skenējiet ar tālruni – Basket+ App Store",
+    "qr_alt": "QR kods, kas ved uz Basket+ App Store",
+    "see_how": "Skatiet, kā tas darbojas",
+    "platform_note": "Veidota iPhone, iPad un Apple Watch.",
+    "visual_aria": "Basket+ lietotnes ekrāns",
+    "alt": "Basket+ sākuma ekrāns ar talismanu, pasākumiem un iepirkumu sarakstiem",
+    "note_top": "Gatavs kopīgiem pirkumiem",
+    "note_bottom": "Pievienojiet pēc sava prāta"
+  },
+  "availability": {
+    "title": "Pieejamība",
+    "text": "Šobrīd Basket+ ir pieejams App Store Polijā. Citās valstīs tas parādīsies drīzumā – konkrēts datums vēl nav zināms.",
+    "store_hint": "Ja App Store rāda „nav pieejams“, lietotnes jūsu valstī vēl nav.",
+    "notify_text": "Gaidāt savu valsti? Rakstiet mums – atbildam manuāli un vietnē neko nesaglabājam.",
+    "notify_link": "Dodiet ziņu, ka gaidāt",
+    "mail_subject": "Basket+ manā valstī",
+    "mail_body": "Labdien!\n\nVēlos izmantot Basket+ šajā valstī: \n\nAr cieņu",
+    "short": "Šobrīd App Store Polijā, citās valstīs drīzumā."
+  },
+  "trust": {
+    "aria": "Galvenie fakti",
+    "items": [
+      {"title": "Bez Basket+ konta", "text": "Darbojas lokāli, iCloud sinhronizē"},
+      {"title": "24 valodas", "text": "mājām bez robežām"},
+      {"title": "Radīta Apple ierīcēm", "text": "arī logrīki un pulkstenis"}
+    ]
+  },
+  "lists": {
+    "label": "01 · Iepirkumu saraksti",
+    "title": "Mazāk piesitienu.\nVairāk iepirkšanās.",
+    "text": "Iepirkumu saraksts iPhone tālrunim, ko aizpildāt tā, kā domājat: ierakstiet produktu, pievienojiet daudzumu un mērvienību, izvēlieties kategoriju, atzīmējiet veikalā un nākamreiz atrodiet to vēsturē.",
+    "bullets": [
+      "Ātra viena vai vairāku produktu pievienošana",
+      "Kategorijas, daudzumi, mērvienības un sava secība",
+      "Vēsture un izlases produkti pa rokai"
+    ],
+    "alt": "Basket+ iepirkumu saraksts ar kategorijām, daudzumiem un kopīgu progresu",
+    "ticket1_name": "tomāti",
+    "ticket1_qty": "4 gab.",
+    "ticket2_name": "makaroni",
+    "ticket2_qty": "2 iep."
+  },
+  "sharing": {
+    "label": "02 · Kopīgi pirkumi",
+    "title": "Viens saraksts.\nVisi ir lietas kursā.",
+    "text": "Kopīgs iepirkumu saraksts: kopīgojiet sarakstu, izmantojot iCloud, redziet citu veiktās izmaiņas un sarunājiet detaļas tērzēšanā blakus pirkumiem. Parastā kopīgošana un saraksta tērzēšana ir iekļautas Free versijā. [[Kopīgošanas nosacījumi|icloud]]",
+    "badge": "Saraksta kopīgošana un tērzēšana: Free",
+    "alt": "Saruna bezmaksas kopīgotā Basket+ sarakstā",
+    "pill_sent": "Nosūtīts",
+    "pill_received": "Saņemts"
+  },
+  "events": {
+    "label": "03 · Pasākumi · Plus",
+    "title": "Plāns, kas nepazūd ziņojumos.",
+    "text": "Brauciens, ballīte vai ģimenes svētki. Apvienojiet sarakstus vienā pasākumā, sakārtojiet sagatavošanos un saglabājiet kopīgo kontekstu. Katram pasākuma dalībniekam nepieciešams savs Basket+ Plus.",
+    "chip": "Basket+ Plus",
+    "alt": "Basket+ Plus pasākuma ekrāns ar trim sarakstiem un norēķiniem",
+    "cal_month": "OKT",
+    "cal_day": "24",
+    "cal_title": "Nedēļas nogale kalnos",
+    "cal_meta": "3 saraksti · 4 cilvēki"
+  },
+  "analytics": {
+    "label": "04 · Čeki un pārskati · Plus",
+    "title": "Izdevumi vairs nav mīkla.",
+    "text": "Saglabājiet čekus, analizējiet kategorijas un veikalus, sekojiet tendencēm un sadaliet kopīgos izdevumus – bez tabulas blakus.",
+    "alt_report": "Basket+ Plus pārskats ar pēdējo sešu mēnešu izdevumiem",
+    "alt_receipts": "Basket+ Plus čeku vēsture ar datumiem, veikaliem un summām",
+    "caption_title": "6 mēneši vienā skatā",
+    "caption_note": "Lietotnē redzami paraugdati"
+  },
+  "plans": {
+    "label": "Basket+ Free un Plus",
+    "title": "Sāciet ar sarakstu.\nPaplašiniet, kad vajag.",
+    "text": "Parastie kopīgie saraksti paliek pieejami bez abonementa. Plus pievieno pasākumu plānošanu un pilnīgu ieskatu izdevumos.",
+    "free_kicker": "Ikdienai",
+    "free_name": "Basket+ Free",
+    "free_items": [
+      "Iepirkumu saraksti",
+      "Sarakstu kopīgošana, izmantojot iCloud",
+      "Saraksta tērzēšana"
+    ],
+    "free_ads": "Ietver neuzbāzīgas reklāmas – apraksts zemāk.",
+    "plus_kicker": "Vairāk kārtības",
+    "plus_name": "Basket+ Plus",
+    "plus_items": [
+      "Viss, kas ir Free",
+      "Pasākumi",
+      "Čeki un pārskati",
+      "Izdevumu norēķini",
+      "Bez reklāmām"
+    ],
+    "price_note": "Cena un iespējamais izmēģinājuma periods ir redzami lietotnē un App Store pirms pirkuma – tos šajā vietnē nenorādām. Abonements attiecas uz Apple kontu, kas to iegādājās.",
+    "ads_title": "Reklāmas Free versijā",
+    "ads_items": [
+      "Neuzbāzīgas Google AdMob natīvās reklāmas parādās divās vietās: sākuma ekrānā un sadaļā Izdevumi. Iepirkumu sarakstos un tērzēšanā to nav.",
+      "Reklāmu personalizācija ir izslēgta. Tas nenozīmē, ka Google neizmanto nekādus identifikatorus – tā var tos izmantot, piemēram, mērīšanai un parādīšanās biežuma ierobežošanai.",
+      "Kur to prasa likums (EEZ, Apvienotā Karaliste, Šveice), reklāmas netiek ielādētas bez jūsu piekrišanas. iPhone var arī jautāt par izsekošanas atļauju; atteikums lietotni nebloķē.",
+      "Ar Plus reklāmas pazūd, un lietotne tās vairs nepieprasa."
+    ],
+    "ads_more": "Sīkāk: [[privātuma politika|privacy]].",
+    "group_title": "Piemērs: grupa ar Free un Plus",
+    "group_intro": "Vienam cilvēkam ir Plus, pārējie izmanto Free. Ko viņi var darīt kopā?",
+    "group_rows": [
+      {
+        "what": "Parasts kopīgs saraksts",
+        "result": "Visi pievieno un atzīmē produktus un raksta saraksta tērzēšanā. Plus nav vajadzīgs nevienam."
+      },
+      {
+        "what": "Pasākums",
+        "result": "Katram dalībniekam vajadzīgs savs Plus. Viena cilvēka Plus neatver pasākumu citiem – cilvēks bez Plus uzaicinājumā redzēs, ka pasākumam vajadzīgs Plus, un tam nepievienosies."
+      },
+      {
+        "what": "Čeki, pārskati, norēķini",
+        "result": "Pieejami tikai cilvēkam ar savu Plus."
+      },
+      {
+        "what": "Kad Plus beidzas",
+        "result": "Dati paliek. Pasākums tad ir tikai lasāms, un to var pamest."
+      }
+    ]
+  },
+  "icloud": {
+    "label": "iCloud un kopīgošana",
+    "title": "Bez Basket+ konta.\nAr iCloud, kad vēlaties.",
+    "text": "Kas darbojas bez iCloud un kam tas vajadzīgs.",
+    "cards": [
+      {
+        "title": "Bez Basket+ konta",
+        "text": "Jūs neveidojat kontu un nepierakstāties. Mums nav savas lietotāju kontu datubāzes."
+      },
+      {
+        "title": "Ar iCloud",
+        "text": "Kad ierīcē ir pieteikts iCloud konts, saraksti automātiski sinhronizējas starp jūsu ierīcēm, un kopīgošana balstās uz Apple uzaicinājumiem. Jūsu dati atrodas jūsu iCloud kontā."
+      },
+      {
+        "title": "Bez iCloud",
+        "text": "Bez iCloud konta vai tad, ja Basket+ iCloud iestatījumos ir izslēgts, lietotne darbojas lokāli ierīcē – bez sinhronizācijas un kopīgošanas."
+      },
+      {
+        "title": "Kopīgošanas nosacījumi",
+        "text": "Abām pusēm vajadzīgs iCloud un Basket+; uzaicinājumu pieņem Apple sistēmas logā. Parastu sarakstu var pieņemt arī cilvēks ar Free, pasākumam vajadzīgs savs Plus."
+      }
+    ]
+  },
+  "faq": {
+    "label": "BUJ",
+    "title": "Īsi un skaidri.",
+    "items": [
+      {
+        "q": "Vai Basket+ lietošanai ir vajadzīgs konts?",
+        "a": "Nē. Basket+ neprasa izveidot kontu vai pierakstīties. Sinhronizācija un kopīgošana izmanto iCloud, ja ierīcē ir pieteikts iCloud konts."
+      },
+      {
+        "q": "Vai lietotne darbojas bez iCloud?",
+        "a": "Jā, lokāli ierīcē. Bez iCloud nav sinhronizācijas starp ierīcēm un sarakstu kopīgošanas ar citiem."
+      },
+      {
+        "q": "Vai kopīgie saraksti ir maksas?",
+        "a": "Nē. Parastā sarakstu kopīgošana un saruna kopīgā sarakstā ir iekļauta Basket+ Free. Pasākumiem vajadzīgs Plus."
+      },
+      {
+        "q": "Kas var pievienoties kopīgam sarakstam vai pasākumam?",
+        "a": "Parastam sarakstam – ikviens, kam ir Basket+ un iCloud, arī Free versijā. Pasākumam – tikai cilvēki ar savu aktīvu Plus; cita cilvēka Plus jums neko neatver."
+      },
+      {
+        "q": "Ko tieši ietver Basket+ Plus?",
+        "a": "Plus atver pasākumus, čekus, pārskatus un izdevumu norēķinus un abonentam noņem reklāmas."
+      },
+      {
+        "q": "Kādas reklāmas rāda Free versijā?",
+        "a": "Neuzbāzīgas Google AdMob natīvās reklāmas sākuma ekrānā un sadaļā Izdevumi, bez personalizācijas. Kur to prasa likums – tikai pēc jūsu piekrišanas. Plus tās noņem. Sīkāk: [[privātuma politika|privacy]]."
+      },
+      {
+        "q": "Cik maksā Plus un vai ir izmēģinājuma periods?",
+        "a": "Cenu un iespējamo izmēģinājuma periodu redzēsiet lietotnē un App Store, pirms kaut ko pērkat. Šajā vietnē tos nenorādām."
+      },
+      {
+        "q": "Kā tiek sinhronizēti mani dati?",
+        "a": "Izmantojot iCloud un CloudKit. Jūsu dati paliek jūsu ierīcēs un iCloud kontā; mums nav savas lietotāju kontu datubāzes."
+      },
+      {
+        "q": "Vai var atcelt abonementu?",
+        "a": "Jā. Abonementu pārvaldāt sava Apple konta iestatījumos. Pēc atcelšanas Plus paliek aktīvs līdz apmaksātā perioda beigām."
+      },
+      {
+        "q": "Kur saņemt palīdzību?",
+        "a": "Rakstiet uz [[hello@basketplus.app|email]] vai apmeklējiet [[atbalsta lapu|support]]."
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Pieejama tagad",
+    "title": "Vieta pirkumiem.\nUn miers to apkārtnē.",
+    "icon_alt": "Basket+ lietotnes ikona"
+  },
+  "footer": {
+    "tagline": "Pirkumi sakārtoti kopā.",
+    "col_app": "Lietotne",
+    "col_help": "Palīdzība",
+    "col_docs": "Dokumenti",
+    "col_lang": "Valodas",
+    "support": "Atbalsts un kontakti",
+    "privacy": "Privātuma politika",
+    "terms": "Lietošanas noteikumi",
+    "docs_note": "Atbalsts un privātuma politika ir pieejami poļu un angļu valodā.",
+    "copyright": "© 2026 Basket+. Neatkarīgi radīta Polijā."
+  }
+}

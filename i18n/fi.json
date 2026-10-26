@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "html_lang": "fi",
+    "hreflang": "fi",
+    "og_locale": "fi_FI",
+    "native_name": "Suomi",
+    "short": "FI"
+  },
+  "seo": {
+    "title": "Basket+ – jaettu ostoslista iPhonelle",
+    "description": "Basket+ on sovellus jaetuille ostoslistoille iPhonella. Suunnittele ostokset, jaa listoja ja pidä menot hallinnassa. Tutustu Free- ja Plus-versioihin.",
+    "og_title": "Basket+ – jaettu ostoslista iPhonelle",
+    "og_description": "Ostoslistasovellus: jaetut listat, kuitit ja yhteisten ostosten tilitys yhdessä rauhallisessa paikassa. Lataa App Storesta.",
+    "og_image_alt": "Basket+ – sovellus jaetuille ostoslistoille iPhonella",
+    "app_description": "Ostoslistasovellus iPhonelle: jaettu ostoslista, keskustelu, tapahtumat, kuitit, raportit ja yhteisten ostosten tilitys."
+  },
+  "ui": {
+    "skip_link": "Siirry sisältöön",
+    "brand_aria": "Basket+ – etusivu",
+    "nav_aria": "Päävalikko",
+    "nav_features": "Ominaisuudet",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free ja Plus",
+    "nav_faq": "FAQ",
+    "nav_support": "Tuki",
+    "lang_menu_aria": "Valitse sivun kieli",
+    "lang_list_aria": "Sivun kielet"
+  },
+  "hero": {
+    "eyebrow": "Saatavilla App Storesta",
+    "title": "Ostokset, jotka\n*järjestyvät itsestään.*",
+    "lead": "Basket+ on ostoslistasovellus iPhonelle: jaettu ostoslista, kuitit ja yhteisten ostosten tilitys yhdessä rauhallisessa paikassa.",
+    "store_small": "Lataa palvelusta",
+    "store_aria": "Lataa palvelusta App Store – Basket+",
+    "qr_label": "Skannaa puhelimella",
+    "qr_aria": "Skannaa puhelimella – Basket+ App Storessa",
+    "qr_alt": "QR-koodi, joka johtaa Basket+:aan App Storessa",
+    "see_how": "Katso, miten se toimii",
+    "platform_note": "Suunniteltu iPhonelle, iPadille ja Apple Watchille.",
+    "visual_aria": "Basket+-sovelluksen näkymä",
+    "alt": "Basket+:n aloitusnäyttö maskotin, tapahtumien ja ostoslistojen kanssa",
+    "note_top": "Valmis yhteisiin ostoksiin",
+    "note_bottom": "Lisää omalla tavallasi"
+  },
+  "availability": {
+    "title": "Saatavuus",
+    "text": "Tällä hetkellä Basket+ on App Storessa Puolassa. Lisää maita tulossa pian – ilman tarkkaa päivämäärää.",
+    "store_hint": "Jos App Store näyttää tekstin ”ei saatavilla”, sovellus ei ole vielä omassa maassasi.",
+    "notify_text": "Odotatko omaa maatasi? Kirjoita meille – vastaamme itse emmekä tallenna sivustolle mitään.",
+    "notify_link": "Kerro, että odotat",
+    "mail_subject": "Basket+ omassa maassani",
+    "mail_body": "Hei,\n\nhaluan käyttää Basket+:aa tässä maassa: \n\nYstävällisin terveisin",
+    "short": "Nyt App Storessa Puolassa, lisää maita pian."
+  },
+  "trust": {
+    "aria": "Tärkeimmät tiedot",
+    "items": [
+      {
+        "title": "Ei Basket+-tiliä",
+        "text": "Toimii paikallisesti, iCloud synkronoi"
+      },
+      {
+        "title": "24 kieltä",
+        "text": "koteihin ilman rajoja"
+      },
+      {
+        "title": "Natiivisti Applelle",
+        "text": "myös widgetit ja kello"
+      }
+    ]
+  },
+  "lists": {
+    "label": "01 · Ostoslistat",
+    "title": "Vähemmän napauttelua.\nEnemmän ostamista.",
+    "text": "Ostoslista iPhonelle, jonka täytät niin kuin ajattelet: kirjoita tuote, lisää määrä ja yksikkö, valitse luokka, merkitse kaupassa ostetuksi ja löydä tuote historiasta, kun tarvitset sitä taas.",
+    "bullets": [
+      "Lisää tuotteita nopeasti, myös useita kerralla",
+      "Luokat, määrät, yksiköt ja oma järjestys",
+      "Historia ja suosikkituotteet käden ulottuvilla"
+    ],
+    "alt": "Basket+-ostoslista luokkineen, määrineen ja yhteisine edistymisineen",
+    "ticket1_name": "tomaatit",
+    "ticket1_qty": "4 kpl",
+    "ticket2_name": "pasta",
+    "ticket2_qty": "2 pkt"
+  },
+  "sharing": {
+    "label": "02 · Yhteiset ostokset",
+    "title": "Yksi lista.\nKaikki ajan tasalla.",
+    "text": "Jaettu ostoslista: jaa lista iCloudin kautta, näe muiden tekemät muutokset ja sovi yksityiskohdista keskustelussa ostosten vieressä. Tavallinen jakaminen ja listan keskustelu kuuluvat Free-versioon. [[Jakamisen ehdot|icloud]]",
+    "badge": "Listan jakaminen ja keskustelu: Free",
+    "alt": "Keskustelu maksuttomalla jaetulla Basket+-listalla",
+    "pill_sent": "Lähetetty",
+    "pill_received": "Vastaanotettu"
+  },
+  "events": {
+    "label": "03 · Tapahtumat · Plus",
+    "title": "Suunnitelma, joka ei huku viesteihin.",
+    "text": "Matka, juhlat tai perhejuhla. Yhdistä listat yhdeksi tapahtumaksi, järjestä valmistelut ja pidä kaikki yhdessä paikassa. Jokainen tapahtuman osallistuja tarvitsee oman Basket+ Plus -tilauksen.",
+    "chip": "Basket+ Plus",
+    "alt": "Basket+ Plus -tapahtumanäkymä, jossa on kolme listaa ja tilitykset",
+    "cal_month": "LOK",
+    "cal_day": "24",
+    "cal_title": "Viikonloppu vuorilla",
+    "cal_meta": "3 listaa · 4 henkilöä"
+  },
+  "analytics": {
+    "label": "04 · Kuitit ja raportit · Plus",
+    "title": "Menot eivät ole enää arvoitus.",
+    "text": "Tallenna kuitit, analysoi luokkia ja kauppoja, seuraa trendejä ja hoida yhteisten ostosten tilitys – ilman erillistä taulukkoa.",
+    "alt_report": "Basket+ Plus -raportti viimeisen kuuden kuukauden menoista",
+    "alt_receipts": "Basket+ Plus -kuittihistoria päivämäärineen, kauppoineen ja summineen",
+    "caption_title": "6 kuukautta yhdessä näkymässä",
+    "caption_note": "Esimerkkitietoja sovelluksesta"
+  },
+  "plans": {
+    "label": "Basket+ Free ja Plus",
+    "title": "Aloita listasta.\nLaajenna, kun tarvitset.",
+    "text": "Tavalliset jaetut listat pysyvät käytössä ilman tilausta. Plus tuo tapahtumien suunnittelun ja kokonaiskuvan menoistasi.",
+    "free_kicker": "Arkeen",
+    "free_name": "Basket+ Free",
+    "free_items": [
+      "Ostoslistat",
+      "Listojen jakaminen iCloudin kautta",
+      "Keskustelu listalla"
+    ],
+    "free_ads": "Sisältää hillittyjä mainoksia – lisätietoa alla.",
+    "plus_kicker": "Enemmän järjestystä",
+    "plus_name": "Basket+ Plus",
+    "plus_items": [
+      "Kaikki Free-version ominaisuudet",
+      "Tapahtumat",
+      "Kuitit ja raportit",
+      "Kulujen tilitys",
+      "Ei mainoksia"
+    ],
+    "price_note": "Hinta ja mahdollinen kokeilujakso näkyvät sovelluksessa ja App Storessa ennen ostoa – emme ilmoita niitä tällä sivustolla. Tilaus on sidottu Apple-tiliin, jolla se on ostettu.",
+    "ads_title": "Mainokset Free-versiossa",
+    "ads_items": [
+      "Hillityt Google AdMobin natiivimainokset (sovelluksen ulkoasuun sovitetut) näkyvät kahdessa paikassa: aloitusnäytöllä ja Menoissa. Ostoslistoilla ja keskustelussa niitä ei näytetä.",
+      "Mainosten personointi on pois päältä. Se ei tarkoita, ettei Google käyttäisi tunnisteita – se voi käyttää niitä esimerkiksi mittaukseen ja näyttökertojen rajoittamiseen.",
+      "Siellä, missä laki sitä vaatii (ETA, Yhdistynyt kuningaskunta, Sveitsi), mainoksia ei ladata ilman suostumustasi. iPhone voi myös kysyä lupaa seurantaan; jos kieltäydyt, sovellus toimii silti.",
+      "Plus-tilauksella mainokset poistuvat, eikä sovellus enää hae niitä."
+    ],
+    "ads_more": "Lisätietoa: [[tietosuojakäytäntö|privacy]].",
+    "group_title": "Esimerkki: ryhmä, jossa on Free ja Plus",
+    "group_intro": "Yhdellä on Plus, muut käyttävät Free-versiota. Mitä he voivat tehdä yhdessä?",
+    "group_rows": [
+      {
+        "what": "Tavallinen jaettu lista",
+        "result": "Kaikki lisäävät tuotteita, merkitsevät niitä ostetuiksi ja keskustelevat listalla. Kenelläkään ei tarvitse olla Plus-tilausta."
+      },
+      {
+        "what": "Tapahtuma",
+        "result": "Jokainen osallistuja tarvitsee oman Plus-tilauksen. Yhden henkilön Plus ei avaa tapahtumaa muille – ilman Plus-tilausta oleva näkee kutsusta, että tapahtuma vaatii Plus-tilauksen, eikä voi liittyä siihen."
+      },
+      {
+        "what": "Kuitit, raportit, tilitykset",
+        "result": "Käytettävissä vain henkilölle, jolla on oma Plus-tilaus."
+      },
+      {
+        "what": "Kun Plus-tilaus päättyy",
+        "result": "Tiedot säilyvät. Tapahtuma muuttuu tällöin vain luettavaksi, ja sen voi jättää."
+      }
+    ]
+  },
+  "icloud": {
+    "label": "iCloud ja jakaminen",
+    "title": "Ei Basket+-tiliä.\nHalutessasi iCloudilla.",
+    "text": "Mikä toimii ilman iCloudia ja mikä sitä vaatii.",
+    "cards": [
+      {
+        "title": "Ei Basket+-tiliä",
+        "text": "Et luo tiliä etkä kirjaudu sisään. Meillä ei ole omaa käyttäjätilien tietokantaa."
+      },
+      {
+        "title": "iCloudilla",
+        "text": "Kun olet kirjautunut iCloudiin, listat synkronoituvat automaattisesti laitteidesi välillä ja jakaminen perustuu Applen kutsuihin. Tietosi ovat omalla iCloud-tililläsi."
+      },
+      {
+        "title": "Ilman iCloudia",
+        "text": "Ilman iCloud-tiliä tai kun Basket+ on poistettu käytöstä iCloud-asetuksissa, sovellus toimii paikallisesti laitteella – ilman synkronointia ja jakamista."
+      },
+      {
+        "title": "Jakamisen ehdot",
+        "text": "Molemmat tarvitsevat iCloudin ja Basket+:n; kutsu hyväksytään Applen järjestelmäikkunassa. Tavallisen listan voi hyväksyä myös Free-käyttäjä, tapahtuma vaatii oman Plus-tilauksen."
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Lyhyesti ja selkeästi.",
+    "items": [
+      {
+        "q": "Tarvitsenko tilin Basket+:n käyttöön?",
+        "a": "Et. Basket+ ei vaadi tilin luomista eikä kirjautumista. Synkronointi ja jakaminen käyttävät iCloudia, jos olet kirjautunut siihen."
+      },
+      {
+        "q": "Toimiiko sovellus ilman iCloudia?",
+        "a": "Toimii, paikallisesti laitteella. Ilman iCloudia laitteiden välistä synkronointia ei ole, eikä listoja voi jakaa muille."
+      },
+      {
+        "q": "Ovatko jaetut listat maksullisia?",
+        "a": "Eivät. Listojen tavallinen jakaminen ja keskustelu jaetulla listalla kuuluvat Basket+ Free -versioon. Tapahtumat vaativat Plus-tilauksen."
+      },
+      {
+        "q": "Kuka voi liittyä jaetulle listalle tai tapahtumaan?",
+        "a": "Tavalliselle listalle: kuka tahansa, jolla on Basket+ ja iCloud, myös Free-käyttäjä. Tapahtumaan: vain ne, joilla on oma aktiivinen Plus-tilaus; toisen Plus ei avaa sinulle mitään."
+      },
+      {
+        "q": "Mitä Basket+ Plus sisältää tarkalleen?",
+        "a": "Plus avaa tapahtumat, kuitit, raportit ja kulujen tilityksen sekä poistaa mainokset tilaajalta."
+      },
+      {
+        "q": "Mitä mainoksia Free-versiossa näytetään?",
+        "a": "Hillittyjä Google AdMobin natiivimainoksia aloitusnäytöllä ja Menoissa, ilman personointia. Missä laki sitä vaatii, vasta suostumuksesi jälkeen. Plus poistaa ne. Lisätietoa: [[tietosuojakäytäntö|privacy]]."
+      },
+      {
+        "q": "Paljonko Plus maksaa, ja onko kokeilujaksoa?",
+        "a": "Hinnan ja mahdollisen kokeilujakson näet sovelluksessa ja App Storessa ennen kuin ostat mitään. Emme ilmoita niitä tällä sivustolla."
+      },
+      {
+        "q": "Miten tietoni synkronoidaan?",
+        "a": "iCloudin ja CloudKitin kautta. Tietosi pysyvät laitteillasi ja iCloud-tililläsi; meillä ei ole omaa käyttäjätilien tietokantaa."
+      },
+      {
+        "q": "Voinko perua tilauksen?",
+        "a": "Voit. Hallitset tilausta Apple-tilisi asetuksissa. Peruutuksen jälkeen Plus pysyy voimassa maksetun jakson loppuun."
+      },
+      {
+        "q": "Mistä saan apua?",
+        "a": "Kirjoita osoitteeseen [[hello@basketplus.app|email]] tai käy [[tukisivulla|support]]."
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Saatavilla nyt",
+    "title": "Paikka ostoksille.\nJa rauha niiden ympärillä.",
+    "icon_alt": "Basket+-sovelluksen kuvake"
+  },
+  "footer": {
+    "tagline": "Ostokset hoidettu yhdessä.",
+    "col_app": "Sovellus",
+    "col_help": "Apua",
+    "col_docs": "Asiakirjat",
+    "col_lang": "Kielet",
+    "support": "Tuki ja yhteystiedot",
+    "privacy": "Tietosuojakäytäntö",
+    "terms": "Käyttöehdot",
+    "docs_note": "Tuki ja tietosuojakäytäntö ovat saatavilla puolaksi ja englanniksi.",
+    "copyright": "© 2026 Basket+. Sovellus on tehty itsenäisesti Puolassa."
+  }
+}

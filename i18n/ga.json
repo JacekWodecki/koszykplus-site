@@ -1,0 +1,238 @@
+{
+  "meta": {"html_lang": "ga", "hreflang": "ga", "og_locale": "ga_IE", "native_name": "Gaeilge", "short": "GA"},
+  "seo": {
+    "title": "Basket+ – liosta siopadóireachta roinnte ar iPhone",
+    "description": "Is aip é Basket+ do liostaí siopadóireachta roinnte ar iPhone. Pleanáil siopadóireacht, roinn liostaí agus coinnigh súil ar chaiteachas. Féach Free agus Plus.",
+    "og_title": "Basket+ – liosta siopadóireachta roinnte ar iPhone",
+    "og_description": "Aip liosta siopadóireachta: liostaí roinnte, admhálacha agus socrú costas comhroinnte in aon áit shocair amháin. Íoslódáil ón App Store.",
+    "og_image_alt": "Basket+ – aip le haghaidh liostaí siopadóireachta roinnte ar iPhone",
+    "app_description": "Aip liosta siopadóireachta ar iPhone: liosta siopadóireachta roinnte, comhrá, imeachtaí, admhálacha, tuarascálacha agus socrú costas comhroinnte."
+  },
+  "ui": {
+    "skip_link": "Léim chuig an ábhar",
+    "brand_aria": "Basket+ – leathanach baile",
+    "nav_aria": "Príomhnascleanúint",
+    "nav_features": "Gnéithe",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free agus Plus",
+    "nav_faq": "FAQ",
+    "nav_support": "Tacaíocht",
+    "lang_menu_aria": "Roghnaigh teanga an leathanaigh",
+    "lang_list_aria": "Teangacha an leathanaigh"
+  },
+  "hero": {
+    "eyebrow": "Ar fáil ar an App Store",
+    "title": "Siopadóireacht a\n*eagraíonn í féin.*",
+    "lead": "Is aip liosta siopadóireachta ar iPhone í Basket+: liosta siopadóireachta roinnte, admhálacha agus socrú costas comhroinnte, uile in aon áit shocair amháin.",
+    "store_small": "Íoslódáil ón",
+    "store_aria": "Íoslódáil ón App Store – Basket+",
+    "qr_label": "Scan le do ghuthán",
+    "qr_aria": "Scan le do ghuthán – Basket+ ar an App Store",
+    "qr_alt": "Cód QR a threoraíonn chuig Basket+ ar an App Store",
+    "see_how": "Féach conas a oibríonn sé",
+    "platform_note": "Deartha le haghaidh iPhone, iPad agus Apple Watch.",
+    "visual_aria": "Scáileán aipe Basket+",
+    "alt": "Príomhscáileán Basket+ leis an mascot, imeachtaí agus liostaí siopadóireachta",
+    "note_top": "Réidh le siopadóireacht a roinnt",
+    "note_bottom": "Cuir leis mar is rogha leat"
+  },
+  "availability": {
+    "title": "Infhaighteacht",
+    "text": "Inniu tá Basket+ ar an App Store sa Pholainn. Tiocfaidh sé go tíortha eile go luath – gan dáta ar leith.",
+    "store_hint": "Má deir an App Store “níl ar fáil”, níl an aip ar fáil i do thír go fóill.",
+    "notify_text": "Ag fanacht le do thír? Scríobh chugainn – freagraímid de láimh agus ní stórálaimid aon rud ar an suíomh.",
+    "notify_link": "Cuir in iúl go bhfuil tú ag fanacht",
+    "mail_subject": "Basket+ i mo thír",
+    "mail_body": "Dia duit,\n\nba mhaith liom Basket+ a úsáid sa tír seo: \n\nGo raibh maith agat",
+    "short": "Inniu ar an App Store sa Pholainn, i dtíortha eile go luath."
+  },
+  "trust": {
+    "aria": "Príomhfhíricí",
+    "items": [
+      {"title": "Gan cuntas Basket+", "text": "Oibríonn go háitiúil, sioncronaíonn iCloud"},
+      {"title": "24 teanga", "text": "do thithe gan teorainneacha"},
+      {"title": "Dúchasach ar ardáin Apple", "text": "lena n-áirítear giuirléidí agus uaireadóir"}
+    ]
+  },
+  "lists": {
+    "label": "01 · Liostaí siopadóireachta",
+    "title": "Níos lú tapála.\nNíos mó siopadóireachta.",
+    "text": "Liosta siopadóireachta ar iPhone a líonann tú mar a smaoiníonn tú: scríobh táirge, cuir méid agus aonad leis, roghnaigh catagóir, tic é sa siopa agus aimsigh sa stair é an chéad uair eile.",
+    "bullets": [
+      "Cuir táirge amháin nó go leor isteach go tapa",
+      "Catagóirí, méideanna, aonaid agus ord de do rogha féin",
+      "Stair agus ceanáin ar láimh"
+    ],
+    "alt": "Liosta siopadóireachta Basket+ le catagóirí, méideanna agus dul chun cinn roinnte",
+    "ticket1_name": "trátaí",
+    "ticket1_qty": "4 cinn",
+    "ticket2_name": "pasta",
+    "ticket2_qty": "2 phaca"
+  },
+  "sharing": {
+    "label": "02 · Siopadóireacht roinnte",
+    "title": "Liosta amháin.\nGach duine ar an eolas.",
+    "text": "Liosta siopadóireachta roinnte: roinn liosta trí iCloud, féach athruithe daoine eile agus socraigh na mionsonraí sa chomhrá in aice le do shiopadóireacht. Tá gnáthroinnt agus comhrá liosta san áireamh i Free. [[Coinníollacha roinnte|icloud]]",
+    "badge": "Roinnt agus comhrá liosta: Free",
+    "alt": "Comhrá ar liosta roinnte saor in aisce de chuid Basket+",
+    "pill_sent": "Seolta",
+    "pill_received": "Faighte"
+  },
+  "events": {
+    "label": "03 · Imeachtaí · Plus",
+    "title": "Plean nach gcaillfear i measc teachtaireachtaí.",
+    "text": "Turas, cóisir nó féilte teaghlaigh. Tabhair liostaí le chéile in aon imeacht amháin, eagraigh na hullmhúcháin agus coinnigh an comhthéacs comhroinnte. Teastaíonn Basket+ Plus dá chuid féin ó gach rannpháirtí san imeacht.",
+    "chip": "Basket+ Plus",
+    "alt": "Scáileán imeachta Basket+ Plus le trí liosta agus socrú costas",
+    "cal_month": "DFÓ",
+    "cal_day": "24",
+    "cal_title": "Sos sna sléibhte",
+    "cal_meta": "3 liosta · 4 dhuine"
+  },
+  "analytics": {
+    "label": "04 · Admhálacha, tuarascálacha · Plus",
+    "title": "Ní mistéir é an caiteachas a thuilleadh.",
+    "text": "Coinnigh admhálacha, déan anailís ar chatagóirí agus ar shiopaí, lean treochtaí agus socraigh costais chomhroinnte – gan scarbhileog ar thaobh.",
+    "alt_report": "Tuarascáil Basket+ Plus a thaispeánann caiteachas na sé mhí seo caite",
+    "alt_receipts": "Stair admhálacha Basket+ Plus le dátaí, siopaí agus suimeanna",
+    "caption_title": "6 mhí in aon amharc amháin",
+    "caption_note": "Sonraí samplacha a thaispeántar san aip"
+  },
+  "plans": {
+    "label": "Basket+ Free agus Plus",
+    "title": "Tosaigh le liosta.\nFás nuair a theastaíonn.",
+    "text": "Fanann gnáthliostaí roinnte ar fáil gan síntiús. Cuireann Plus eagrú imeachtaí agus léargas iomlán ar chaiteachas leis.",
+    "free_kicker": "Don ghnáthlá",
+    "free_name": "Basket+ Free",
+    "free_items": [
+      "Liostaí siopadóireachta",
+      "Roinnt liostaí trí iCloud",
+      "Comhrá liosta"
+    ],
+    "free_ads": "Folaíonn sé fógraí discréideacha – cur síos thíos.",
+    "plus_kicker": "Níos mó eagrúcháin",
+    "plus_name": "Basket+ Plus",
+    "plus_items": [
+      "Gach rud as Free",
+      "Imeachtaí",
+      "Admhálacha agus tuarascálacha",
+      "Socrú costas",
+      "Gan fógraí"
+    ],
+    "price_note": "Taispeántar an praghas agus aon tréimhse trialach san aip agus ar an App Store sula gceannaíonn tú – ní liostaímid iad ar an suíomh seo. Baineann an síntiús leis an gcuntas Apple a cheannaigh é.",
+    "ads_title": "Fógraí in Free",
+    "ads_items": [
+      "Taispeántar fógraí dúchasacha discréideacha Google AdMob in dhá áit: ar an scáileán baile agus i gCaiteachas. Níl siad ar liostaí siopadóireachta ná sa chomhrá.",
+      "Tá pearsanú fógraí múchta. Ní chiallaíonn sé sin nach n-úsáideann Google aon aitheantóirí – d’fhéadfadh sé iad a úsáid, mar shampla, le haghaidh tomhais agus teorannú minicíochta.",
+      "Nuair a éilíonn an dlí é (LEE, an Ríocht Aontaithe, an Eilvéis), ní luchtaítear fógraí gan do thoiliú. D’fhéadfadh iPhone cead rianaithe a iarraidh freisin; má dhiúltaíonn tú, ní chuirtear bac ar an aip.",
+      "Le Plus imíonn na fógraí agus scoireann an aip de bheith á n-iarraidh."
+    ],
+    "ads_more": "Mionsonraí: [[polasaí príobháideachais|privacy]].",
+    "group_title": "Sampla: grúpa le Free agus Plus",
+    "group_intro": "Tá Plus ag duine amháin, úsáideann an chuid eile Free. Cad is féidir leo a dhéanamh le chéile?",
+    "group_rows": [
+      {
+        "what": "Gnáthliosta roinnte",
+        "result": "Cuireann gach duine táirgí leis agus tic leo agus scríobhann siad sa chomhrá liosta. Ní theastaíonn Plus ó dhuine ar bith."
+      },
+      {
+        "what": "Imeacht",
+        "result": "Teastaíonn Plus dá chuid féin ó gach rannpháirtí. Ní dhíghlasálann Plus duine amháin an t-imeacht do dhaoine eile – feicfidh duine gan Plus sa chuireadh go dteastaíonn Plus ón imeacht, agus ní bheidh sé in ann páirt a ghlacadh ann."
+      },
+      {
+        "what": "Admhálacha, tuarascálacha, socrú costas",
+        "result": "Ar fáil do dhuine a bhfuil Plus dá chuid féin aige amháin."
+      },
+      {
+        "what": "Nuair a rachaidh Plus in éag",
+        "result": "Fanann na sonraí. Bíonn an t-imeacht inléite amháin ansin agus is féidir leat é a fhágáil."
+      }
+    ]
+  },
+  "icloud": {
+    "label": "iCloud agus roinnt",
+    "title": "Gan cuntas Basket+.\nLe iCloud, nuair a theastaíonn.",
+    "text": "Cad a oibríonn gan iCloud agus cad a theastaíonn uaidh.",
+    "cards": [
+      {
+        "title": "Gan cuntas Basket+",
+        "text": "Ní chruthaíonn tú cuntas ná ní shíníonn tú isteach. Níl bunachar sonraí cuntas úsáideoirí dár gcuid féin againn."
+      },
+      {
+        "title": "Le iCloud",
+        "text": "Nuair atá tú sínithe isteach in iCloud, sioncronaíonn liostaí go huathoibríoch idir do ghléasanna agus tá an roinnt bunaithe ar chuirí Apple. Tá do chuid sonraí i do chuntas iCloud."
+      },
+      {
+        "title": "Gan iCloud",
+        "text": "Gan cuntas iCloud, nó nuair atá Basket+ múchta i socruithe iCloud, oibríonn an aip go háitiúil ar an ngléas – gan sioncronú ná roinnt."
+      },
+      {
+        "title": "Coinníollacha roinnte",
+        "text": "Teastaíonn iCloud agus Basket+ ón dá thaobh; glactar leis an gcuireadh i bhfuinneog chórais Apple. Is féidir le duine ar Free glacadh le gnáthliosta; teastaíonn Plus dá chuid féin don imeacht."
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Gearr agus soiléir.",
+    "items": [
+      {
+        "q": "An gá dom cuntas a bheith agam chun Basket+ a úsáid?",
+        "a": "Ní gá. Ní éilíonn Basket+ cuntas a chruthú ná síniú isteach. Úsáideann sioncronú agus roinnt iCloud, má tá tú sínithe isteach ann."
+      },
+      {
+        "q": "An n-oibríonn an aip gan iCloud?",
+        "a": "Oibríonn, go háitiúil ar an ngléas. Gan iCloud níl aon sioncronú idir gléasanna ná roinnt liostaí le daoine eile."
+      },
+      {
+        "q": "An gcosnaíonn liostaí roinnte airgead?",
+        "a": "Ní chosnaíonn. Tá gnáthroinnt liostaí agus comhrá ar liosta roinnte san áireamh i Basket+ Free. Teastaíonn Plus le haghaidh imeachtaí."
+      },
+      {
+        "q": "Cé atá in ann páirt a ghlacadh i liosta roinnte nó in imeacht?",
+        "a": "I ngnáthliosta: duine ar bith a bhfuil Basket+ agus iCloud aige, fiú ar Free. In imeacht: daoine a bhfuil Plus gníomhach dá gcuid féin acu amháin; ní dhíghlasálann Plus duine eile aon rud duitse."
+      },
+      {
+        "q": "Cad go díreach atá i Basket+ Plus?",
+        "a": "Díghlasálann Plus imeachtaí, admhálacha, tuarascálacha agus socrú costas, agus baineann sé fógraí den síntiúsóir."
+      },
+      {
+        "q": "Cad iad na fógraí a thaispeántar in Free?",
+        "a": "Fógraí dúchasacha discréideacha Google AdMob ar an scáileán baile agus i gCaiteachas, gan pearsanú. Nuair a éilíonn an dlí é, ní thaispeántar iad ach tar éis do thoilithe. Baineann Plus iad. Mionsonraí: [[polasaí príobháideachais|privacy]]."
+      },
+      {
+        "q": "Cé mhéad a chosnaíonn Plus agus an bhfuil tréimhse trialach ann?",
+        "a": "Feicfidh tú an praghas agus aon tréimhse trialach san aip agus ar an App Store sula gceannaíonn tú aon rud. Ní liostaímid iad ar an suíomh seo."
+      },
+      {
+        "q": "Conas a shioncronaítear mo chuid sonraí?",
+        "a": "Trí iCloud agus CloudKit. Fanann do chuid sonraí ar do ghléasanna agus i do chuntas iCloud; níl bunachar sonraí cuntas úsáideoirí dár gcuid féin againn."
+      },
+      {
+        "q": "An féidir liom an síntiús a chealú?",
+        "a": "Is féidir. Bainistíonn tú an síntiús i socruithe do chuntais Apple. Tar éis an chealaithe, fanann Plus gníomhach go dtí deireadh na tréimhse íoctha."
+      },
+      {
+        "q": "Cá bhfaighidh mé cabhair?",
+        "a": "Scríobh chuig [[hello@basketplus.app|email]] nó tabhair cuairt ar an [[leathanach tacaíochta|support]]."
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Ar fáil anois",
+    "title": "Áit don siopadóireacht.\nAgus suaimhneas timpeall uirthi.",
+    "icon_alt": "Deilbhín aip Basket+"
+  },
+  "footer": {
+    "tagline": "Siopadóireacht eagraithe le chéile.",
+    "col_app": "Aip",
+    "col_help": "Cabhair",
+    "col_docs": "Doiciméid",
+    "col_lang": "Teangacha",
+    "support": "Tacaíocht agus teagmháil",
+    "privacy": "Polasaí príobháideachais",
+    "terms": "Téarmaí úsáide",
+    "docs_note": "Tá tacaíocht agus an polasaí príobháideachais ar fáil i bPolainnis agus i mBéarla.",
+    "copyright": "© 2026 Basket+. Déanta go neamhspleách sa Pholainn."
+  }
+}
