@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://basketplus.app/</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://basketplus.app/en.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://basketplus.app/support.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://basketplus.app/support-en.html</loc><lastmod>2026-10-25</lastmod></url>
-  <url><loc>https://basketplus.app/privacy.html</loc><lastmod>2026-10-25</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://basketplus.app/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/en/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/support.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/support-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/support-en.html"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/support-en.html</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/support.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/support-en.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/support-en.html"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/privacy.html</loc>
+    <lastmod>2026-10-25</lastmod>
+  </url>
 </urlset>
