@@ -5,6 +5,28 @@
     <lastmod>2026-10-26</lastmod>
     <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
   </url>
   <url>
@@ -12,6 +34,666 @@
     <lastmod>2026-10-26</lastmod>
     <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/bg/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/hr/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/cs/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/da/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/nl/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/et/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/fi/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/fr/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/de/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/el/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/hu/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/ga/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/it/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/lv/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/lt/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/mt/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/pt/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/ro/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/sk/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/sl/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/es/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
+  </url>
+  <url>
+    <loc>https://basketplus.app/sv/</loc>
+    <lastmod>2026-10-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://basketplus.app/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://basketplus.app/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://basketplus.app/bg/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://basketplus.app/hr/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://basketplus.app/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://basketplus.app/da/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://basketplus.app/nl/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://basketplus.app/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://basketplus.app/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://basketplus.app/fr/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://basketplus.app/de/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://basketplus.app/el/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://basketplus.app/hu/"/>
+    <xhtml:link rel="alternate" hreflang="ga" href="https://basketplus.app/ga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://basketplus.app/it/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://basketplus.app/lv/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://basketplus.app/lt/"/>
+    <xhtml:link rel="alternate" hreflang="mt" href="https://basketplus.app/mt/"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://basketplus.app/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://basketplus.app/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://basketplus.app/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://basketplus.app/sl/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://basketplus.app/es/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://basketplus.app/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://basketplus.app/en/"/>
   </url>
   <url>
