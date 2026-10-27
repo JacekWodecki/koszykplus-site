@@ -1,0 +1,173 @@
+{
+  "meta": {"html_lang": "ro", "hreflang": "ro", "og_locale": "ro_RO", "native_name": "Română", "short": "RO"},
+  "seo": {
+    "title": "Basket+ – listă de cumpărături partajată pe iPhone",
+    "description": "Basket+ este o aplicație pentru liste de cumpărături partajate pe iPhone. Planifică cumpărăturile, partajează listele și urmărește cheltuielile. Free și Plus.",
+    "og_title": "Basket+ – listă de cumpărături partajată pe iPhone",
+    "og_description": "Aplicație pentru liste de cumpărături: liste partajate, bonuri și decontarea cumpărăturilor comune într-un loc liniștit. Descarcă din App Store.",
+    "og_image_alt": "Basket+ – aplicație pentru liste de cumpărături partajate pe iPhone",
+    "app_description": "Aplicație pentru liste de cumpărături pe iPhone: listă de cumpărături partajată, chat, evenimente, bonuri, rapoarte și decontarea cumpărăturilor comune."
+  },
+  "ui": {
+    "skip_link": "Sari la conținut",
+    "brand_aria": "Basket+ – pagina principală",
+    "nav_aria": "Navigare principală",
+    "nav_features": "Funcții",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free și Plus",
+    "nav_faq": "FAQ",
+    "nav_support": "Asistență",
+    "lang_menu_aria": "Alege limba paginii",
+    "lang_list_aria": "Limbile paginii"
+  },
+  "hero": {
+    "eyebrow": "Disponibilă în App Store",
+    "title": "Cumpărături care\n*se aranjează singure.*",
+    "lead": "Basket+ este o aplicație pentru liste de cumpărături pe iPhone: listă de cumpărături partajată, bonuri și decontarea cumpărăturilor comune într-un loc liniștit.",
+    "store_small": "Descarcă din",
+    "store_aria": "Descarcă din App Store – Basket+",
+    "qr_aria": "Scanează cu telefonul – Basket+ în App Store",
+    "qr_alt": "Cod QR care duce la Basket+ în App Store",
+    "see_how": "Vezi cum funcționează",
+    "platform_note": "Creată pentru iPhone, iPad și Apple Watch.",
+    "visual_aria": "Ecranul aplicației Basket+",
+    "alt": "Ecranul principal Basket+ cu mascota, evenimente și liste de cumpărături",
+    "note_top": "Gata de cumpărături împreună",
+    "note_bottom": "Adaugă cum îți place"
+  },
+  "availability": {
+    "title": "Disponibilitate",
+    "text": "Astăzi, Basket+ este în App Store în Polonia. În alte țări va apărea în curând – fără o dată anume.",
+    "store_hint": "Dacă App Store afișează „indisponibil”, aplicația nu e încă în țara ta.",
+    "notify_text": "Aștepți țara ta? Scrie-ne – răspundem manual și nu salvăm nimic pe site.",
+    "notify_link": "Spune-ne că aștepți",
+    "mail_subject": "Basket+ în țara mea",
+    "mail_body": "Bună ziua,\n\nVreau să folosesc Basket+ în această țară: \n\nCu respect",
+    "short": "Astăzi în App Store în Polonia, în alte țări în curând."
+  },
+  "trust": {
+    "aria": "Informații esențiale",
+    "items": [
+      {"title": "Fără cont Basket+", "text": "Funcționează local, iCloud sincronizează"},
+      {"title": "24 de limbi", "text": "pentru case fără frontiere"},
+      {"title": "Nativ pentru Apple", "text": "inclusiv widgeturi și ceas"}
+    ]
+  },
+  "lists": {
+    "label": "01 · Liste de cumpărături",
+    "title": "Mai puține atingeri.\nMai multe cumpărături.",
+    "text": "O listă de cumpărături pe iPhone pe care o completezi așa cum gândești: scrie produsul, adaugă cantitatea și unitatea, alege categoria, bifează-l în magazin și întoarce-te în istoric când ai nevoie de el din nou.",
+    "bullets": [
+      "Adăugare rapidă a unui produs sau a mai multor articole deodată",
+      "Categorii, cantități, unități și ordine proprie",
+      "Istoric și produse favorite la îndemână"
+    ],
+    "alt": "Listă de cumpărături Basket+ cu categorii, cantități și progres comun",
+    "ticket1_name": "roșii",
+    "ticket1_qty": "4 buc.",
+    "ticket2_name": "paste",
+    "ticket2_qty": "2 pach."
+  },
+  "sharing": {
+    "label": "02 · Cumpărături împreună",
+    "title": "O singură listă.\nToți la curent.",
+    "text": "O listă de cumpărături partajată: partajează lista prin iCloud, vezi modificările celorlalți și pune la punct detaliile în conversația de lângă cumpărături. Partajarea obișnuită și chatul listelor sunt în versiunea Free. [[Condițiile de partajare|icloud]]",
+    "badge": "Partajare și chat în liste: Free",
+    "alt": "Conversație pe o listă partajată gratuită în Basket+",
+    "pill_sent": "Trimis",
+    "pill_received": "Primit"
+  },
+  "events": {
+    "label": "03 · Evenimente · Plus",
+    "title": "Un plan care nu se pierde printre mesaje.",
+    "text": "O excursie, o petrecere sau sărbători în familie. Adună listele într-un singur eveniment, pune pregătirile în ordine și păstrează contextul comun. Fiecare participant la eveniment are nevoie de propriul Basket+ Plus.",
+    "chip": "Basket+ Plus",
+    "alt": "Ecranul unui eveniment Basket+ Plus cu trei liste și decontări",
+    "cal_month": "OCT",
+    "cal_day": "24",
+    "cal_title": "Weekend la munte",
+    "cal_meta": "3 liste · 4 persoane"
+  },
+  "analytics": {
+    "label": "04 · Bonuri și rapoarte · Plus",
+    "title": "Cheltuielile nu mai sunt un mister.",
+    "text": "Păstrează bonurile, analizează categoriile și magazinele, urmărește tendințele și decontează cumpărăturile comune – fără un tabel alături.",
+    "alt_report": "Raport Basket+ Plus cu cheltuielile din ultimele șase luni",
+    "alt_receipts": "Istoricul bonurilor în Basket+ Plus, cu date, magazine și sume",
+    "caption_title": "6 luni într-o singură vedere",
+    "caption_note": "Date exemplificative afișate în aplicație"
+  },
+  "plans": {
+    "label": "Basket+ Free și Plus",
+    "title": "Începe cu o listă.\nExtinde când ai nevoie.",
+    "text": "Listele partajate obișnuite rămân disponibile fără abonament. Plus adaugă organizarea evenimentelor și o imagine completă a cheltuielilor.",
+    "free_kicker": "Pentru fiecare zi",
+    "free_name": "Basket+ Free",
+    "free_items": ["Liste de cumpărături", "Partajarea listelor prin iCloud", "Chat în listă"],
+    "free_ads": "Include reclame discrete – descriere mai jos.",
+    "plus_kicker": "Mai multă organizare",
+    "plus_name": "Basket+ Plus",
+    "plus_items": ["Tot ce include Free", "Evenimente", "Bonuri și rapoarte", "Decontarea cheltuielilor", "Fără reclame"],
+    "price_note": "Prețul și eventuala perioadă de probă se văd în aplicație și în App Store înainte de achiziție – nu le afișăm pe site. Abonamentul se aplică contului Apple care l-a cumpărat.",
+    "ads_title": "Reclame în versiunea Free",
+    "ads_items": [
+      "Reclamele native discrete Google AdMob apar în două locuri: pe ecranul principal și în Cheltuieli. Nu apar în listele de cumpărături și nici în chat.",
+      "Personalizarea reclamelor este dezactivată. Asta nu înseamnă că Google nu folosește niciun identificator – îi poate folosi, de exemplu, pentru măsurare și limitarea frecvenței.",
+      "Acolo unde legea o cere (SEE, Regatul Unit, Elveția), reclamele nu se încarcă fără acordul tău. iPhone-ul te poate întreba și despre permisiunea de urmărire; dacă refuzi, aplicația continuă să funcționeze.",
+      "Cu Plus, reclamele dispar, iar aplicația nu le mai solicită."
+    ],
+    "ads_more": "Detalii: [[politica de confidențialitate|privacy]].",
+    "group_title": "Exemplu: un grup cu Free și Plus",
+    "group_intro": "O persoană are Plus, ceilalți folosesc Free. Ce pot face împreună?",
+    "group_rows": [
+      {"what": "O listă partajată obișnuită", "result": "Toți adaugă și bifează produse și scriu în chatul listei. Nimeni nu are nevoie de Plus."},
+      {"what": "Un eveniment", "result": "Fiecare participant are nevoie de propriul Plus. Plusul unei persoane nu deblochează evenimentul pentru ceilalți – cine nu are Plus va vedea în invitație că evenimentul necesită Plus și nu se va alătura."},
+      {"what": "Bonuri, rapoarte, decontări", "result": "Disponibile doar pentru o persoană cu propriul Plus."},
+      {"what": "Când expiră Plus", "result": "Datele rămân. Evenimentul devine doar pentru citire și îl poți părăsi."}
+    ]
+  },
+  "icloud": {
+    "label": "iCloud și partajare",
+    "title": "Fără cont Basket+.\nCu iCloud, când vrei.",
+    "text": "Ce funcționează fără iCloud și ce îl necesită.",
+    "cards": [
+      {"title": "Fără cont Basket+", "text": "Nu creezi un cont și nu te autentifici. Nu avem o bază de date proprie cu conturi de utilizator."},
+      {"title": "Cu iCloud", "text": "Când ai iCloud activ, listele se sincronizează automat între dispozitivele tale, iar partajarea se bazează pe invitațiile Apple. Datele tale sunt în contul tău iCloud."},
+      {"title": "Fără iCloud", "text": "Fără un cont iCloud sau când Basket+ este dezactivat în setările iCloud, aplicația funcționează local pe dispozitiv – fără sincronizare și partajare."},
+      {"title": "Condițiile de partajare", "text": "Ambele părți au nevoie de iCloud și de Basket+; invitația se acceptă în fereastra de sistem Apple. O listă obișnuită poate fi acceptată și de o persoană cu Free, un eveniment necesită propriul Plus."}
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Pe scurt și clar.",
+    "items": [
+      {"q": "Am nevoie de un cont ca să folosesc Basket+?", "a": "Nu. Basket+ nu necesită crearea unui cont sau autentificare. Sincronizarea și partajarea folosesc iCloud, dacă îl ai activ."},
+      {"q": "Funcționează aplicația fără iCloud?", "a": "Da, local pe dispozitiv. Fără iCloud nu există sincronizare între dispozitive și nici partajarea listelor cu alte persoane."},
+      {"q": "Sunt plătite listele partajate?", "a": "Nu. Partajarea obișnuită a listelor și conversația pe o listă partajată fac parte din Basket+ Free. Evenimentele necesită Plus."},
+      {"q": "Cine se poate alătura unei liste partajate sau unui eveniment?", "a": "O listă obișnuită – oricine are Basket+ și iCloud, inclusiv cu Free. Un eveniment – doar persoanele cu propriul Plus activ; Plusul altcuiva nu îți deblochează nimic."},
+      {"q": "Ce include exact Basket+ Plus?", "a": "Plus deblochează evenimentele, bonurile, rapoartele și decontarea cheltuielilor și elimină reclamele pentru abonat."},
+      {"q": "Ce reclame apar în versiunea Free?", "a": "Reclame native discrete Google AdMob pe ecranul principal și în Cheltuieli, fără personalizare. Acolo unde legea o cere, doar după acordul tău. Plus le elimină. Detalii: [[politica de confidențialitate|privacy]]."},
+      {"q": "Cât costă Plus și există perioadă de probă?", "a": "Prețul și eventuala perioadă de probă le vezi în aplicație și în App Store, înainte de a cumpăra ceva. Nu le afișăm pe site."},
+      {"q": "Cum se sincronizează datele mele?", "a": "Prin iCloud și CloudKit. Datele rămân pe dispozitivele tale și în contul tău iCloud; nu avem o bază de date proprie cu conturi de utilizator."},
+      {"q": "Pot anula abonamentul?", "a": "Da. Abonamentul îl gestionezi în setările contului Apple. După anulare, Plus rămâne activ până la sfârșitul perioadei plătite."},
+      {"q": "Unde pot primi ajutor?", "a": "Scrie la [[hello@basketplus.app|email]] sau intră pe [[pagina de asistență|support]]."}
+    ]
+  },
+  "closing": {
+    "eyebrow": "Disponibilă acum",
+    "title": "Loc pentru cumpărături.\nȘi liniște în jurul lor.",
+    "icon_alt": "Pictograma aplicației Basket+"
+  },
+  "footer": {
+    "tagline": "Cumpărături rezolvate împreună.",
+    "col_app": "Aplicația",
+    "col_help": "Ajutor",
+    "col_docs": "Documente",
+    "col_lang": "Limbi",
+    "support": "Asistență și contact",
+    "privacy": "Politica de confidențialitate",
+    "terms": "Termeni de utilizare",
+    "docs_note": "Asistența și politica de confidențialitate sunt disponibile în poloneză și engleză.",
+    "copyright": "© 2026 Basket+. Aplicație creată independent în Polonia."
+  }
+}

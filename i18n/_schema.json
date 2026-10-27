@@ -1,0 +1,508 @@
+{
+ "meta.html_lang": {
+  "max": 8,
+  "ctx": "Wartość atrybutu <html lang>. BCP 47: np. cs, de, pt-PT. Nie tłumaczyć.",
+  "fmt": "langtag"
+ },
+ "meta.hreflang": {
+  "max": 8,
+  "ctx": "Wartość hreflang w <link rel=alternate> i sitemap. Zwykle jak html_lang (dla portugalskiego: pt-PT).",
+  "fmt": "langtag"
+ },
+ "meta.og_locale": {
+  "max": 8,
+  "ctx": "og:locale w formacie jezyk_KRAJ, np. cs_CZ, de_DE, pt_PT, ga_IE.",
+  "fmt": "oglocale"
+ },
+ "meta.native_name": {
+  "max": 24,
+  "ctx": "Nazwa języka w nim samym (endonim), np. Čeština, Deutsch. Widoczna w przełączniku języka (lang= ustawiane automatycznie)."
+ },
+ "meta.short": {
+  "max": 4,
+  "ctx": "Skrót w przycisku przełącznika języka (2-3 litery wielkimi), np. CS, DE."
+ },
+ "seo.title": {
+  "max": 60,
+  "ctx": "<title> strony i og:title bazowo. TWARDY limit 60 znaków. Wzór: 'Basket+ – <fraza użytkownika: wspólna lista zakupów na iPhone>'. Unikalny w każdym języku.",
+  "seo": "title"
+ },
+ "seo.description": {
+  "max": 160,
+  "ctx": "meta description. TWARDY limit 160 znaków; ~120-160. Fraza 'aplikacja do wspólnych list zakupów na iPhone', zachęta do działania, wzmianka o Free i Plus. Unikalny.",
+  "seo": "description"
+ },
+ "seo.og_title": {
+  "max": 70,
+  "ctx": "og:title i twitter:title (może być identyczny z seo.title)."
+ },
+ "seo.og_description": {
+  "max": 200,
+  "ctx": "og:description i twitter:description (podgląd przy udostępnianiu linku). Zakończ zachętą do pobrania z App Store."
+ },
+ "seo.og_image_alt": {
+  "max": 120,
+  "ctx": "Tekst alternatywny grafiki og-image (og:image:alt)."
+ },
+ "seo.app_description": {
+  "max": 250,
+  "ctx": "Opis aplikacji w JSON-LD (SoftwareApplication.description). Zwykły tekst, bez znaczników, bez obietnic cen/ocen."
+ },
+ "ui.skip_link": {
+  "max": 40,
+  "ctx": "Link 'przejdź do treści' (widoczny po fokusie klawiatury)."
+ },
+ "ui.brand_aria": {
+  "max": 50,
+  "ctx": "aria-label logo w nagłówku (link do strony głównej tego języka). Zaczynaj od 'Basket+'."
+ },
+ "ui.nav_aria": {
+  "max": 40,
+  "ctx": "aria-label głównej nawigacji."
+ },
+ "ui.nav_features": {
+  "max": 18,
+  "ctx": "Pozycja menu -> sekcja funkcji (#features)."
+ },
+ "ui.nav_icloud": {
+  "max": 18,
+  "ctx": "Pozycja menu -> sekcja iCloud i udostępnianie (#icloud). W większości języków zostaje 'iCloud'."
+ },
+ "ui.nav_plans": {
+  "max": 18,
+  "ctx": "Pozycja menu -> sekcja Free i Plus (#plus)."
+ },
+ "ui.nav_faq": {
+  "max": 14,
+  "ctx": "Pozycja menu -> FAQ."
+ },
+ "ui.nav_support": {
+  "max": 20,
+  "ctx": "Pozycja menu -> strona wsparcia (jest tylko po polsku/angielsku; link ma hreflang=en)."
+ },
+ "ui.lang_menu_aria": {
+  "max": 50,
+  "ctx": "aria-label przycisku otwierającego listę języków."
+ },
+ "ui.lang_list_aria": {
+  "max": 40,
+  "ctx": "aria-label listy języków w stopce."
+ },
+ "hero.eyebrow": {
+  "max": 50,
+  "ctx": "Status nad nagłówkiem: aplikacja jest dostępna w App Store (bez wymieniania krajów)."
+ },
+ "hero.title": {
+  "max": 46,
+  "ctx": "H1. Dwie linie rozdzielone \\n; druga w *gwiazdkach* = akcent kolorem (dokładnie jedna para *…*). Max ~22 znaki na linię.",
+  "markup": "title",
+  "lines": 2
+ },
+ "hero.lead": {
+  "max": 230,
+  "ctx": "Akapit pod H1. Powinien zawierać naturalnie frazy: 'aplikacja do list zakupów', 'wspólna lista zakupów', 'lista zakupów na iPhone', 'rozliczanie wspólnych zakupów'."
+ },
+ "hero.store_small": {
+  "max": 22,
+  "ctx": "Mała etykieta nad 'App Store' w przycisku (EN: 'Download on the'). Samo 'App Store' nie jest tłumaczone."
+ },
+ "hero.store_aria": {
+  "max": 64,
+  "ctx": "aria-label przycisku App Store. MUSI zaczynać się od widocznego tekstu przycisku (store_small + 'App Store'), np. 'Pobierz w App Store – Basket+'."
+ },
+ "hero.qr_aria": {
+  "max": 72,
+  "ctx": "aria-label linku z kodem QR."
+ },
+ "hero.qr_alt": {
+  "max": 80,
+  "ctx": "Alt obrazu kodu QR."
+ },
+ "hero.see_how": {
+  "max": 32,
+  "ctx": "Link tekstowy przewijający do funkcji (po nim jest dekoracyjna strzałka)."
+ },
+ "hero.platform_note": {
+  "max": 80,
+  "ctx": "Uwaga pod przyciskami: iPhone, iPad, Apple Watch."
+ },
+ "hero.visual_aria": {
+  "max": 50,
+  "ctx": "aria-label grupy z ekranem aplikacji."
+ },
+ "hero.alt": {
+  "max": 130,
+  "ctx": "Alt zrzutu ekranu głównego (opisz co widać: maskotka, wydarzenia, listy)."
+ },
+ "hero.note_top": {
+  "max": 34,
+  "ctx": "Dekoracyjna plakietka (aria-hidden) przy zrzucie."
+ },
+ "hero.note_bottom": {
+  "max": 30,
+  "ctx": "Dekoracyjna plakietka (aria-hidden) przy zrzucie."
+ },
+ "availability.title": {
+  "max": 24,
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Nagłówek bloku o dostępności (pod przyciskami App Store).",
+  "optional": true
+ },
+ "availability.text": {
+  "max": 180,
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) FAKT: dziś aplikacja jest w App Store w Polsce; w innych krajach 'wkrótce' BEZ konkretnej daty.",
+  "optional": true
+ },
+ "availability.store_hint": {
+  "max": 130,
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Wyjaśnienie, że komunikat sklepu 'niedostępne' oznacza brak aplikacji w kraju użytkownika.",
+  "optional": true
+ },
+ "availability.notify_text": {
+  "max": 150,
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Zachęta do wysłania e-maila. MUSI zawierać: odpowiadamy ręcznie; niczego nie zapisujemy/nie zbieramy na stronie (brak formularzy).",
+  "optional": true
+ },
+ "availability.notify_link": {
+  "max": 45,
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Tekst linku mailto (hello@basketplus.app).",
+  "optional": true
+ },
+ "availability.mail_subject": {
+  "max": 70,
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Gotowy temat wiadomości (w języku strony). Bez znaków specjalnych poza interpunkcją.",
+  "optional": true
+ },
+ "availability.mail_body": {
+  "max": 300,
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Gotowa treść wiadomości: powitanie, '…chcę korzystać z Basket+ w tym kraju: ' (użytkownik dopisuje kraj), pozdrowienie. Użyj \\n dla nowych linii.",
+  "optional": true
+ },
+ "availability.short": {
+  "max": 90,
+  "ctx": "(OPCJONALNE – używane tylko przy fladze availability_notice w build.py, domyślnie wyłączonej; nie trzeba tłumaczyć) Jednozdaniowa wersja informacji o dostępności (sekcja końcowa).",
+  "optional": true
+ },
+ "trust.aria": {
+  "max": 40,
+  "ctx": "aria-label paska z trzema faktami."
+ },
+ "trust.items.*.title": {
+  "max": 28,
+  "ctx": "Pogrubiony fakt. 1: bez konta Basket+; 2: 24 języki aplikacji; 3: natywnie dla Apple. Zachowaj kolejność i liczbę (3)."
+ },
+ "trust.items.*.text": {
+  "max": 50,
+  "ctx": "Druga linia faktu. 1: działa lokalnie, iCloud synchronizuje; 2: dla domów bez granic; 3: także widżety i zegarek."
+ },
+ "lists.label": {
+  "max": 34,
+  "ctx": "Etykieta sekcji. Zachowaj numerację '01 · '."
+ },
+ "lists.title": {
+  "max": 46,
+  "ctx": "H2, dwie linie (\\n).",
+  "markup": "title",
+  "lines": 2
+ },
+ "lists.text": {
+  "max": 300,
+  "ctx": "Opis list zakupów. Naturalnie fraza 'lista zakupów na iPhone'."
+ },
+ "lists.bullets.*": {
+  "max": 70,
+  "ctx": "Punkty listy (3 pozycje)."
+ },
+ "lists.alt": {
+  "max": 130,
+  "ctx": "Alt zrzutu szczegółu listy."
+ },
+ "lists.ticket1_name": {
+  "max": 18,
+  "ctx": "Dekoracyjna etykieta (aria-hidden): nazwa produktu 1, np. pomidory."
+ },
+ "lists.ticket1_qty": {
+  "max": 10,
+  "ctx": "Ilość produktu 1, np. '4 szt.'."
+ },
+ "lists.ticket2_name": {
+  "max": 18,
+  "ctx": "Nazwa produktu 2, np. makaron."
+ },
+ "lists.ticket2_qty": {
+  "max": 10,
+  "ctx": "Ilość produktu 2, np. '2 op.'."
+ },
+ "sharing.label": {
+  "max": 34,
+  "ctx": "Etykieta sekcji '02 · …'."
+ },
+ "sharing.title": {
+  "max": 46,
+  "ctx": "H2, dwie linie (\\n).",
+  "markup": "title",
+  "lines": 2
+ },
+ "sharing.text": {
+  "max": 430,
+  "ctx": "Opis wspólnych list. Fraza 'wspólna lista zakupów'. Musi zawierać znacznik linku [[etykieta|icloud]] do sekcji warunków udostępniania. FAKT: zwykłe udostępnianie i czat list są w Free.",
+  "links": [
+   "icloud"
+  ]
+ },
+ "sharing.badge": {
+  "max": 44,
+  "ctx": "Plakietka: udostępnianie i czat list są w Free."
+ },
+ "sharing.alt": {
+  "max": 130,
+  "ctx": "Alt zrzutu czatu na liście."
+ },
+ "sharing.pill_sent": {
+  "max": 14,
+  "ctx": "Dekoracyjna etykieta (aria-hidden) 'Wysłano'."
+ },
+ "sharing.pill_received": {
+  "max": 14,
+  "ctx": "Dekoracyjna etykieta (aria-hidden) 'Odebrano'."
+ },
+ "events.label": {
+  "max": 34,
+  "ctx": "Etykieta sekcji '03 · … · Plus'."
+ },
+ "events.title": {
+  "max": 62,
+  "ctx": "H2 (może być bez \\n).",
+  "markup": "title"
+ },
+ "events.text": {
+  "max": 300,
+  "ctx": "Opis wydarzeń. FAKT: każdy uczestnik wydarzenia potrzebuje własnego Plus."
+ },
+ "events.chip": {
+  "max": 24,
+  "ctx": "Plakietka 'Basket+ Plus'."
+ },
+ "events.alt": {
+  "max": 130,
+  "ctx": "Alt zrzutu wydarzenia."
+ },
+ "events.cal_month": {
+  "max": 4,
+  "ctx": "Skrót miesiąca na dekoracyjnej karcie kalendarza (WIELKIMI), np. PAŹ / OCT."
+ },
+ "events.cal_day": {
+  "max": 2,
+  "ctx": "Dzień na karcie kalendarza (zwykle 24)."
+ },
+ "events.cal_title": {
+  "max": 26,
+  "ctx": "Przykładowa nazwa wydarzenia na karcie (dekoracja)."
+ },
+ "events.cal_meta": {
+  "max": 28,
+  "ctx": "Podtytuł karty: liczba list i osób (przykład)."
+ },
+ "analytics.label": {
+  "max": 40,
+  "ctx": "Etykieta sekcji '04 · … · Plus'."
+ },
+ "analytics.title": {
+  "max": 50,
+  "ctx": "H2.",
+  "markup": "title"
+ },
+ "analytics.text": {
+  "max": 260,
+  "ctx": "Opis paragonów i raportów. Fraza 'rozliczanie wspólnych zakupów'."
+ },
+ "analytics.alt_report": {
+  "max": 130,
+  "ctx": "Alt zrzutu raportu 6 miesięcy."
+ },
+ "analytics.alt_receipts": {
+  "max": 130,
+  "ctx": "Alt zrzutu historii paragonów."
+ },
+ "analytics.caption_title": {
+  "max": 34,
+  "ctx": "Podpis na zrzutach (tytuł)."
+ },
+ "analytics.caption_note": {
+  "max": 50,
+  "ctx": "Podpis: dane na zrzutach są przykładowe (EN: 'Sample data shown in the app'). NIE pisać 'prawdziwe/real'."
+ },
+ "plans.label": {
+  "max": 30,
+  "ctx": "Etykieta sekcji Free i Plus."
+ },
+ "plans.title": {
+  "max": 58,
+  "ctx": "H2, dwie linie (\\n).",
+  "markup": "title",
+  "lines": 2
+ },
+ "plans.text": {
+  "max": 220,
+  "ctx": "Wstęp sekcji."
+ },
+ "plans.free_kicker": {
+  "max": 26,
+  "ctx": "Mały nadtytuł karty Free."
+ },
+ "plans.free_name": {
+  "max": 24,
+  "ctx": "Nazwa planu: 'Basket+ Free'."
+ },
+ "plans.free_items.*": {
+  "max": 40,
+  "ctx": "Punkty planu Free (3)."
+ },
+ "plans.free_ads": {
+  "max": 60,
+  "ctx": "Informacja w karcie Free, że plan zawiera reklamy (opis poniżej)."
+ },
+ "plans.plus_kicker": {
+  "max": 26,
+  "ctx": "Mały nadtytuł karty Plus."
+ },
+ "plans.plus_name": {
+  "max": 24,
+  "ctx": "Nazwa planu: 'Basket+ Plus'."
+ },
+ "plans.plus_items.*": {
+  "max": 40,
+  "ctx": "Punkty planu Plus (5). Ostatni = brak reklam."
+ },
+ "plans.price_note": {
+  "max": 300,
+  "ctx": "Cena NIE jest podawana na stronie (decyzja otwarta). Napisz: cena i ewentualny okres próbny widoczne w aplikacji i App Store przed zakupem; subskrypcja dotyczy konta Apple, które ją wykupiło. NIE wpisywać kwot."
+ },
+ "plans.ads_title": {
+  "max": 40,
+  "ctx": "Nagłówek bloku o reklamach w Free."
+ },
+ "plans.ads_items.*": {
+  "max": 270,
+  "ctx": "4 punkty (kolejność ma znaczenie): 1) natywne reklamy Google AdMob w dwóch miejscach: ekran główny i Wydatki, nie na listach/czacie; 2) personalizacja wyłączona, ale Google może używać identyfikatorów do pomiaru i ograniczania częstotliwości; 3) tam gdzie wymaga prawo (EOG, UK, Szwajcaria) reklamy nie ładują się bez zgody, iPhone może zapytać o śledzenie, odmowa nie blokuje aplikacji; 4) w Plus reklamy znikają. FAKTY zweryfikowane z kodem aplikacji."
+ },
+ "plans.ads_more": {
+  "max": 80,
+  "ctx": "Zdanie z linkiem [[etykieta|privacy]] do polityki prywatności.",
+  "links": [
+   "privacy"
+  ]
+ },
+ "plans.group_title": {
+  "max": 50,
+  "ctx": "Nagłówek przykładu grupy Free + Plus."
+ },
+ "plans.group_intro": {
+  "max": 100,
+  "ctx": "Założenie przykładu: jedna osoba ma Plus, pozostałe Free."
+ },
+ "plans.group_rows.*.what": {
+  "max": 40,
+  "ctx": "Wiersz przykładu: 1 zwykła wspólna lista; 2 wydarzenie; 3 paragony/raporty/rozliczenia; 4 gdy Plus wygaśnie. Zachowaj 4 wiersze w tej kolejności."
+ },
+ "plans.group_rows.*.result": {
+  "max": 270,
+  "ctx": "Co dzieje się w danej sytuacji. FAKTY (docs/plus-model.md): wydarzenie wymaga własnego Plus każdego uczestnika, Plus innej osoby niczego nie odblokowuje; po wygaśnięciu Plus dane zostają, wydarzenie tylko do odczytu, można je opuścić."
+ },
+ "icloud.label": {
+  "max": 34,
+  "ctx": "Etykieta sekcji o iCloud (#icloud)."
+ },
+ "icloud.title": {
+  "max": 62,
+  "ctx": "H2, dwie linie (\\n).",
+  "markup": "title",
+  "lines": 2
+ },
+ "icloud.text": {
+  "max": 80,
+  "ctx": "Podtytuł: co działa bez iCloud, a co go wymaga."
+ },
+ "icloud.cards.*.title": {
+  "max": 34,
+  "ctx": "4 karty: brak konta Basket+; z iCloud; bez iCloud; warunki udostępniania. Zachowaj kolejność."
+ },
+ "icloud.cards.*.text": {
+  "max": 270,
+  "ctx": "Treść karty. FAKTY: brak konta; synchronizacja/udostępnianie przez iCloud (zaproszenia Apple); bez iCloud (lub wyłączony Basket+ w ustawieniach iCloud) aplikacja działa lokalnie; obie strony potrzebują iCloud i Basket+; zwykła lista także dla Free, wydarzenie wymaga własnego Plus."
+ },
+ "faq.label": {
+  "max": 12,
+  "ctx": "Etykieta sekcji FAQ."
+ },
+ "faq.title": {
+  "max": 40,
+  "ctx": "H2 sekcji FAQ."
+ },
+ "faq.items.*.q": {
+  "max": 92,
+  "ctx": "Pytanie FAQ (10 pozycji, ta sama kolejność; trafia do JSON-LD FAQPage)."
+ },
+ "faq.items.*.a": {
+  "max": 340,
+  "ctx": "Odpowiedź FAQ (trafia do JSON-LD jako zwykły tekst). Znaczniki: [[etykieta|privacy]], [[etykieta|support]], [[etykieta|email]] – ta sama liczba i nazwy jak w pl.json.",
+  "links": [
+   "privacy",
+   "support",
+   "email"
+  ]
+ },
+ "closing.eyebrow": {
+  "max": 50,
+  "ctx": "Status nad hasłem końcowym: dostępna teraz (bez wymieniania krajów)."
+ },
+ "closing.title": {
+  "max": 62,
+  "ctx": "H2 końcowe, dwie linie (\\n).",
+  "markup": "title",
+  "lines": 2
+ },
+ "closing.icon_alt": {
+  "max": 50,
+  "ctx": "Alt ikony aplikacji."
+ },
+ "footer.tagline": {
+  "max": 40,
+  "ctx": "Hasło w stopce."
+ },
+ "footer.col_app": {
+  "max": 20,
+  "ctx": "Nagłówek kolumny: aplikacja."
+ },
+ "footer.col_help": {
+  "max": 20,
+  "ctx": "Nagłówek kolumny: pomoc."
+ },
+ "footer.col_docs": {
+  "max": 20,
+  "ctx": "Nagłówek kolumny: dokumenty."
+ },
+ "footer.col_lang": {
+  "max": 20,
+  "ctx": "Nagłówek listy języków."
+ },
+ "footer.support": {
+  "max": 30,
+  "ctx": "Link do strony wsparcia (PL/EN)."
+ },
+ "footer.privacy": {
+  "max": 30,
+  "ctx": "Link do polityki prywatności (PL/EN) – NIE tłumaczymy samej polityki."
+ },
+ "footer.terms": {
+  "max": 30,
+  "ctx": "Link do warunków Apple (EULA)."
+ },
+ "footer.docs_note": {
+  "max": 120,
+  "ctx": "Informacja pod kolumnami: wsparcie i polityka prywatności są dostępne po polsku i angielsku (pokazywana na stronach innych niż pl/en)."
+ },
+ "footer.copyright": {
+  "max": 90,
+  "ctx": "Linia praw autorskich: © 2026 Basket+. Aplikacja tworzona niezależnie w Polsce."
+ }
+}

@@ -1,0 +1,237 @@
+{
+  "meta": {"html_lang": "mt", "hreflang": "mt", "og_locale": "mt_MT", "native_name": "Malti", "short": "MT"},
+  "seo": {
+    "title": "Basket+ – lista tax-xiri maqsuma għall-iPhone",
+    "description": "Basket+ hija app għal listi tax-xiri maqsuma fuq l-iPhone. Ippjana x-xiri, aqsam il-listi u żomm għajnejk fuq in-nefqa. Skopri l-verżjonijiet Free u Plus.",
+    "og_title": "Basket+ – lista tax-xiri maqsuma għall-iPhone",
+    "og_description": "App tal-lista tax-xiri: listi maqsuma, riċevuti u saldu tal-ispejjeż maqsuma f’post wieħed kalm. Niżżilha mill-App Store.",
+    "og_image_alt": "Basket+ – app għal listi tax-xiri maqsuma fuq l-iPhone",
+    "app_description": "App tal-lista tax-xiri għall-iPhone: lista tax-xiri maqsuma, chat, avvenimenti, riċevuti, rapporti u saldu tal-ispejjeż maqsuma."
+  },
+  "ui": {
+    "skip_link": "Aqbeż għall-kontenut",
+    "brand_aria": "Basket+ – paġna ewlenija",
+    "nav_aria": "Navigazzjoni ewlenija",
+    "nav_features": "Karatteristiċi",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free u Plus",
+    "nav_faq": "FAQ",
+    "nav_support": "Appoġġ",
+    "lang_menu_aria": "Agħżel il-lingwa tal-paġna",
+    "lang_list_aria": "Lingwi tal-paġna"
+  },
+  "hero": {
+    "eyebrow": "Disponibbli fuq l-App Store",
+    "title": "Ix-xiri li\n*jirranġa waħdu.*",
+    "lead": "Basket+ hija app tal-lista tax-xiri għall-iPhone: lista tax-xiri maqsuma, riċevuti u saldu tal-ispejjeż maqsuma, kollox f’post wieħed kalm.",
+    "store_small": "Niżżel minn",
+    "store_aria": "Niżżel minn App Store – Basket+",
+    "qr_aria": "Skennja bit-telefon – Basket+ fuq l-App Store",
+    "qr_alt": "Kodiċi QR li jwassal għal Basket+ fuq l-App Store",
+    "see_how": "Ara kif taħdem",
+    "platform_note": "Iddisinjata għall-iPhone, l-iPad u l-Apple Watch.",
+    "visual_aria": "Skrin tal-app Basket+",
+    "alt": "L-iskrin ewlieni ta’ Basket+ bil-mascot, l-avvenimenti u l-listi tax-xiri",
+    "note_top": "Lesta għax-xiri flimkien",
+    "note_bottom": "Żid kif jaqbillek"
+  },
+  "availability": {
+    "title": "Disponibbiltà",
+    "text": "Illum Basket+ hija fuq l-App Store fil-Polonja. F’aktar pajjiżi se tasal dalwaqt – mingħajr data speċifika.",
+    "store_hint": "Jekk l-App Store juri “mhux disponibbli”, l-app għadha mhix fil-pajjiż tiegħek.",
+    "notify_text": "Qed tistenna l-pajjiż tiegħek? Ikteb magħna – nirrispondu bl-idejn u ma niżżommu xejn fuq is-sit.",
+    "notify_link": "Ħallina nafu li qed tistenna",
+    "mail_subject": "Basket+ fil-pajjiż tiegħi",
+    "mail_body": "Bonġu,\n\nrrid nuża Basket+ f’dan il-pajjiż: \n\nGrazzi",
+    "short": "Illum fuq l-App Store fil-Polonja, f’pajjiżi oħra dalwaqt."
+  },
+  "trust": {
+    "aria": "Fatti ewlenin",
+    "items": [
+      {"title": "Bla kont Basket+", "text": "Taħdem lokalment, iCloud jissinkronizza"},
+      {"title": "24 lingwa", "text": "għal djar bla fruntieri"},
+      {"title": "Magħmula għall-Apple", "text": "inklużi l-widgets u l-arloġġ"}
+    ]
+  },
+  "lists": {
+    "label": "01 · Listi tax-xiri",
+    "title": "Inqas tapijiet.\nAktar xiri.",
+    "text": "Lista tax-xiri għall-iPhone li timlieha kif taħseb: ikteb il-prodott, żid il-kwantità u l-unità, agħżel il-kategorija, immarka l-oġġett fil-ħanut u sibu fl-istorja darb’oħra.",
+    "bullets": [
+      "Daħla mgħaġġla ta’ prodott wieħed jew ħafna",
+      "Kategoriji, kwantitajiet, unitajiet u ordni tiegħek",
+      "Storja u prodotti favoriti fil-qrib"
+    ],
+    "alt": "Lista tax-xiri ta’ Basket+ b’kategoriji, kwantitajiet u progress maqsum",
+    "ticket1_name": "tadam",
+    "ticket1_qty": "4 biċċiet",
+    "ticket2_name": "pasta",
+    "ticket2_qty": "2 pakketti"
+  },
+  "sharing": {
+    "label": "02 · Xiri flimkien",
+    "title": "Lista waħda.\nKulħadd aġġornat.",
+    "text": "Lista tax-xiri maqsuma: aqsam lista permezz ta’ iCloud, ara l-bidliet tal-oħrajn u qbel fuq id-dettalji fil-konversazzjoni ħdejn ix-xiri tiegħek. Il-qsim tas-soltu u ċ-chat tal-lista huma inklużi f’Free. [[Kundizzjonijiet tal-qsim|icloud]]",
+    "badge": "Qsim u chat tal-lista: Free",
+    "alt": "Konversazzjoni f’lista maqsuma b’xejn ta’ Basket+",
+    "pill_sent": "Mibgħut",
+    "pill_received": "Riċevut"
+  },
+  "events": {
+    "label": "03 · Avvenimenti · Plus",
+    "title": "Pjan li ma jintilifx fil-messaġġi.",
+    "text": "Vjaġġ, festa jew festi tal-familja. Ġbor il-listi f’avveniment wieħed, organizza t-tħejjijiet u żomm il-kuntest komuni. Kull parteċipant fl-avveniment għandu bżonn il-Basket+ Plus tiegħu stess.",
+    "chip": "Basket+ Plus",
+    "alt": "Skrin ta’ avveniment ta’ Basket+ Plus b’tliet listi u saldi",
+    "cal_month": "OTT",
+    "cal_day": "24",
+    "cal_title": "Weekend fil-muntanji",
+    "cal_meta": "3 listi · 4 persuni"
+  },
+  "analytics": {
+    "label": "04 · Riċevuti u rapporti · Plus",
+    "title": "In-nefqa ma tibqax misteru.",
+    "text": "Żomm ir-riċevuti, analizza l-kategoriji u l-ħwienet, segwi x-xejriet u saldja l-ispejjeż maqsuma – mingħajr spreadsheet maġenb.",
+    "alt_report": "Rapport ta’ Basket+ Plus li juri n-nefqa tal-aħħar sitt xhur",
+    "alt_receipts": "Storja tar-riċevuti ta’ Basket+ Plus b’dati, ħwienet u ammonti",
+    "caption_title": "6 xhur f’veduta waħda",
+    "caption_note": "Data ta’ eżempju murija fl-app"
+  },
+  "plans": {
+    "label": "Basket+ Free u Plus",
+    "title": "Ibda b’lista.\nIkber meta jkollok bżonn.",
+    "text": "Il-listi maqsuma tas-soltu jibqgħu disponibbli mingħajr abbonament. Plus iżid l-organizzazzjoni tal-avvenimenti u veduta sħiħa tan-nefqa.",
+    "free_kicker": "Għal kuljum",
+    "free_name": "Basket+ Free",
+    "free_items": [
+      "Listi tax-xiri",
+      "Qsim tal-listi permezz ta’ iCloud",
+      "Chat tal-lista"
+    ],
+    "free_ads": "Fiha reklami diskreti – id-deskrizzjoni hawn taħt.",
+    "plus_kicker": "Aktar organizzazzjoni",
+    "plus_name": "Basket+ Plus",
+    "plus_items": [
+      "Kollox minn Free",
+      "Avvenimenti",
+      "Riċevuti u rapporti",
+      "Saldu tal-ispejjeż",
+      "Bla reklami"
+    ],
+    "price_note": "Il-prezz u kwalunkwe perjodu ta’ prova jidhru fl-app u fl-App Store qabel ma tixtri – ma nippubblikawhomx f’dan is-sit. L-abbonament jappartjeni lill-kont Apple li xtrah.",
+    "ads_title": "Reklami f’Free",
+    "ads_items": [
+      "Reklami nattivi diskreti ta’ Google AdMob jidhru f’żewġ postijiet: fl-iskrin ewlieni u f’Nefqa. Ma jidhrux fil-listi tax-xiri jew fiċ-chat.",
+      "Il-personalizzazzjoni tar-reklami hija mitfija. Dan ma jfissirx li Google ma tuża l-ebda identifikatur – tista’ tużahom, pereżempju, għall-kejl u għall-limitazzjoni tal-frekwenza.",
+      "Fejn tirrikjedi l-liġi (ŻEE, ir-Renju Unit, l-Iżvizzera), ir-reklami ma jitgħabbewx mingħajr il-kunsens tiegħek. L-iPhone jista’ jistaqsi wkoll għal permess ta’ traċċar; ir-rifjut ma jbloccax l-app.",
+      "Bi Plus ir-reklami jisparixxu u l-app tieqaf titlobhom."
+    ],
+    "ads_more": "Dettalji: [[politika tal-privatezza|privacy]].",
+    "group_title": "Eżempju: grupp b’Free u Plus",
+    "group_intro": "Persuna waħda għandha Plus, l-oħrajn jużaw Free. X’jistgħu jagħmlu flimkien?",
+    "group_rows": [
+      {
+        "what": "Lista maqsuma tas-soltu",
+        "result": "Kulħadd iżid u jimmarka prodotti u jikteb fiċ-chat tal-lista. Ħadd m’għandu bżonn Plus."
+      },
+      {
+        "what": "Avveniment",
+        "result": "Kull parteċipant għandu bżonn il-Plus tiegħu stess. Il-Plus ta’ persuna waħda ma jiftaħx l-avveniment għall-oħrajn – min m’għandux Plus se jara fl-istedina li l-avveniment jeħtieġ Plus u ma jingħaqadx miegħu."
+      },
+      {
+        "what": "Riċevuti, rapporti, saldi",
+        "result": "Disponibbli biss għal persuna bil-Plus tagħha stess."
+      },
+      {
+        "what": "Meta Plus tiskadi",
+        "result": "Id-data tibqa’. L-avveniment imbagħad ikun għall-qari biss u tista’ titlaq minnu."
+      }
+    ]
+  },
+  "icloud": {
+    "label": "iCloud u qsim",
+    "title": "Bla kont Basket+.\nB’iCloud, meta trid.",
+    "text": "X’taħdem mingħajr iCloud u x’teħtieġu.",
+    "cards": [
+      {
+        "title": "Bla kont Basket+",
+        "text": "Ma toħloq kont u ma tidħolx. M’għandniex database tagħna ta’ kontijiet tal-utenti."
+      },
+      {
+        "title": "B’iCloud",
+        "text": "Meta tkun dħalt f’iCloud, il-listi jissinkronizzaw awtomatikament bejn l-apparati tiegħek u l-qsim jiddependi fuq stediniet ta’ Apple. Id-data tiegħek tinsab fil-kont iCloud tiegħek."
+      },
+      {
+        "title": "Mingħajr iCloud",
+        "text": "Mingħajr kont iCloud, jew meta Basket+ ikun mitfi fis-settings ta’ iCloud, l-app taħdem lokalment fuq l-apparat – mingħajr sinkronizzazzjoni u qsim."
+      },
+      {
+        "title": "Kundizzjonijiet tal-qsim",
+        "text": "Iż-żewġ naħat jeħtieġu iCloud u Basket+; l-istedina tiġi aċċettata fit-tieqa tas-sistema ta’ Apple. Lista tas-soltu tista’ taċċettaha wkoll persuna b’Free, avveniment jeħtieġ il-Plus tagħha stess."
+      }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Fil-qosor u b’mod ċar.",
+    "items": [
+      {
+        "q": "Għandi bżonn kont biex nuża Basket+?",
+        "a": "Le. Basket+ ma teħtieġx li toħloq kont jew tidħol. Is-sinkronizzazzjoni u l-qsim jużaw iCloud, jekk tkun dħalt fih."
+      },
+      {
+        "q": "L-app taħdem mingħajr iCloud?",
+        "a": "Iva, lokalment fuq l-apparat. Mingħajr iCloud ma hemm l-ebda sinkronizzazzjoni bejn l-apparati jew qsim tal-listi ma’ persuni oħra."
+      },
+      {
+        "q": "Il-listi maqsuma huma bi ħlas?",
+        "a": "Le. Il-qsim tas-soltu tal-listi u l-konversazzjoni f’lista maqsuma huma inklużi f’Basket+ Free. L-avvenimenti jeħtieġu Plus."
+      },
+      {
+        "q": "Min jista’ jingħaqad ma’ lista maqsuma jew avveniment?",
+        "a": "Lista tas-soltu: kull min għandu Basket+ u iCloud, anke b’Free. Avveniment: biss persuni bil-Plus attiv tagħhom stess; il-Plus ta’ ħaddieħor ma jiftaħlek xejn."
+      },
+      {
+        "q": "Xi jinkludi eżattament Basket+ Plus?",
+        "a": "Plus jiftaħ l-avvenimenti, ir-riċevuti, ir-rapporti u s-saldu tal-ispejjeż, u jneħħi r-reklami għas-sottoskrittur."
+      },
+      {
+        "q": "Liema reklami jidhru f’Free?",
+        "a": "Reklami nattivi diskreti ta’ Google AdMob fl-iskrin ewlieni u f’Nefqa, mingħajr personalizzazzjoni. Fejn tirrikjedi l-liġi, biss wara l-kunsens tiegħek. Plus ineħħihom. Dettalji: [[politika tal-privatezza|privacy]]."
+      },
+      {
+        "q": "Kemm jiswa Plus u hemm perjodu ta’ prova?",
+        "a": "Il-prezz u kwalunkwe perjodu ta’ prova se tarahom fl-app u fl-App Store qabel ma tixtri xi ħaġa. Ma nippubblikawhomx f’dan is-sit."
+      },
+      {
+        "q": "Kif tiġi sinkronizzata d-data tiegħi?",
+        "a": "Permezz ta’ iCloud u CloudKit. Id-data tiegħek tibqa’ fuq l-apparati tiegħek u fil-kont iCloud tiegħek; m’għandniex database tagħna ta’ kontijiet tal-utenti."
+      },
+      {
+        "q": "Nista’ nikkanċella l-abbonament?",
+        "a": "Iva. Tiġġestixxi l-abbonament fis-settings tal-kont Apple tiegħek. Wara l-kanċellazzjoni, Plus jibqa’ attiv sal-aħħar tal-perjodu mħallas."
+      },
+      {
+        "q": "Fejn nista’ nikseb għajnuna?",
+        "a": "Ikteb lil [[hello@basketplus.app|email]] jew żur il-[[paġna tal-appoġġ|support]]."
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Disponibbli issa",
+    "title": "Post għax-xiri.\nU kalma madwaru.",
+    "icon_alt": "Ikona tal-app Basket+"
+  },
+  "footer": {
+    "tagline": "Ix-xiri f’ordni, flimkien.",
+    "col_app": "App",
+    "col_help": "Għajnuna",
+    "col_docs": "Dokumenti",
+    "col_lang": "Lingwi",
+    "support": "Appoġġ u kuntatt",
+    "privacy": "Politika tal-privatezza",
+    "terms": "Termini tal-użu",
+    "docs_note": "L-appoġġ u l-politika tal-privatezza huma disponibbli bil-Pollakk u bl-Ingliż.",
+    "copyright": "© 2026 Basket+. Magħmula b’mod indipendenti fil-Polonja."
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "meta": {"html_lang": "et", "hreflang": "et", "og_locale": "et_EE", "native_name": "Eesti", "short": "ET"},
+  "seo": {
+    "title": "Basket+ – ühine ostunimekiri iPhone’ile",
+    "description": "Basket+ on ühiste ostunimekirjade rakendus iPhone’ile. Planeeri ostud, jaga nimekirju ja hoia kulud silma all. Tutvu Free ja Plus versiooniga.",
+    "og_title": "Basket+ – ühine ostunimekiri iPhone’ile",
+    "og_description": "Ostunimekirja rakendus: ühised nimekirjad, tšekid ja ühiste kulude jagamine ühes rahulikus kohas. Laadi alla App Store’ist.",
+    "og_image_alt": "Basket+ – ühiste ostunimekirjade rakendus iPhone’ile",
+    "app_description": "Ostunimekirja rakendus iPhone’ile: ühine ostunimekiri, vestlus, sündmused, tšekid, aruanded ja ühiste kulude jagamine."
+  },
+  "ui": {
+    "skip_link": "Mine sisu juurde",
+    "brand_aria": "Basket+ – avaleht",
+    "nav_aria": "Peamenüü",
+    "nav_features": "Võimalused",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free ja Plus",
+    "nav_faq": "KKK",
+    "nav_support": "Tugi",
+    "lang_menu_aria": "Vali lehe keel",
+    "lang_list_aria": "Lehe keeled"
+  },
+  "hero": {
+    "eyebrow": "Saadaval App Store’is",
+    "title": "Ostlemine, mis\n*sujub iseenesest.*",
+    "lead": "Basket+ on ostunimekirja rakendus iPhone’ile: ühine ostunimekiri, tšekid ja ühiste kulude jagamine – kõik ühes rahulikus kohas.",
+    "store_small": "Laadi alla teenusest",
+    "store_aria": "Laadi alla teenusest App Store – Basket+",
+    "qr_aria": "Skanni telefoniga – Basket+ App Store’is",
+    "qr_alt": "QR-kood, mis viib Basket+ lehele App Store’is",
+    "see_how": "Vaata, kuidas see töötab",
+    "platform_note": "Loodud iPhone’ile, iPadile ja Apple Watchile.",
+    "visual_aria": "Basket+ rakenduse ekraan",
+    "alt": "Basket+ avaekraan maskoti, sündmuste ja ostunimekirjadega",
+    "note_top": "Valmis ühisteks ostudeks",
+    "note_bottom": "Lisa oma moodi"
+  },
+  "availability": {
+    "title": "Saadavus",
+    "text": "Praegu on Basket+ App Store’is Poolas. Teistesse riikidesse jõuab see peagi – konkreetset kuupäeva veel pole.",
+    "store_hint": "Kui App Store näitab teadet „pole saadaval“, ei ole rakendus sinu riigis veel olemas.",
+    "notify_text": "Ootad oma riiki? Kirjuta meile – vastame käsitsi ega salvesta veebilehel midagi.",
+    "notify_link": "Anna teada, et ootad",
+    "mail_subject": "Basket+ minu riigis",
+    "mail_body": "Tere!\n\nTahan kasutada Basket+ selles riigis: \n\nParimate soovidega",
+    "short": "Praegu App Store’is Poolas, teistes riikides peagi."
+  },
+  "trust": {
+    "aria": "Olulisemad faktid",
+    "items": [
+      {"title": "Basket+ kontot pole vaja", "text": "Töötab kohalikult, iCloud sünkroonib"},
+      {"title": "24 keelt", "text": "kodudele ilma piirideta"},
+      {"title": "Loodud Apple’i seadmetele", "text": "ka vidinad ja kell"}
+    ]
+  },
+  "lists": {
+    "label": "01 · Ostunimekirjad",
+    "title": "Vähem toksimist.\nRohkem ostmist.",
+    "text": "Ostunimekiri iPhone’ile, mida täidad nii, nagu mõtled: sisesta toode, lisa kogus ja ühik, vali kategooria, märgi poes tehtuks ja leia see järgmisel korral ajaloost.",
+    "bullets": [
+      "Toodete kiire lisamine, ka mitu korraga",
+      "Kategooriad, kogused, ühikud ja oma järjekord",
+      "Ajalugu ja lemmiktooted käepärast"
+    ],
+    "alt": "Basket+ ostunimekiri kategooriate, koguste ja ühise edenemisega",
+    "ticket1_name": "tomatid",
+    "ticket1_qty": "4 tk",
+    "ticket2_name": "pasta",
+    "ticket2_qty": "2 pakki"
+  },
+  "sharing": {
+    "label": "02 · Ühised ostud",
+    "title": "Üks nimekiri.\nKõik kursis.",
+    "text": "Ühine ostunimekiri: jaga nimekirja iCloudi kaudu, näe teiste tehtud muudatusi ja lepi detailides kokku vestluses, otse ostude kõrval. Tavaline jagamine ja nimekirja vestlus kuuluvad Free versiooni. [[Jagamise tingimused|icloud]]",
+    "badge": "Nimekirja jagamine ja vestlus: Free",
+    "alt": "Vestlus tasuta jagatud Basket+ nimekirjas",
+    "pill_sent": "Saadetud",
+    "pill_received": "Saadud"
+  },
+  "events": {
+    "label": "03 · Sündmused · Plus",
+    "title": "Plaan, mis sõnumites ära ei kao.",
+    "text": "Reis, pidu või pere pühad. Pane nimekirjad kokku üheks sündmuseks, korralda ettevalmistused ja hoia ühine kontekst alles. Iga sündmuse osaline vajab oma Basket+ Plusi.",
+    "chip": "Basket+ Plus",
+    "alt": "Basket+ Plus sündmuse ekraan kolme nimekirja ja klaarimistega",
+    "cal_month": "OKT",
+    "cal_day": "24",
+    "cal_title": "Nädalavahetus mägedes",
+    "cal_meta": "3 nimekirja · 4 inimest"
+  },
+  "analytics": {
+    "label": "04 · Tšekid ja aruanded · Plus",
+    "title": "Kulud pole enam mõistatus.",
+    "text": "Hoia tšekke alles, analüüsi kategooriaid ja poode, jälgi trende ning jaga ühiseid kulusid – ilma tabelita kõrval.",
+    "alt_report": "Basket+ Plus aruanne viimase kuue kuu kuludega",
+    "alt_receipts": "Basket+ Plus tšekkide ajalugu kuupäevade, poodide ja summadega",
+    "caption_title": "6 kuud ühes vaates",
+    "caption_note": "Rakenduses kuvatud näidisandmed"
+  },
+  "plans": {
+    "label": "Basket+ Free ja Plus",
+    "title": "Alusta nimekirjaga.\nKasva, kui vaja.",
+    "text": "Tavalised ühised nimekirjad jäävad kättesaadavaks ilma tellimuseta. Plus lisab sündmuste korraldamise ja täieliku ülevaate kuludest.",
+    "free_kicker": "Igapäevaseks",
+    "free_name": "Basket+ Free",
+    "free_items": [
+      "Ostunimekirjad",
+      "Nimekirjade jagamine iCloudi kaudu",
+      "Nimekirja vestlus"
+    ],
+    "free_ads": "Sisaldab diskreetseid reklaame – kirjeldus allpool.",
+    "plus_kicker": "Rohkem korraldust",
+    "plus_name": "Basket+ Plus",
+    "plus_items": [
+      "Kõik Free versiooni võimalused",
+      "Sündmused",
+      "Tšekid ja aruanded",
+      "Kulude arveldus",
+      "Reklaamivaba"
+    ],
+    "price_note": "Hind ja võimalik prooviperiood on enne ostu nähtavad rakenduses ja App Store’is – me ei too neid veebilehel välja. Tellimus kuulub Apple’i kontole, mis selle ostis.",
+    "ads_title": "Reklaamid Free versioonis",
+    "ads_items": [
+      "Diskreetsed Google AdMobi natiivreklaamid ilmuvad kahes kohas: avaekraanil ja kulude vaates. Ostunimekirjades ja vestluses neid ei ole.",
+      "Reklaamide isikupärastamine on välja lülitatud. See ei tähenda, et Google ei kasutaks ühtegi identifikaatorit – ta võib neid kasutada näiteks mõõtmiseks ja kuvamissageduse piiramiseks.",
+      "Kus seadus seda nõuab (EMP, Ühendkuningriik, Šveits), ei laadita reklaame ilma sinu nõusolekuta. iPhone võib küsida ka jälgimisluba; keeldumine rakendust ei blokeeri.",
+      "Plusiga reklaamid kaovad ja rakendus ei küsi neid enam."
+    ],
+    "ads_more": "Üksikasjad: [[privaatsuspoliitika|privacy]].",
+    "group_title": "Näide: Free ja Plusiga grupp",
+    "group_intro": "Ühel inimesel on Plus, teised kasutavad Free versiooni. Mida nad koos teha saavad?",
+    "group_rows": [
+      {
+        "what": "Tavaline ühine nimekiri",
+        "result": "Kõik lisavad ja märgivad tooteid ning kirjutavad nimekirja vestluses. Plusi pole vaja kellelgi."
+      },
+      {
+        "what": "Sündmus",
+        "result": "Iga osaline vajab oma Plusi. Ühe inimese Plus ei ava sündmust teistele – Plusita inimene näeb kutses, et sündmus nõuab Plusi, ega saa sellega liituda."
+      },
+      {
+        "what": "Tšekid, aruanded, klaarimised",
+        "result": "Saadaval ainult inimesele, kellel on oma Plus."
+      },
+      {
+        "what": "Kui Plus aegub",
+        "result": "Andmed jäävad alles. Sündmus on siis ainult loetav ja sellest saab lahkuda."
+      }
+    ]
+  },
+  "icloud": {
+    "label": "iCloud ja jagamine",
+    "title": "Basket+ kontot pole.\niCloud, kui soovid.",
+    "text": "Mis töötab ilma iCloudita ja mis seda vajab.",
+    "cards": [
+      {
+        "title": "Basket+ kontot pole",
+        "text": "Sa ei loo kontot ega logi sisse. Meil pole oma kasutajakontode andmebaasi."
+      },
+      {
+        "title": "iCloudiga",
+        "text": "Kui oled iCloudi sisse logitud, sünkroonitakse nimekirjad automaatselt sinu seadmete vahel ja jagamine põhineb Apple’i kutsetel. Sinu andmed asuvad sinu iCloudi kontol."
+      },
+      {
+        "title": "Ilma iCloudita",
+        "text": "Ilma iCloudi kontota või kui Basket+ on iCloudi seadetes välja lülitatud, töötab rakendus seadmes kohalikult – ilma sünkroonimise ja jagamiseta."
+      },
+      {
+        "title": "Jagamise tingimused",
+        "text": "Mõlemad pooled vajavad iCloudi ja Basket+ rakendust; kutse võetakse vastu Apple’i süsteemiaknas. Tavalise nimekirja saab vastu võtta ka Free kasutaja, sündmus nõuab oma Plusi."
+      }
+    ]
+  },
+  "faq": {
+    "label": "KKK",
+    "title": "Lühidalt ja selgelt.",
+    "items": [
+      {
+        "q": "Kas Basket+ kasutamiseks on vaja kontot?",
+        "a": "Ei. Basket+ ei nõua konto loomist ega sisselogimist. Sünkroonimine ja jagamine kasutavad iCloudi, kui oled sinna sisse logitud."
+      },
+      {
+        "q": "Kas rakendus töötab ilma iCloudita?",
+        "a": "Jah, kohalikult seadmes. Ilma iCloudita ei ole seadmete vahel sünkroonimist ega nimekirjade jagamist teistega."
+      },
+      {
+        "q": "Kas ühised nimekirjad on tasulised?",
+        "a": "Ei. Tavaline nimekirjade jagamine ja vestlus ühises nimekirjas kuuluvad Basket+ Free hulka. Sündmused nõuavad Plusi."
+      },
+      {
+        "q": "Kes saab ühise nimekirja või sündmusega liituda?",
+        "a": "Tavalise nimekirjaga: igaüks, kellel on Basket+ ja iCloud, ka Free versioonis. Sündmusega: ainult inimesed, kellel on oma aktiivne Plus; kellegi teise Plus sulle midagi ei ava."
+      },
+      {
+        "q": "Mida Basket+ Plus täpselt sisaldab?",
+        "a": "Plus avab sündmused, tšekid, aruanded ja kulude arveldamise ning eemaldab tellijalt reklaamid."
+      },
+      {
+        "q": "Milliseid reklaame Free versioonis näidatakse?",
+        "a": "Diskreetseid Google AdMobi natiivreklaame avaekraanil ja kulude vaates, ilma isikupärastamiseta. Kus seadus seda nõuab, alles pärast sinu nõusolekut. Plus eemaldab need. Üksikasjad: [[privaatsuspoliitika|privacy]]."
+      },
+      {
+        "q": "Kui palju Plus maksab ja kas on prooviperiood?",
+        "a": "Hinda ja võimalikku prooviperioodi näed rakenduses ja App Store’is enne, kui midagi ostad. Veebilehel me neid ei too."
+      },
+      {
+        "q": "Kuidas minu andmed sünkroonitakse?",
+        "a": "iCloudi ja CloudKiti kaudu. Sinu andmed jäävad sinu seadmetesse ja iCloudi kontole; meil pole oma kasutajakontode andmebaasi."
+      },
+      {
+        "q": "Kas tellimuse saab tühistada?",
+        "a": "Jah. Tellimust haldad oma Apple’i konto seadetes. Pärast tühistamist jääb Plus aktiivseks tasutud perioodi lõpuni."
+      },
+      {
+        "q": "Kust abi saan?",
+        "a": "Kirjuta aadressile [[hello@basketplus.app|email]] või külasta [[tugilehte|support]]."
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Saadaval nüüd",
+    "title": "Koht ostudele.\nJa rahu nende ümber.",
+    "icon_alt": "Basket+ rakenduse ikoon"
+  },
+  "footer": {
+    "tagline": "Ostud korras, koos.",
+    "col_app": "Rakendus",
+    "col_help": "Abi",
+    "col_docs": "Dokumendid",
+    "col_lang": "Keeled",
+    "support": "Tugi ja kontakt",
+    "privacy": "Privaatsuspoliitika",
+    "terms": "Kasutustingimused",
+    "docs_note": "Tugi ja privaatsuspoliitika on saadaval poola ja inglise keeles.",
+    "copyright": "© 2026 Basket+. Sõltumatult loodud Poolas."
+  }
+}

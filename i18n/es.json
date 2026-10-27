@@ -1,0 +1,173 @@
+{
+  "meta": {"html_lang": "es", "hreflang": "es", "og_locale": "es_ES", "native_name": "Español", "short": "ES"},
+  "seo": {
+    "title": "Basket+ – lista de la compra compartida para iPhone",
+    "description": "Basket+ es la app de lista de la compra compartida para iPhone. Planifica tus compras, comparte listas y controla los gastos. Descubre Free y Plus.",
+    "og_title": "Basket+ – lista de la compra compartida para iPhone",
+    "og_description": "Una app de lista de la compra: listas compartidas, tickets y reparto de gastos comunes en un solo lugar tranquilo. Descárgala en el App Store.",
+    "og_image_alt": "Basket+ – la app de lista de la compra compartida para iPhone",
+    "app_description": "Una app de lista de la compra para iPhone: lista de la compra compartida, chat, eventos, tickets, informes y reparto de gastos comunes."
+  },
+  "ui": {
+    "skip_link": "Saltar al contenido",
+    "brand_aria": "Basket+ – inicio",
+    "nav_aria": "Navegación principal",
+    "nav_features": "Funciones",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free y Plus",
+    "nav_faq": "FAQ",
+    "nav_support": "Soporte",
+    "lang_menu_aria": "Elegir el idioma de la página",
+    "lang_list_aria": "Idiomas de la página"
+  },
+  "hero": {
+    "eyebrow": "Disponible en el App Store",
+    "title": "La compra que\n*se ordena sola.*",
+    "lead": "Basket+ es una app de lista de la compra para iPhone: una lista de la compra compartida, tickets y reparto de los gastos comunes, todo en un solo lugar tranquilo.",
+    "store_small": "Descárgalo en el",
+    "store_aria": "Descárgalo en el App Store – Basket+",
+    "qr_aria": "Escanea con tu móvil – Basket+ en el App Store",
+    "qr_alt": "Código QR que lleva a Basket+ en el App Store",
+    "see_how": "Mira cómo funciona",
+    "platform_note": "Diseñada para iPhone, iPad y Apple Watch.",
+    "visual_aria": "Una pantalla de Basket+",
+    "alt": "La pantalla de inicio de Basket+ con su mascota, eventos y listas de la compra",
+    "note_top": "Lista para comprar en equipo",
+    "note_bottom": "Añade a tu manera"
+  },
+  "availability": {
+    "title": "Disponibilidad",
+    "text": "Hoy Basket+ está en el App Store en Polonia. En más países llegará pronto, sin fecha concreta por ahora.",
+    "store_hint": "Si el App Store muestra «no disponible», la app todavía no está en tu país.",
+    "notify_text": "¿Esperas a tu país? Escríbenos: respondemos a mano y no guardamos nada en esta web.",
+    "notify_link": "Avísanos de que estás esperando",
+    "mail_subject": "Basket+ en mi país",
+    "mail_body": "Hola:\n\nMe gustaría usar Basket+ en este país: \n\nUn saludo",
+    "short": "Hoy en el App Store en Polonia; en más países, pronto."
+  },
+  "trust": {
+    "aria": "Lo esencial",
+    "items": [
+      {"title": "Sin cuenta de Basket+", "text": "Funciona en local, iCloud sincroniza"},
+      {"title": "24 idiomas", "text": "para hogares sin fronteras"},
+      {"title": "Nativa de Apple", "text": "con widgets y reloj incluidos"}
+    ]
+  },
+  "lists": {
+    "label": "01 · Listas de la compra",
+    "title": "Menos teclear.\nMás comprar.",
+    "text": "Una lista de la compra para iPhone que rellenas como piensas: escribe un producto, añade cantidad y unidad, elige una categoría, táchalo en la tienda y recupéralo del historial cuando vuelva a hacerte falta.",
+    "bullets": [
+      "Añade uno o varios productos de una vez, rápidamente",
+      "Categorías, cantidades, unidades y orden personalizado",
+      "Historial y productos favoritos siempre a mano"
+    ],
+    "alt": "Una lista de la compra de Basket+ con categorías, cantidades y progreso compartido",
+    "ticket1_name": "tomates",
+    "ticket1_qty": "4 uds.",
+    "ticket2_name": "pasta",
+    "ticket2_qty": "2 paq."
+  },
+  "sharing": {
+    "label": "02 · Compra en común",
+    "title": "Una lista.\nTodos al día.",
+    "text": "Una lista de la compra compartida: comparte una lista con iCloud, ve los cambios de los demás y aclara los detalles en el chat, justo al lado de tu compra. Compartir listas de forma estándar y el chat de la lista están incluidos en Free. [[Requisitos para compartir|icloud]]",
+    "badge": "Compartir y chat de lista: Free",
+    "alt": "Una conversación en una lista compartida gratuita de Basket+",
+    "pill_sent": "Enviado",
+    "pill_received": "Recibido"
+  },
+  "events": {
+    "label": "03 · Eventos · Plus",
+    "title": "Un plan que no se pierde entre mensajes.",
+    "text": "Un viaje, una fiesta o las vacaciones en familia. Reúne varias listas en un evento, organiza los preparativos y mantén el contexto en común. Cada participante del evento necesita su propio Basket+ Plus.",
+    "chip": "Basket+ Plus",
+    "alt": "Pantalla de un evento de Basket+ Plus con tres listas y liquidaciones",
+    "cal_month": "OCT",
+    "cal_day": "24",
+    "cal_title": "Fin de semana en la sierra",
+    "cal_meta": "3 listas · 4 personas"
+  },
+  "analytics": {
+    "label": "04 · Tickets e informes · Plus",
+    "title": "Los gastos dejan de ser un misterio.",
+    "text": "Guarda tus tickets, analiza categorías y tiendas, sigue las tendencias y reparte los gastos de las compras compartidas, sin hoja de cálculo aparte.",
+    "alt_report": "Un informe de Basket+ Plus con los gastos de los últimos seis meses",
+    "alt_receipts": "Historial de tickets de Basket+ Plus con fechas, tiendas e importes",
+    "caption_title": "6 meses en una sola vista",
+    "caption_note": "Datos de ejemplo que se muestran en la app"
+  },
+  "plans": {
+    "label": "Basket+ Free y Plus",
+    "title": "Empieza con una lista.\nCrece cuando lo necesites.",
+    "text": "Las listas compartidas estándar siguen disponibles sin suscripción. Plus añade la organización de eventos y una visión completa de tus gastos.",
+    "free_kicker": "Para el día a día",
+    "free_name": "Basket+ Free",
+    "free_items": ["Listas de la compra", "Listas compartidas con iCloud", "Chat de la lista"],
+    "free_ads": "Incluye anuncios discretos: detalles abajo.",
+    "plus_kicker": "Más organización",
+    "plus_name": "Basket+ Plus",
+    "plus_items": ["Todo lo de Free", "Eventos", "Tickets e informes", "Liquidación de gastos", "Sin anuncios"],
+    "price_note": "El precio y el posible periodo de prueba se muestran en la app y en el App Store antes de comprar; no los indicamos en esta web. La suscripción pertenece a la cuenta de Apple que la contrató.",
+    "ads_title": "Anuncios en la versión Free",
+    "ads_items": [
+      "Aparecen anuncios nativos y discretos de Google AdMob en dos lugares: la pantalla de inicio y Gastos. No se muestran en las listas de la compra ni en el chat.",
+      "La personalización de anuncios está desactivada. Eso no significa que Google no use ningún identificador: puede usarlos, por ejemplo, para medición y para limitar la frecuencia de los anuncios.",
+      "Donde lo exige la ley (EEE, Reino Unido, Suiza), los anuncios no se cargan sin tu consentimiento. Además, el iPhone puede pedirte permiso de seguimiento; si lo rechazas, la app sigue funcionando.",
+      "Con Plus los anuncios desaparecen y la app deja de solicitarlos."
+    ],
+    "ads_more": "Detalles: [[política de privacidad|privacy]].",
+    "group_title": "Ejemplo: un grupo con Free y Plus",
+    "group_intro": "Una persona tiene Plus y el resto usa Free. ¿Qué pueden hacer juntas?",
+    "group_rows": [
+      {"what": "Una lista compartida estándar", "result": "Todos añaden y tachan productos y escriben en el chat de la lista. Nadie necesita Plus."},
+      {"what": "Un evento", "result": "Cada participante necesita su propio Plus. El Plus de una persona no desbloquea el evento para los demás: quien no tenga Plus verá en la invitación que el evento requiere Plus y no podrá unirse."},
+      {"what": "Tickets, informes, liquidaciones", "result": "Solo disponibles para quien tenga su propio Plus."},
+      {"what": "Cuando Plus caduca", "result": "Tus datos se conservan. El evento pasa a ser de solo lectura y puedes salir de él."}
+    ]
+  },
+  "icloud": {
+    "label": "iCloud y compartir",
+    "title": "Sin cuenta de Basket+.\nCon iCloud, si quieres.",
+    "text": "Qué funciona sin iCloud y qué lo necesita.",
+    "cards": [
+      {"title": "Sin cuenta de Basket+", "text": "No creas ninguna cuenta ni inicias sesión. No tenemos una base de datos propia de cuentas de usuario."},
+      {"title": "Con iCloud", "text": "Si has iniciado sesión en iCloud, las listas se sincronizan solas entre tus dispositivos y compartir se apoya en las invitaciones de Apple. Tus datos están en tu cuenta de iCloud."},
+      {"title": "Sin iCloud", "text": "Sin cuenta de iCloud, o con Basket+ desactivado en los ajustes de iCloud, la app funciona en local en el dispositivo, sin sincronización ni posibilidad de compartir."},
+      {"title": "Requisitos para compartir", "text": "Ambas personas necesitan iCloud y Basket+; la invitación se acepta en el cuadro del sistema de Apple. Una lista estándar también puede aceptarla alguien con Free; un evento requiere su propio Plus."}
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Breve y claro.",
+    "items": [
+      {"q": "¿Necesito una cuenta para usar Basket+?", "a": "No. Basket+ no requiere crear una cuenta ni iniciar sesión. La sincronización y compartir usan iCloud, si has iniciado sesión en él."},
+      {"q": "¿Funciona la app sin iCloud?", "a": "Sí, en local en el dispositivo. Sin iCloud no hay sincronización entre dispositivos ni se pueden compartir listas con otras personas."},
+      {"q": "¿Son de pago las listas compartidas?", "a": "No. Compartir listas de forma estándar y conversar en una lista compartida forman parte de Basket+ Free. Los eventos requieren Plus."},
+      {"q": "¿Quién puede unirse a una lista compartida o a un evento?", "a": "A una lista estándar: cualquiera con Basket+ e iCloud, también con Free. A un evento: solo quienes tengan su propio Plus activo; el Plus de otra persona no te desbloquea nada."},
+      {"q": "¿Qué incluye exactamente Basket+ Plus?", "a": "Plus desbloquea los eventos, los tickets, los informes y la liquidación de gastos, y quita los anuncios a la persona suscrita."},
+      {"q": "¿Qué anuncios hay en Free?", "a": "Anuncios nativos y discretos de Google AdMob en la pantalla de inicio y en Gastos, sin personalización. Donde lo exige la ley, solo tras tu consentimiento. Plus los elimina. Detalles: [[política de privacidad|privacy]]."},
+      {"q": "¿Cuánto cuesta Plus y hay periodo de prueba?", "a": "Verás el precio y el posible periodo de prueba en la app y en el App Store antes de comprar nada. No los indicamos en esta web."},
+      {"q": "¿Cómo se sincronizan mis datos?", "a": "A través de iCloud y CloudKit. Tus datos permanecen en tus dispositivos y en tu cuenta de iCloud; no tenemos una base de datos propia de cuentas de usuario."},
+      {"q": "¿Puedo cancelar la suscripción?", "a": "Sí. La suscripción se gestiona en los ajustes de tu cuenta de Apple. Tras cancelarla, Plus sigue activo hasta el final del periodo pagado."},
+      {"q": "¿Dónde puedo obtener ayuda?", "a": "Escribe a [[hello@basketplus.app|email]] o visita la [[página de soporte|support]]."}
+    ]
+  },
+  "closing": {
+    "eyebrow": "Disponible ya",
+    "title": "Un lugar para la compra.\nY calma a su alrededor.",
+    "icon_alt": "Icono de la app Basket+"
+  },
+  "footer": {
+    "tagline": "La compra, entre todos.",
+    "col_app": "App",
+    "col_help": "Ayuda",
+    "col_docs": "Documentos",
+    "col_lang": "Idiomas",
+    "support": "Soporte y contacto",
+    "privacy": "Política de privacidad",
+    "terms": "Condiciones de uso",
+    "docs_note": "El soporte y la política de privacidad están disponibles en polaco y en inglés.",
+    "copyright": "© 2026 Basket+. App creada de forma independiente en Polonia."
+  }
+}

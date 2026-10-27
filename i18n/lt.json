@@ -1,0 +1,237 @@
+{
+  "meta": {"html_lang": "lt", "hreflang": "lt", "og_locale": "lt_LT", "native_name": "Lietuvių", "short": "LT"},
+  "seo": {
+    "title": "Basket+ – bendras pirkinių sąrašas iPhone",
+    "description": "Basket+ – bendrų pirkinių sąrašų programa iPhone. Planuokite pirkinius, bendrinkite sąrašus ir sekite išlaidas. Susipažinkite su Free ir Plus versijomis.",
+    "og_title": "Basket+ – bendras pirkinių sąrašas iPhone",
+    "og_description": "Pirkinių sąrašo programa: bendri sąrašai, kvitai ir bendrų išlaidų dalijimasis vienoje ramioje vietoje. Atsisiųskite iš „App Store“.",
+    "og_image_alt": "Basket+ – bendrų pirkinių sąrašų programa iPhone",
+    "app_description": "Pirkinių sąrašo programa „iPhone“: bendras pirkinių sąrašas, pokalbiai, renginiai, kvitai, ataskaitos ir bendrų išlaidų dalijimasis."
+  },
+  "ui": {
+    "skip_link": "Pereiti prie turinio",
+    "brand_aria": "Basket+ – pagrindinis puslapis",
+    "nav_aria": "Pagrindinė naršymo juosta",
+    "nav_features": "Galimybės",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free ir Plus",
+    "nav_faq": "DUK",
+    "nav_support": "Palaikymas",
+    "lang_menu_aria": "Pasirinkite puslapio kalbą",
+    "lang_list_aria": "Puslapio kalbos"
+  },
+  "hero": {
+    "eyebrow": "Pasiekiama „App Store“",
+    "title": "Apsipirkimas, kuris\n*susitvarko pats.*",
+    "lead": "Basket+ – pirkinių sąrašo programa „iPhone“: bendras pirkinių sąrašas, kvitai ir bendrų išlaidų dalijimasis – viskas vienoje ramioje vietoje.",
+    "store_small": "Atsisiųsti iš",
+    "store_aria": "Atsisiųsti iš App Store – Basket+",
+    "qr_aria": "Nuskaitykite telefonu – „Basket+“ „App Store“",
+    "qr_alt": "QR kodas, vedantis į „Basket+“ „App Store“",
+    "see_how": "Pažiūrėkite, kaip tai veikia",
+    "platform_note": "Sukurta „iPhone“, „iPad“ ir „Apple Watch“.",
+    "visual_aria": "„Basket+“ programos ekranas",
+    "alt": "Pagrindinis „Basket+“ ekranas su talismanu, renginiais ir pirkinių sąrašais",
+    "note_top": "Pasiruošę bendriems pirkiniams",
+    "note_bottom": "Pridėkite savaip"
+  },
+  "availability": {
+    "title": "Prieinamumas",
+    "text": "Šiuo metu „Basket+“ yra „App Store“ Lenkijoje. Kitose šalyse netrukus – tikslios datos kol kas nėra.",
+    "store_hint": "Jei „App Store“ rodo „nepasiekiama“, programos jūsų šalyje dar nėra.",
+    "notify_text": "Laukiate savo šalies? Parašykite mums – atsakome patys ir svetainėje nieko nesaugome.",
+    "notify_link": "Pranešti, kad laukiate",
+    "mail_subject": "Basket+ mano šalyje",
+    "mail_body": "Sveiki,\n\nnoriu naudotis Basket+ šioje šalyje: \n\nPagarbiai",
+    "short": "Šiuo metu „App Store“ Lenkijoje, kitose šalyse netrukus."
+  },
+  "trust": {
+    "aria": "Svarbiausi faktai",
+    "items": [
+      {"title": "Be „Basket+“ paskyros", "text": "Veikia vietoje, „iCloud“ sinchronizuoja"},
+      {"title": "24 kalbos", "text": "namams be sienų"},
+      {"title": "Sukurta „Apple“ įrenginiams", "text": "įskaitant valdiklius ir laikrodį"}
+    ]
+  },
+  "lists": {
+    "label": "01 · Pirkinių sąrašai",
+    "title": "Mažiau bakstelėjimų.\nDaugiau apsipirkimo.",
+    "text": "Pirkinių sąrašas „iPhone“, kurį pildote taip, kaip galvojate: įrašykite prekę, pridėkite kiekį ir vienetą, pasirinkite kategoriją, pažymėkite parduotuvėje ir kitą kartą suraskite istorijoje.",
+    "bullets": [
+      "Greitas vienos ar kelių prekių įvedimas",
+      "Kategorijos, kiekiai, vienetai ir sava tvarka",
+      "Istorija ir mėgstamos prekės po ranka"
+    ],
+    "alt": "„Basket+“ pirkinių sąrašas su kategorijomis, kiekiais ir bendra pažanga",
+    "ticket1_name": "pomidorai",
+    "ticket1_qty": "4 vnt.",
+    "ticket2_name": "makaronai",
+    "ticket2_qty": "2 pak."
+  },
+  "sharing": {
+    "label": "02 · Bendri pirkiniai",
+    "title": "Vienas sąrašas.\nVisi vienodai informuoti.",
+    "text": "Bendras pirkinių sąrašas: bendrinkite sąrašą per „iCloud“, matykite kitų atliktus pakeitimus ir aptarkite detales pokalbyje šalia pirkinių. Įprastas bendrinimas ir sąrašo pokalbis įtraukti į Free. [[Bendrinimo sąlygos|icloud]]",
+    "badge": "Sąrašo bendrinimas ir pokalbis: Free",
+    "alt": "Pokalbis nemokamame bendrinamame „Basket+“ sąraše",
+    "pill_sent": "Išsiųsta",
+    "pill_received": "Gauta"
+  },
+  "events": {
+    "label": "03 · Renginiai · Plus",
+    "title": "Planas, kuris neprapuola žinutėse.",
+    "text": "Kelionė, vakarėlis ar šeimos šventės. Sujunkite sąrašus į vieną renginį, sutvarkykite pasiruošimą ir išsaugokite bendrą kontekstą. Kiekvienam renginio dalyviui reikia savo „Basket+ Plus“.",
+    "chip": "Basket+ Plus",
+    "alt": "„Basket+ Plus“ renginio ekranas su trimis sąrašais ir atsiskaitymais",
+    "cal_month": "SPA",
+    "cal_day": "24",
+    "cal_title": "Savaitgalis kalnuose",
+    "cal_meta": "3 sąrašai · 4 žmonės"
+  },
+  "analytics": {
+    "label": "04 · Kvitai ir ataskaitos · Plus",
+    "title": "Išlaidos nebėra mįslė.",
+    "text": "Saugokite kvitus, analizuokite kategorijas ir parduotuves, sekite tendencijas ir padalykite bendras išlaidas – be lentelės šalia.",
+    "alt_report": "„Basket+ Plus“ ataskaita su paskutinių šešių mėnesių išlaidomis",
+    "alt_receipts": "„Basket+ Plus“ kvitų istorija su datomis, parduotuvėmis ir sumomis",
+    "caption_title": "6 mėnesiai viename vaizde",
+    "caption_note": "Programoje rodomi pavyzdiniai duomenys"
+  },
+  "plans": {
+    "label": "Basket+ Free ir Plus",
+    "title": "Pradėkite nuo sąrašo.\nPlėskitės, kai prireiks.",
+    "text": "Įprasti bendri sąrašai lieka prieinami be prenumeratos. Plus prideda renginių planavimą ir visą išlaidų vaizdą.",
+    "free_kicker": "Kasdienai",
+    "free_name": "Basket+ Free",
+    "free_items": [
+      "Pirkinių sąrašai",
+      "Sąrašų bendrinimas per „iCloud“",
+      "Sąrašo pokalbis"
+    ],
+    "free_ads": "Rodomos nesikišančios reklamos – aprašymas žemiau.",
+    "plus_kicker": "Daugiau tvarkos",
+    "plus_name": "Basket+ Plus",
+    "plus_items": [
+      "Viskas, kas yra Free",
+      "Renginiai",
+      "Kvitai ir ataskaitos",
+      "Išlaidų atsiskaitymas",
+      "Jokių reklamų"
+    ],
+    "price_note": "Kaina ir galimas bandomasis laikotarpis rodomi programoje ir „App Store“ prieš perkant – šioje svetainėje jų nenurodome. Prenumerata priklauso „Apple“ paskyrai, kuri ją įsigijo.",
+    "ads_title": "Reklamos Free versijoje",
+    "ads_items": [
+      "Nesikišančios „Google AdMob“ natyviosios reklamos rodomos dviejose vietose: pagrindiniame ekrane ir skiltyje Išlaidos. Pirkinių sąrašuose ir pokalbiuose jų nėra.",
+      "Reklamų personalizavimas išjungtas. Tai nereiškia, kad „Google“ nenaudoja jokių identifikatorių – ji gali juos naudoti, pavyzdžiui, matavimui ir rodymo dažnio ribojimui.",
+      "Kur to reikalauja įstatymai (EEE, Jungtinė Karalystė, Šveicarija), reklamos neįkeliamos be jūsų sutikimo. „iPhone“ taip pat gali paprašyti leidimo sekti; atsisakius programa neblokuojama.",
+      "Su Plus reklamos išnyksta, o programa jų nebeprašo."
+    ],
+    "ads_more": "Daugiau informacijos: [[privatumo politika|privacy]].",
+    "group_title": "Pavyzdys: grupė su Free ir Plus",
+    "group_intro": "Vienas žmogus turi Plus, kiti naudoja Free. Ką jie gali daryti kartu?",
+    "group_rows": [
+      {
+        "what": "Įprastas bendras sąrašas",
+        "result": "Visi prideda ir pažymi prekes bei rašo sąrašo pokalbyje. Plus nereikia niekam."
+      },
+      {
+        "what": "Renginys",
+        "result": "Kiekvienam dalyviui reikia savo Plus. Vieno žmogaus Plus neatrakina renginio kitiems – žmogus be Plus kvietime matys, kad renginiui reikia Plus, ir prie jo neprisijungs."
+      },
+      {
+        "what": "Kvitai, ataskaitos, atsiskaitymai",
+        "result": "Prieinama tik žmogui, turinčiam savo Plus."
+      },
+      {
+        "what": "Kai Plus baigiasi",
+        "result": "Duomenys išlieka. Tada renginys tik skaitomas, o iš jo galima išeiti."
+      }
+    ]
+  },
+  "icloud": {
+    "label": "„iCloud“ ir bendrinimas",
+    "title": "Be „Basket+“ paskyros.\nSu „iCloud“, kai norite.",
+    "text": "Kas veikia be „iCloud“ ir kam jo reikia.",
+    "cards": [
+      {
+        "title": "Be „Basket+“ paskyros",
+        "text": "Nekuriate paskyros ir neprisijungiate. Neturime savo naudotojų paskyrų duomenų bazės."
+      },
+      {
+        "title": "Su „iCloud“",
+        "text": "Kai esate prisijungę prie „iCloud“, sąrašai automatiškai sinchronizuojami tarp jūsų įrenginių, o bendrinimas grindžiamas „Apple“ kvietimais. Jūsų duomenys yra jūsų „iCloud“ paskyroje."
+      },
+      {
+        "title": "Be „iCloud“",
+        "text": "Be „iCloud“ paskyros arba kai „Basket+“ išjungta „iCloud“ nustatymuose, programa veikia vietoje įrenginyje – be sinchronizavimo ir bendrinimo."
+      },
+      {
+        "title": "Bendrinimo sąlygos",
+        "text": "Abiem pusėms reikia „iCloud“ ir „Basket+“; kvietimas priimamas sisteminiame „Apple“ lange. Įprastą sąrašą gali priimti ir Free naudotojas, renginiui reikia savo Plus."
+      }
+    ]
+  },
+  "faq": {
+    "label": "DUK",
+    "title": "Trumpai ir aiškiai.",
+    "items": [
+      {
+        "q": "Ar norint naudotis „Basket+“ reikia paskyros?",
+        "a": "Ne. „Basket+“ nereikalauja kurti paskyros ar prisijungti. Sinchronizavimas ir bendrinimas naudoja „iCloud“, jei esate prie jo prisijungę."
+      },
+      {
+        "q": "Ar programa veikia be „iCloud“?",
+        "a": "Taip, vietoje įrenginyje. Be „iCloud“ nėra sinchronizavimo tarp įrenginių ir sąrašų bendrinimo su kitais žmonėmis."
+      },
+      {
+        "q": "Ar bendri sąrašai mokami?",
+        "a": "Ne. Įprastas sąrašų bendrinimas ir pokalbis bendrame sąraše įtraukti į „Basket+ Free“. Renginiams reikia Plus."
+      },
+      {
+        "q": "Kas gali prisijungti prie bendro sąrašo ar renginio?",
+        "a": "Prie įprasto sąrašo – bet kas, turintis „Basket+“ ir „iCloud“, taip pat su Free. Prie renginio – tik žmonės su savo aktyviu Plus; kito žmogaus Plus jums nieko neatrakina."
+      },
+      {
+        "q": "Ką tiksliai apima „Basket+ Plus“?",
+        "a": "Plus atrakina renginius, kvitus, ataskaitas ir išlaidų atsiskaitymą bei pašalina reklamas prenumeratoriui."
+      },
+      {
+        "q": "Kokios reklamos rodomos Free versijoje?",
+        "a": "Nesikišančios „Google AdMob“ natyviosios reklamos pagrindiniame ekrane ir skiltyje Išlaidos, be personalizavimo. Kur to reikalauja įstatymai – tik gavus jūsų sutikimą. Plus jas pašalina. Daugiau: [[privatumo politika|privacy]]."
+      },
+      {
+        "q": "Kiek kainuoja Plus ir ar yra bandomasis laikotarpis?",
+        "a": "Kainą ir galimą bandomąjį laikotarpį pamatysite programoje ir „App Store“ prieš ką nors pirkdami. Šioje svetainėje jų nenurodome."
+      },
+      {
+        "q": "Kaip sinchronizuojami mano duomenys?",
+        "a": "Per „iCloud“ ir „CloudKit“. Jūsų duomenys lieka jūsų įrenginiuose ir „iCloud“ paskyroje; neturime savo naudotojų paskyrų duomenų bazės."
+      },
+      {
+        "q": "Ar galima atšaukti prenumeratą?",
+        "a": "Taip. Prenumeratą valdote savo „Apple“ paskyros nustatymuose. Atšaukus Plus lieka aktyvus iki apmokėto laikotarpio pabaigos."
+      },
+      {
+        "q": "Kur gauti pagalbos?",
+        "a": "Rašykite adresu [[hello@basketplus.app|email]] arba apsilankykite [[palaikymo puslapyje|support]]."
+      }
+    ]
+  },
+  "closing": {
+    "eyebrow": "Pasiekiama dabar",
+    "title": "Vieta pirkiniams.\nIr ramybė aplink juos.",
+    "icon_alt": "„Basket+“ programos piktograma"
+  },
+  "footer": {
+    "tagline": "Pirkiniai sutvarkyti kartu.",
+    "col_app": "Programa",
+    "col_help": "Pagalba",
+    "col_docs": "Dokumentai",
+    "col_lang": "Kalbos",
+    "support": "Palaikymas ir kontaktai",
+    "privacy": "Privatumo politika",
+    "terms": "Naudojimo sąlygos",
+    "docs_note": "Palaikymas ir privatumo politika pateikiami lenkų ir anglų kalbomis.",
+    "copyright": "© 2026 Basket+. Nepriklausomai kuriama Lenkijoje."
+  }
+}

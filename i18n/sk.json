@@ -1,0 +1,173 @@
+{
+  "meta": {"html_lang": "sk", "hreflang": "sk", "og_locale": "sk_SK", "native_name": "Slovenčina", "short": "SK"},
+  "seo": {
+    "title": "Basket+ – zdieľaný nákupný zoznam pre iPhone",
+    "description": "Basket+ je aplikácia na zdieľané nákupné zoznamy pre iPhone. Plánujte nákupy, zdieľajte zoznamy a sledujte výdavky. Spoznajte verziu Free a Plus.",
+    "og_title": "Basket+ – zdieľaný nákupný zoznam pre iPhone",
+    "og_description": "Aplikácia na nákupné zoznamy: zdieľané zoznamy, účtenky a vyúčtovanie spoločných nákupov na jednom pokojnom mieste. Stiahnite si ju z App Store.",
+    "og_image_alt": "Basket+ – aplikácia na zdieľané nákupné zoznamy pre iPhone",
+    "app_description": "Aplikácia na nákupné zoznamy pre iPhone: zdieľaný nákupný zoznam, chat, udalosti, účtenky, prehľady a vyúčtovanie spoločných nákupov."
+  },
+  "ui": {
+    "skip_link": "Prejsť na obsah",
+    "brand_aria": "Basket+ – domovská stránka",
+    "nav_aria": "Hlavná navigácia",
+    "nav_features": "Funkcie",
+    "nav_icloud": "iCloud",
+    "nav_plans": "Free a Plus",
+    "nav_faq": "FAQ",
+    "nav_support": "Podpora",
+    "lang_menu_aria": "Vyberte jazyk stránky",
+    "lang_list_aria": "Jazyky stránky"
+  },
+  "hero": {
+    "eyebrow": "Dostupná v App Store",
+    "title": "Nákupy, ktoré\n*sa zariadia samy.*",
+    "lead": "Basket+ je aplikácia na nákupné zoznamy pre iPhone: zdieľaný nákupný zoznam, účtenky a vyúčtovanie spoločných nákupov na jednom pokojnom mieste.",
+    "store_small": "Stiahnuť z",
+    "store_aria": "Stiahnuť z App Store – Basket+",
+    "qr_aria": "Naskenujte telefónom – Basket+ v App Store",
+    "qr_alt": "QR kód vedúci na Basket+ v App Store",
+    "see_how": "Pozrite, ako to funguje",
+    "platform_note": "Navrhnuté pre iPhone, iPad a Apple Watch.",
+    "visual_aria": "Obrazovka aplikácie Basket+",
+    "alt": "Hlavná obrazovka Basket+ s maskotom, udalosťami a nákupnými zoznamami",
+    "note_top": "Pripravené na spoločné nákupy",
+    "note_bottom": "Pridávajte po svojom"
+  },
+  "availability": {
+    "title": "Dostupnosť",
+    "text": "Basket+ je dnes v App Store v Poľsku. V ďalších krajinách sa objaví čoskoro – bez konkrétneho dátumu.",
+    "store_hint": "Ak App Store zobrazuje „nedostupné“, aplikácia ešte nie je vo vašej krajine.",
+    "notify_text": "Čakáte na svoju krajinu? Napíšte nám – odpovedáme ručne a na stránke nič neukladáme.",
+    "notify_link": "Dajte nám vedieť, že čakáte",
+    "mail_subject": "Basket+ v mojej krajine",
+    "mail_body": "Dobrý deň,\n\nchcem používať Basket+ v tejto krajine: \n\nS pozdravom",
+    "short": "Dnes v App Store v Poľsku, v ďalších krajinách čoskoro."
+  },
+  "trust": {
+    "aria": "Najdôležitejšie informácie",
+    "items": [
+      {"title": "Bez účtu Basket+", "text": "Funguje lokálne, iCloud synchronizuje"},
+      {"title": "24 jazykov", "text": "pre domovy bez hraníc"},
+      {"title": "Natívne pre Apple", "text": "aj widgety a hodinky"}
+    ]
+  },
+  "lists": {
+    "label": "01 · Nákupné zoznamy",
+    "title": "Menej ťukania.\nViac nakupovania.",
+    "text": "Nákupný zoznam pre iPhone, ktorý vyplníte tak, ako rozmýšľate: napíšte produkt, pridajte množstvo a jednotku, vyberte kategóriu, v obchode odškrtnite a vráťte sa do histórie, keď ho budete znova potrebovať.",
+    "bullets": [
+      "Rýchle pridávanie produktov aj viacerých položiek naraz",
+      "Kategórie, množstvá, jednotky a vlastné poradie",
+      "História a obľúbené produkty poruke"
+    ],
+    "alt": "Nákupný zoznam Basket+ s kategóriami, množstvami a spoločným postupom",
+    "ticket1_name": "paradajky",
+    "ticket1_qty": "4 ks",
+    "ticket2_name": "cestoviny",
+    "ticket2_qty": "2 bal."
+  },
+  "sharing": {
+    "label": "02 · Spoločné nákupy",
+    "title": "Jeden zoznam.\nVšetci v obraze.",
+    "text": "Zdieľaný nákupný zoznam: zdieľajte zoznam cez iCloud, sledujte zmeny ostatných a doladte detaily v rozhovore hneď popri nákupe. Bežné zdieľanie a chat v zoznamoch sú vo verzii Free. [[Podmienky zdieľania|icloud]]",
+    "badge": "Zdieľanie a chat v zoznamoch: Free",
+    "alt": "Rozhovor v bezplatnom zdieľanom zozname Basket+",
+    "pill_sent": "Odoslané",
+    "pill_received": "Prijaté"
+  },
+  "events": {
+    "label": "03 · Udalosti · Plus",
+    "title": "Plán, ktorý sa nestratí v správach.",
+    "text": "Výlet, oslava či rodinné sviatky. Spojte zoznamy do jednej udalosti, usporiadajte prípravy a majte spoločný kontext pokope. Každý účastník udalosti potrebuje vlastné Basket+ Plus.",
+    "chip": "Basket+ Plus",
+    "alt": "Obrazovka udalosti Basket+ Plus s tromi zoznamami a vyúčtovaním",
+    "cal_month": "OKT",
+    "cal_day": "24",
+    "cal_title": "Víkend v horách",
+    "cal_meta": "3 zoznamy · 4 osoby"
+  },
+  "analytics": {
+    "label": "04 · Účtenky a prehľady · Plus",
+    "title": "Výdavky už nie sú záhadou.",
+    "text": "Uchovávajte účtenky, analyzujte kategórie a obchody, sledujte trendy a veďte vyúčtovanie spoločných nákupov – bez tabuľky po boku.",
+    "alt_report": "Prehľad Basket+ Plus s výdavkami za posledných šesť mesiacov",
+    "alt_receipts": "História účteniek Basket+ Plus s dátumami, obchodmi a sumami",
+    "caption_title": "6 mesiacov na jednom mieste",
+    "caption_note": "Vzorové údaje zobrazené v aplikácii"
+  },
+  "plans": {
+    "label": "Basket+ Free a Plus",
+    "title": "Začnite zoznamom.\nRozšírte, keď treba.",
+    "text": "Bežné zdieľané zoznamy zostávajú dostupné bez predplatného. Plus pridáva organizáciu udalostí a úplný prehľad výdavkov.",
+    "free_kicker": "Na každý deň",
+    "free_name": "Basket+ Free",
+    "free_items": ["Nákupné zoznamy", "Zdieľanie zoznamov cez iCloud", "Chat v zozname"],
+    "free_ads": "Obsahuje nenápadné reklamy – popis nižšie.",
+    "plus_kicker": "Viac organizácie",
+    "plus_name": "Basket+ Plus",
+    "plus_items": ["Všetko z verzie Free", "Udalosti", "Účtenky a prehľady", "Vyúčtovanie výdavkov", "Bez reklám"],
+    "price_note": "Cenu a prípadné skúšobné obdobie uvidíte v aplikácii a v App Store ešte pred nákupom – na stránke ich neuvádzame. Predplatné sa vzťahuje na účet Apple, ktorý ho zakúpil.",
+    "ads_title": "Reklamy vo verzii Free",
+    "ads_items": [
+      "Nenápadné natívne reklamy Google AdMob sa zobrazujú na dvoch miestach: na hlavnej obrazovke a vo Výdavkoch. Na nákupných zoznamoch ani v chate ich nenájdete.",
+      "Personalizácia reklám je vypnutá. To neznamená, že Google nepoužíva žiadne identifikátory – môže ich používať napríklad na meranie a obmedzenie frekvencie zobrazovania.",
+      "Tam, kde to vyžaduje zákon (EHP, Spojené kráľovstvo, Švajčiarsko), sa reklamy bez vášho súhlasu nenačítajú. iPhone sa môže opýtať aj na povolenie sledovania; ak ho odmietnete, aplikácia funguje ďalej.",
+      "S Plus reklamy zmiznú a aplikácia ich prestane načítavať."
+    ],
+    "ads_more": "Podrobnosti: [[zásady ochrany osobných údajov|privacy]].",
+    "group_title": "Príklad: skupina s Free a Plus",
+    "group_intro": "Jedna osoba má Plus, ostatní používajú Free. Čo môžu robiť spolu?",
+    "group_rows": [
+      {"what": "Bežný zdieľaný zoznam", "result": "Všetci pridávajú a odškrtávajú produkty a píšu si v chate zoznamu. Plus nepotrebuje nikto."},
+      {"what": "Udalosť", "result": "Každý účastník potrebuje vlastné Plus. Plus jednej osoby neodomkne udalosť ostatným – kto Plus nemá, uvidí v pozvánke, že udalosť vyžaduje Plus, a nepripojí sa k nej."},
+      {"what": "Účtenky, prehľady, vyúčtovanie", "result": "Dostupné len pre osobu s vlastným Plus."},
+      {"what": "Keď Plus vyprší", "result": "Údaje zostanú. Udalosť je potom len na čítanie a môžete ju opustiť."}
+    ]
+  },
+  "icloud": {
+    "label": "iCloud a zdieľanie",
+    "title": "Bez účtu Basket+.\nS iCloudom, keď ho chcete.",
+    "text": "Čo funguje bez iCloudu a čo ho vyžaduje.",
+    "cards": [
+      {"title": "Žiadny účet Basket+", "text": "Nevytvárate účet ani sa neprihlasujete. Nevedieme vlastnú databázu používateľských účtov."},
+      {"title": "S iCloudom", "text": "Keď ste prihlásení v iCloude, zoznamy sa automaticky synchronizujú medzi vašimi zariadeniami a zdieľanie funguje na pozvánkach Apple. Vaše údaje sú vo vašom účte iCloud."},
+      {"title": "Bez iCloudu", "text": "Bez účtu iCloud alebo keď je Basket+ vypnutý v nastaveniach iCloudu, aplikácia funguje lokálne v zariadení – bez synchronizácie a zdieľania."},
+      {"title": "Podmienky zdieľania", "text": "Obe strany potrebujú iCloud a Basket+; pozvánku prijmete v systémovom okne Apple. Bežný zoznam prijme aj osoba s Free, udalosť vyžaduje vlastné Plus."}
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Stručne a jasne.",
+    "items": [
+      {"q": "Potrebujem na používanie Basket+ účet?", "a": "Nie. Basket+ nevyžaduje vytvorenie účtu ani prihlásenie. Synchronizácia a zdieľanie využívajú iCloud, ak ste do neho prihlásení."},
+      {"q": "Funguje aplikácia bez iCloudu?", "a": "Áno, lokálne v zariadení. Bez iCloudu nie je synchronizácia medzi zariadeniami ani zdieľanie zoznamov s inými osobami."},
+      {"q": "Sú zdieľané zoznamy platené?", "a": "Nie. Bežné zdieľanie zoznamov a rozhovor v zdieľanom zozname sú súčasťou Basket+ Free. Udalosti vyžadujú Plus."},
+      {"q": "Kto sa môže pripojiť k zdieľanému zoznamu alebo udalosti?", "a": "K bežnému zoznamu – každý, kto má Basket+ a iCloud, aj vo Free. K udalosti – iba osoby s vlastným aktívnym Plus; Plus inej osoby vám nič neodomkne."},
+      {"q": "Čo presne obsahuje Basket+ Plus?", "a": "Plus odomyká udalosti, účtenky, prehľady a vyúčtovanie výdavkov a odstraňuje reklamy predplatiteľovi."},
+      {"q": "Aké reklamy sa zobrazujú vo verzii Free?", "a": "Nenápadné natívne reklamy Google AdMob na hlavnej obrazovke a vo Výdavkoch, bez personalizácie. Tam, kde to vyžaduje zákon, až po vašom súhlase. Plus ich odstráni. Podrobnosti: [[zásady ochrany osobných údajov|privacy]]."},
+      {"q": "Koľko stojí Plus a je k dispozícii skúšobné obdobie?", "a": "Cenu a prípadné skúšobné obdobie uvidíte v aplikácii a v App Store skôr, než niečo kúpite. Na stránke ich neuvádzame."},
+      {"q": "Ako sa synchronizujú moje údaje?", "a": "Cez iCloud a CloudKit. Údaje zostávajú vo vašich zariadeniach a vo vašom účte iCloud; nevedieme vlastnú databázu používateľských účtov."},
+      {"q": "Môžem zrušiť predplatné?", "a": "Áno. Predplatné spravujete v nastaveniach účtu Apple. Po zrušení zostane Plus aktívne do konca zaplateného obdobia."},
+      {"q": "Kde nájdem pomoc?", "a": "Napíšte na [[hello@basketplus.app|email]] alebo navštívte [[stránku podpory|support]]."}
+    ]
+  },
+  "closing": {
+    "eyebrow": "Dostupná už teraz",
+    "title": "Miesto pre nákupy.\nA pokoj okolo nich.",
+    "icon_alt": "Ikona aplikácie Basket+"
+  },
+  "footer": {
+    "tagline": "Nákupy zvládnuté spolu.",
+    "col_app": "Aplikácia",
+    "col_help": "Pomoc",
+    "col_docs": "Dokumenty",
+    "col_lang": "Jazyky",
+    "support": "Podpora a kontakt",
+    "privacy": "Zásady ochrany údajov",
+    "terms": "Podmienky používania",
+    "docs_note": "Podpora a zásady ochrany osobných údajov sú dostupné v poľštine a angličtine.",
+    "copyright": "© 2026 Basket+. Aplikácia vytvorená nezávisle v Poľsku."
+  }
+}

@@ -2,7 +2,7 @@
   "name": "Basket+",
   "short_name": "Basket+",
   "description": "Zakupy ogarnięte razem.",
-  "start_url": "./index.html",
+  "start_url": "/",
   "display": "browser",
   "background_color": "#fffdf9",
   "theme_color": "#df432f",
