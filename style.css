@@ -322,3 +322,13 @@ h1 em { color: var(--brand); font-family: Iowan Old Style, Charter, Georgia, ser
   .site-header, .site-footer, .hero-note, .ingredient-ticket, .sync-pill { display: none; }
   body { background: white; color: black; }
 }
+
+
+/* Plakietki w hero i karta kalendarza nie mogą zasłaniać ekranu telefonu: stoją przy jego krawędzi, a na węższych
+   ekranach znikają (są tylko ozdobą). */
+.note-top { top: 16%; right: auto; left: -13%; }
+.note-bottom { bottom: 9%; left: -12%; }
+.calendar-card { left: -15%; top: 22%; }
+@media (max-width: 1100px) {
+  .hero-note, .calendar-card { display: none; }
+}
