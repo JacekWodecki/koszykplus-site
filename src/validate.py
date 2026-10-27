@@ -438,6 +438,8 @@ def check_sitemap(codes, langs):
     for must in ("/support.html", "/support-en.html", "/privacy.html"):
         if SITE + must not in urls:
             err("sitemap: brak %s" % must)
+    if not os.path.exists(os.path.join(ROOT, ".nojekyll")):
+        err(".nojekyll: brak pliku (GitHub Pages uruchomi Jekylla, który psuje build na {{ w i18n/SCHEMA.md)")
     robots = open(os.path.join(ROOT, "robots.txt"), encoding="utf-8").read()
     if "Sitemap: %s/sitemap.xml" % SITE not in robots:
         err("robots.txt: brak linii Sitemap")

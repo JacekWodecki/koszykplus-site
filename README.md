@@ -16,7 +16,7 @@ wynik jest commitowany). Bez zależności (Python 3 stdlib); Pillow jest opcjona
 | `index.html` (pl), `<kod>/index.html` | **generowane** – nie edytować ręcznie |
 | `en.html` | generowane przekierowanie ze starego adresu do `/en/` |
 | `support.html`, `support-en.html`, `privacy.html` | ręczne, adresy **nie zmieniać** (używa ich App Store Connect i Garmin) |
-| `app-ads.txt`, `CNAME` | nie ruszać |
+| `app-ads.txt`, `CNAME`, `.nojekyll` | nie ruszać (`.nojekyll` wyłącza Jekylla na GitHub Pages; bez niego build pada na `{{` w `i18n/SCHEMA.md`, walidator tego pilnuje) |
 
 URL-e: polski pod `/`, pozostałe pod `/<kod>/` (kody UE: bg hr cs da nl en et fi fr de el hu ga it lv lt mt pl pt ro sk sl es sv; portugalski: `/pt/`, hreflang `pt-PT`).
 
