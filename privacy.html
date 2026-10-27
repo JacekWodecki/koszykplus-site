@@ -15,7 +15,7 @@
   <nav><a href="index.html">← Basket+</a> <a href="#en">English</a></nav>
 
   <h1>Polityka prywatności aplikacji Basket+</h1>
-  <p class="muted">Obowiązuje od 21 października 2026 r.</p>
+  <p class="muted">Obowiązuje od 27 października 2026 r.</p>
 
   <p>Niniejsza polityka wyjaśnia, jakie informacje przetwarza aplikacja Basket+
   (iOS, iPadOS, macOS, watchOS, wraz z widżetem, rozszerzeniem udostępniania i obsługą CarPlay),
@@ -266,7 +266,7 @@
   <h2>13. Czego aplikacja nie robi</h2>
   <ul>
     <li>nie ma własnego serwera, konta użytkownika ani logowania,</li>
-    <li>nie odczytuje lokalizacji urządzenia, kontaktów ani danych o zdrowiu i nie zawiera własnych narzędzi analitycznych ani raportowania awarii. Z bibliotek firm trzecich używa wyłącznie Google Mobile Ads SDK i Google UMP (wersja Free, punkt 12) oraz pakietu Garmin Connect IQ (tylko po połączeniu zegarka, punkt 11),</li>
+    <li>nie odczytuje lokalizacji urządzenia, kontaktów ani danych o zdrowiu i nie zawiera własnych narzędzi analitycznych ani raportowania awarii (licznik odwiedzin dotyczy tylko strony internetowej, punkt 23). Z bibliotek firm trzecich używa wyłącznie Google Mobile Ads SDK i Google UMP (wersja Free, punkt 12) oraz pakietu Garmin Connect IQ (tylko po połączeniu zegarka, punkt 11),</li>
     <li>nie nagrywa dźwięku w tle — mikrofon działa tylko podczas dyktowania (punkt 9) albo nagrywania wiadomości głosowej,</li>
     <li>nie ma dostępu do całej biblioteki zdjęć ani plików — dostaje tylko elementy, które wskażesz (paragon, zdjęcie lub plik w rozmowie, zrzut ekranu w zgłoszeniu),</li>
     <li>nie sprzedaje ani nie udostępnia danych osobowych do celów marketingowych,</li>
@@ -316,6 +316,7 @@
     <li><strong>Stan subskrypcji Plus:</strong> lokalnie do usunięcia aplikacji; dane zakupu przechowuje Apple.</li>
     <li><strong>Korespondencja i dane z testów u twórcy:</strong> punkty 14 i 15; usunięcia możesz zażądać pod adresem <a href="mailto:hello@basketplus.app">hello@basketplus.app</a>.</li>
     <li><strong>Dane reklamowe w Google:</strong> okres określa Google w swojej polityce prywatności.</li>
+    <li><strong>Licznik odwiedzin strony:</strong> zagregowane wpisy bez adresu IP, do czasu ich usunięcia przez twórcę (punkt 23).</li>
   </ul>
 
   <h2>17. Odbiorcy i dostawcy</h2>
@@ -324,13 +325,14 @@
     <li><strong>Google</strong> — reklamy i zgoda UMP w wersji Free (punkt 12).</li>
     <li><strong>OVH (OVHcloud)</strong> — obsługa skrzynki pocztowej twórcy (punkt 14).</li>
     <li><strong>GitHub</strong> — hosting tej strony (punkt 23).</li>
+    <li><strong>Cloudflare</strong>: infrastruktura licznika odwiedzin i kliknięć na stronie (punkt 23).</li>
     <li><strong>Garmin</strong> — wyłącznie jeśli połączysz zegarek Garmin (punkt 11).</li>
     <li><strong>Serwisy importu przepisów</strong> — wyłącznie gdy sam(a) udostępnisz link (punkt 7).</li>
     <li><strong>Inni uczestnicy wspólnych list i wydarzeń</strong> — widzą dane, które udostępniasz (punkt 5).</li>
   </ul>
 
   <h2>18. Przekazywanie danych poza Europejski Obszar Gospodarczy</h2>
-  <p>Twórca nie przesyła danych z aplikacji na własne serwery. Dostawcy opisani w punkcie 17 mogą przetwarzać dane poza EOG,
+  <p>Twórca nie przesyła danych z aplikacji na własne serwery (licznik strony z punktu 23 działa na infrastrukturze Cloudflare). Dostawcy opisani w punkcie 17 mogą przetwarzać dane poza EOG,
   także w Stanach Zjednoczonych, na zasadach opisanych w ich dokumentach: Apple deklaruje, że przekazywanie danych
   z EOG odbywa się na podstawie standardowych klauzul umownych, a Google deklaruje, że uczestniczy w
   EU-U.S. Data Privacy Framework (decyzja Komisji Europejskiej stwierdzająca odpowiedni stopień ochrony).
@@ -374,17 +376,31 @@
   lub w opisie aktualizacji.</p>
 
   <h2>23. Ta strona internetowa</h2>
-  <p>Strona nie używa plików cookie, skryptów, narzędzi analitycznych, formularzy ani zasobów ładowanych z zewnętrznych
-  serwerów. Jest hostowana przez GitHub (GitHub Pages). Według dokumentacji GitHub adres IP odwiedzającego jest rejestrowany
+  <p>Strona nie używa plików cookie, formularzy ani zasobów ładowanych z zewnętrznych serwerów (poza opisanym niżej licznikiem odwiedzin). Jest hostowana przez GitHub (GitHub Pages). Według dokumentacji GitHub adres IP odwiedzającego jest rejestrowany
   i przechowywany w celach bezpieczeństwa; twórca nie ma dostępu do tych logów, a GitHub przetwarza je na zasadach swojego
   <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">oświadczenia o prywatności</a>.
   Gdy klikniesz adres e-mail, otworzy się Twój program pocztowy — korespondencję opisuje punkt 14.</p>
+
+  <h3>Licznik odwiedzin i kliknięć</h3>
+  <p>Strona główna i jej wersje językowe (nie ta polityka) liczą odsłony oraz kliknięcia w przycisk „Pobierz w App Store” własnym narzędziem twórcy,
+  działającym na infrastrukturze Cloudflare (Cloudflare Workers i baza D1). Narzędzie nie używa plików cookie ani innych danych zapisywanych
+  w Twojej przeglądarce, nie zapisuje adresu IP i nie służy do profilowania.</p>
+  <ul>
+    <li><strong>Co zapisujemy przy odsłonie:</strong> datę (UTC), ścieżkę odwiedzonej podstrony, język strony, samą domenę strony odsyłającej (bez adresu ani parametrów), kraj (z nagłówka Cloudflare), typ urządzenia (komputer, telefon lub tablet, ustalony z nagłówka przeglądarki, który sam nie jest zapisywany) oraz krótki skrót dzienny.</li>
+    <li><strong>Co zapisujemy przy kliknięciu w przycisk App Store:</strong> datę (UTC), nazwę kampanii (np. miejsce przycisku na stronie), kraj i typ urządzenia. Kliknięcie przechodzi przez adres naszego narzędzia, które przekierowuje do App Store.</li>
+    <li><strong>Skrót dzienny:</strong> służy tylko do policzenia, ilu różnych odwiedzających było danego dnia. Powstaje z adresu IP i nagłówka przeglądarki połączonych z tajną solą i datą; same te dane nie są zapisywane, a zapisywane jest tylko pierwsze 8 bajtów skrótu. Skrót zmienia się każdego dnia, więc nie pozwala rozpoznać tej samej osoby w kolejnych dniach, a ze skrótu nie da się odtworzyć adresu IP. Mimo to skrót może być uznany za identyfikator pseudonimowy, dlatego go opisujemy.</li>
+    <li><strong>Do Not Track i boty:</strong> jeśli Twoja przeglądarka wysyła sygnał Do Not Track, licznik w ogóle się nie uruchamia. Ruch rozpoznany jako roboty nie jest liczony.</li>
+    <li><strong>Cel i podstawa prawna:</strong> analiza ruchu na stronie i skuteczności linków do aplikacji, czyli prawnie uzasadniony interes twórcy (art. 6 ust. 1 lit. f RODO). Przysługuje Ci prawo sprzeciwu (punkt 19); najprościej skorzystać z niego włączając Do Not Track.</li>
+    <li><strong>Odbiorcy:</strong> Cloudflare, jako dostawca infrastruktury przetwarzający dane w imieniu twórcy (technicznie obsługuje Twoje połączenie, więc widzi adres IP, ale nie jest on zapisywany w naszej bazie). Dane nie są sprzedawane ani udostępniane nikomu poza dostawcą infrastruktury. Dostęp do statystyk ma tylko twórca, a oglądane są wyłącznie zestawienia zbiorcze.</li>
+    <li><strong>Przechowywanie:</strong> wpisy nie zawierają danych pozwalających Cię zidentyfikować bez dodatkowych informacji i są przechowywane w bazie D1 do czasu ich usunięcia przez twórcę; nie ma obecnie automatycznego terminu kasowania. Usunięcia możesz zażądać pod adresem <a href="mailto:hello@basketplus.app">hello@basketplus.app</a>, choć bez znajomości dnia i danych połączenia nie da się wskazać wpisów dotyczących konkretnej osoby.</li>
+    <li><strong>Linki kampanii App Store Connect:</strong> przycisk prowadzi do App Store z oznaczeniem kampanii. Po kliknięciu Apple może raportować twórcy źródło pobrań i instalacji w formie zagregowanej, na zasadach opisanych w dokumentach Apple (punkt 3 i 17). Twórca nie łączy tych raportów z danymi z licznika na poziomie osób.</li>
+  </ul>
 
   <hr>
 
   <h1 id="en" lang="en">Basket+ Privacy Policy</h1>
   <div lang="en">
-  <p class="muted">Effective October 21, 2026. The Polish version above prevails in case of discrepancy.</p>
+  <p class="muted">Effective October 27, 2026. The Polish version above prevails in case of discrepancy.</p>
 
   <p>This policy explains what information the Basket+ app (iOS, iPadOS, macOS,
   watchOS, including its widget, share extension and CarPlay support) processes, who is responsible
@@ -580,7 +596,7 @@
   <h2>13. What the app does not do</h2>
   <ul>
     <li>it has no server of its own, user account or sign-in,</li>
-    <li>it does not read the device's location, contacts or health data and contains no analytics or crash-reporting tools of its own. Of third-party libraries it uses only the Google Mobile Ads SDK and Google UMP (Free tier, section 12) and Garmin's Connect IQ package (only after you connect a watch, section 11),</li>
+    <li>it does not read the device's location, contacts or health data and contains no analytics or crash-reporting tools of its own (the visit counter applies to the website only, section 23). Of third-party libraries it uses only the Google Mobile Ads SDK and Google UMP (Free tier, section 12) and Garmin's Connect IQ package (only after you connect a watch, section 11),</li>
     <li>it does not record audio in the background — the microphone works only during dictation (section 9) or when recording a voice message,</li>
     <li>it has no access to your whole photo library or files — it receives only the items you choose (a receipt, a photo or file in a conversation, a screenshot in a report),</li>
     <li>it does not sell or share personal data for marketing purposes,</li>
@@ -622,6 +638,7 @@
     <li><strong>Plus subscription status:</strong> locally until the app is deleted; purchase data is kept by Apple.</li>
     <li><strong>Correspondence and test data held by the developer:</strong> sections 14 and 15; you can request deletion at <a href="mailto:hello@basketplus.app">hello@basketplus.app</a>.</li>
     <li><strong>Ad data at Google:</strong> the period is set by Google in its privacy policy.</li>
+    <li><strong>Website visit counter:</strong> aggregated records without an IP address, until the developer deletes them (section 23).</li>
   </ul>
 
   <h2>17. Recipients and providers</h2>
@@ -630,13 +647,14 @@
     <li><strong>Google</strong> — ads and UMP consent in the Free tier (section 12).</li>
     <li><strong>OVH (OVHcloud)</strong> — operating the developer's mailbox (section 14).</li>
     <li><strong>GitHub</strong> — hosting of this website (section 23).</li>
+    <li><strong>Cloudflare</strong>: infrastructure of the website's visit and click counter (section 23).</li>
     <li><strong>Garmin</strong> — only if you connect a Garmin watch (section 11).</li>
     <li><strong>Recipe import services</strong> — only when you share a link yourself (section 7).</li>
     <li><strong>Other participants of shared lists and events</strong> — they see the data you share (section 5).</li>
   </ul>
 
   <h2>18. Transfers of data outside the European Economic Area</h2>
-  <p>The developer does not send data from the app to servers of its own. The providers listed in section 17 may process data outside the EEA,
+  <p>The developer does not send data from the app to servers of its own (the website counter from section 23 runs on Cloudflare infrastructure). The providers listed in section 17 may process data outside the EEA,
   including in the United States, on the terms set out in their documents: Apple states that transfers of data from the EEA take place on the basis of
   standard contractual clauses, and Google states that it participates in the EU-U.S. Data Privacy Framework (a European Commission decision finding an
   adequate level of protection). You will find the details in these providers' privacy policies. For transfers related to correspondence and the email service,
@@ -668,10 +686,25 @@
   top of the document. The developer will announce material changes in the app or in the update notes.</p>
 
   <h2>23. This website</h2>
-  <p>The site uses no cookies, scripts, analytics tools, forms or resources loaded from external servers. It is hosted by GitHub (GitHub Pages). According to
+  <p>The site uses no cookies, forms or resources loaded from external servers (apart from the visit counter described below). It is hosted by GitHub (GitHub Pages). According to
   GitHub's documentation a visitor's IP address is logged and stored for security purposes; the developer has no access to those logs, and GitHub processes
   them under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">privacy statement</a>.
   When you click an email address your email program opens — correspondence is described in section 14.</p>
+
+  <h3>Visit and click counter</h3>
+  <p>The home page and its language versions (not this policy) count page views and clicks on the “Download on the App Store” button with the developer's own tool,
+  running on Cloudflare infrastructure (Cloudflare Workers and a D1 database). The tool uses no cookies or other data stored in your browser,
+  does not store your IP address and is not used for profiling.</p>
+  <ul>
+    <li><strong>What is recorded for a page view:</strong> the date (UTC), the path of the page visited, the page language, only the domain of the referring page (no address or parameters), the country (from a Cloudflare header), the device type (computer, phone or tablet, derived from a browser header that is itself not stored) and a short daily hash.</li>
+    <li><strong>What is recorded for a click on the App Store button:</strong> the date (UTC), the campaign name (e.g. the button's position on the page), the country and the device type. The click goes through an address of our tool, which redirects to the App Store.</li>
+    <li><strong>Daily hash:</strong> used only to count how many different visitors there were on a given day. It is computed from the IP address and a browser header combined with a secret salt and the date; those inputs are not stored, only the first 8 bytes of the hash are. The hash changes every day, so it cannot recognise the same person on later days, and the IP address cannot be recovered from it. It may still be regarded as a pseudonymous identifier, which is why we describe it.</li>
+    <li><strong>Do Not Track and bots:</strong> if your browser sends a Do Not Track signal, the counter does not run at all. Traffic recognised as robots is not counted.</li>
+    <li><strong>Purpose and legal basis:</strong> analysing traffic on the site and the effectiveness of links to the app, i.e. the developer's legitimate interest (Art. 6(1)(f) GDPR). You have the right to object (section 19); the simplest way is to turn on Do Not Track.</li>
+    <li><strong>Recipients:</strong> Cloudflare, as the infrastructure provider processing data on the developer's behalf (it technically handles your connection, so it sees the IP address, but the address is not stored in our database). The data is not sold or shared with anyone other than the infrastructure provider. Only the developer can access the statistics, and only aggregated summaries are viewed.</li>
+    <li><strong>Retention:</strong> the records contain no data that identifies you without additional information and are kept in the D1 database until the developer deletes them; there is currently no automatic deletion period. You can request deletion at <a href="mailto:hello@basketplus.app">hello@basketplus.app</a>, although without knowing the day and connection details it is not possible to point to records concerning a specific person.</li>
+    <li><strong>App Store Connect campaign links:</strong> the button leads to the App Store with a campaign tag. After you click, Apple may report to the developer the source of downloads and installs in aggregated form, as described in Apple's documents (sections 3 and 17). The developer does not link those reports to counter data at the level of individuals.</li>
+  </ul>
   </div>
 </main>
 </body>
