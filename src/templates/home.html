@@ -54,8 +54,8 @@
         <h1 id="hero-title">{{ hero.title|title }}</h1>
         <p class="hero-lead">{{ hero.lead }}</p>
         <div class="hero-actions">
-          <a class="store-placeholder" href="{{ page.store_url }}" rel="external" aria-label="{{ hero.store_aria }}">{{ page.apple_logo|raw }}<span><small>{{ hero.store_small }}</small> App Store</span></a>
-          <a class="app-store-qr" href="{{ page.store_url }}" rel="external" aria-label="{{ hero.qr_aria }}"><img src="/assets/app-store-qr.svg" width="96" height="96" alt="{{ hero.qr_alt }}"></a>
+          <a class="store-placeholder" data-c="www-hero" href="{{ page.store_hero }}" rel="external" aria-label="{{ hero.store_aria }}">{{ page.apple_logo|raw }}<span><small>{{ hero.store_small }}</small> App Store</span></a>
+          <a class="app-store-qr" data-c="www-qr" href="{{ page.store_qr }}" rel="external" aria-label="{{ hero.qr_aria }}"><img src="/assets/app-store-qr.svg" width="96" height="96" alt="{{ hero.qr_alt }}"></a>
           <a class="text-link" href="#features">{{ hero.see_how }} <span aria-hidden="true">↓</span></a>
         </div>
 {% if page.availability_notice %}        <div class="availability">
@@ -118,7 +118,7 @@
 {% for it in faq.items %}      <details id="faq-{{ loop.index }}"><summary>{{ it.q }}</summary><p>{{ it.a|rich }}</p></details>
 {% endfor %}    </div></section>
 
-    <section class="closing-section" aria-labelledby="closing-title"><img src="/assets/app-icon.png" width="112" height="112" loading="lazy" alt="{{ closing.icon_alt }}"><div><p class="eyebrow">{{ closing.eyebrow }}</p><h2 id="closing-title">{{ closing.title|title }}</h2>{% if page.availability_notice %}<p class="closing-note">{{ availability.short }} <a href="{{ page.mail_notify }}">{{ availability.notify_link }}</a></p>{% endif %}</div><a class="store-placeholder store-placeholder-light" href="{{ page.store_url }}" rel="external" aria-label="{{ hero.store_aria }}">{{ page.apple_logo|raw }}<span><small>{{ hero.store_small }}</small> App Store</span></a></section>
+    <section class="closing-section" aria-labelledby="closing-title"><img src="/assets/app-icon.png" width="112" height="112" loading="lazy" alt="{{ closing.icon_alt }}"><div><p class="eyebrow">{{ closing.eyebrow }}</p><h2 id="closing-title">{{ closing.title|title }}</h2>{% if page.availability_notice %}<p class="closing-note">{{ availability.short }} <a href="{{ page.mail_notify }}">{{ availability.notify_link }}</a></p>{% endif %}</div><a class="store-placeholder store-placeholder-light" data-c="www-footer" href="{{ page.store_footer }}" rel="external" aria-label="{{ hero.store_aria }}">{{ page.apple_logo|raw }}<span><small>{{ hero.store_small }}</small> App Store</span></a></section>
   </main>
 
   <footer class="site-footer">
@@ -135,5 +135,6 @@
     <div class="footer-bottom"><span>{{ footer.copyright }}</span></div>
   </footer>
   <script src="/assets/site.js" defer></script>
+  <script src="/assets/stats.js" data-w="{{ page.stats_worker }}" defer></script>
 </body>
 </html>

@@ -33,6 +33,13 @@ except Exception:  # pragma: no cover
 ROOT = os.path.dirname(HERE)
 SITE = "https://basketplus.app"
 STORE_URL = "https://apps.apple.com/app/id6816518437"
+ASC_PT = "129518678"  # publiczny token kampanii z App Store Connect
+STATS_WORKER = "https://basketplus-analytics.basketplus-analytics.workers.dev"
+
+
+def store_link(campaign):
+    """Bezpośredni link z kampanią (fallback bez JS); stats.js przepina go na /go."""
+    return f"{STORE_URL}?pt={ASC_PT}&ct={campaign}&mt=8"
 EMAIL = "hello@basketplus.app"
 DEFAULT_LANG = "pl"
 X_DEFAULT_LANG = "en"
@@ -221,7 +228,8 @@ class Builder:
             "og_alternates": [self.langs[c]["meta"]["og_locale"] for c in self.codes if c != code],
             "og_image": SITE + "/assets/og-image.jpg", "css_version": self.css_version,
             "jsonld": jsonld(t, canonical, code, links),
-            "langs": langs, "store_url": STORE_URL, "apple_logo": APPLE_LOGO,
+            "langs": langs, "store_hero": store_link("www-hero"), "store_qr": store_link("www-qr"),
+            "store_footer": store_link("www-footer"), "stats_worker": STATS_WORKER, "apple_logo": APPLE_LOGO,
             "support_url": support, "privacy_url": privacy,
             "support_foreign": code not in ("pl", "en"), "show_docs_note": code not in ("pl", "en"),
             "mail_notify": mail_notify, "availability_notice": AVAILABILITY_NOTICE, "pic": pic,
