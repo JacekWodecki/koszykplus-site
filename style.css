@@ -45,10 +45,14 @@ h1 { margin: 0; font-size: clamp(3.3rem, 6.4vw, 6.25rem); line-height: .94; lett
 h1 em { color: var(--brand); font-family: Iowan Old Style, Charter, Georgia, serif; font-size: .93em; font-weight: 600; }
 .hero-lead { max-width: 620px; margin: 34px 0 0; color: var(--muted); font-size: clamp(1.08rem, 1.7vw, 1.32rem); line-height: 1.55; }
 .hero-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 22px; margin-top: 36px; }
-.store-placeholder { display: inline-flex; align-items: center; gap: 11px; min-height: 58px; padding: 9px 18px; border-radius: 15px; background: #1d1917; color: #fff; box-shadow: 0 12px 24px rgba(33, 28, 25, .18); }
+.store-placeholder { display: inline-flex; align-items: center; gap: 11px; min-height: 58px; padding: 9px 18px; border-radius: 15px; background: #1d1917; color: #fff; box-shadow: 0 12px 24px rgba(33, 28, 25, .18); text-decoration: none; transition: transform .2s ease, box-shadow .2s ease; }
+.store-placeholder:hover { transform: translateY(-2px); box-shadow: 0 16px 30px rgba(33, 28, 25, .24); }
 .store-placeholder svg { width: 27px; fill: currentColor; }
 .store-placeholder span { display: flex; flex-direction: column; font-size: 1.04rem; font-weight: 700; line-height: 1.08; }
 .store-placeholder small { font-size: .61rem; font-weight: 500; letter-spacing: .035em; }
+.app-store-qr { display: inline-flex; flex-direction: column; align-items: center; gap: 6px; width: 112px; padding: 8px 8px 7px; border: 1px solid var(--line); border-radius: 14px; background: #fff; color: var(--brand-dark); font-size: .68rem; font-weight: 750; letter-spacing: .02em; text-align: center; text-decoration: none; box-shadow: 0 8px 20px rgba(33, 28, 25, .12); transition: transform .2s ease; }
+.app-store-qr:hover { transform: translateY(-2px); }
+.app-store-qr img { width: 96px; height: 96px; display: block; }
 .text-link { min-height: 44px; display: inline-flex; align-items: center; gap: 8px; color: var(--brand-dark); font-weight: 750; text-decoration: none; }
 .text-link span { transition: transform .2s ease; }
 .text-link:hover span { transform: translateY(3px); }
@@ -250,6 +254,7 @@ h1 em { color: var(--brand); font-family: Iowan Old Style, Charter, Georgia, ser
   h1 { font-size: clamp(3rem, 15vw, 4.25rem); }
   .hero-lead { margin-top: 25px; font-size: 1rem; }
   .hero-actions { margin-top: 28px; flex-direction: column; gap: 12px; }
+  .app-store-qr { display: none; }
   .hero-visual { min-height: 520px; }
   .hero-visual::before { inset: 3% 0 0; }
   .phone-hero { width: min(68%, 290px); }
