@@ -437,13 +437,15 @@ h1 { word-spacing: .06em; }
 .hero-visual { overflow-x: clip; }
 
 
-/* Plakietki w hero i karta kalendarza nie mogą zasłaniać ekranu telefonu: stoją przy jego krawędzi, a na węższych
-   ekranach znikają (są tylko ozdobą). */
+/* Plakietki w hero i karta kalendarza nie mogą zasłaniać ekranu telefonu. Plakietki hero (aria-hidden, tylko ozdoba)
+   zawsze zachodziłyby na ekran w którymś z 24 języków, więc są ukryte; karta kalendarza stoi przy krawędzi telefonu
+   i znika na węższych ekranach. */
 .note-top { top: 16%; right: auto; left: -13%; }
 .note-bottom { bottom: 9%; left: -12%; }
 .calendar-card { left: -15%; top: 22%; }
-@media (max-width: 1100px) {
-  .hero-note, .calendar-card { display: none; }
+.hero-note { display: none; }
+@media (max-width: 1200px) {
+  .calendar-card { display: none; }
 }
 
 /* Wiersz pobierania: odznaka App Store i kod QR mają tę samą wysokość i stoją w jednej linii (wcześniej pionowa karta QR
