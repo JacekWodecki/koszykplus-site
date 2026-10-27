@@ -1,4 +1,36 @@
+# Zwykłe wyszukiwarki (Google, Bing, DuckDuckGo i inne) oraz boty AI, które tylko wyszukują lub pobierają stronę
+# na prośbę użytkownika (OAI-SearchBot, ChatGPT-User, Claude-SearchBot, Claude-User, PerplexityBot, DuckAssistBot),
+# mają dostęp do całej strony.
 User-agent: *
 Allow: /
+
+# Boty, które zbierają treści do trenowania modeli AI lub masowo kopiują strony: bez dostępu.
+# robots.txt to prośba, nie zapora: stosują się do niego tylko boty uczciwe.
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: CCBot
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Meta-ExternalAgent
+User-agent: FacebookBot
+User-agent: Amazonbot
+User-agent: Bytespider
+User-agent: cohere-ai
+User-agent: cohere-training-data-crawler
+User-agent: Diffbot
+User-agent: ImagesiftBot
+User-agent: Omgilibot
+User-agent: Omgili
+User-agent: Timpibot
+User-agent: AI2Bot
+User-agent: Ai2Bot-Dolma
+User-agent: Kangaroo Bot
+User-agent: PanguBot
+User-agent: Webzio-Extended
+User-agent: img2dataset
+User-agent: Scrapy
+Disallow: /
 
 Sitemap: https://basketplus.app/sitemap.xml

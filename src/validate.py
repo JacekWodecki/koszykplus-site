@@ -135,8 +135,6 @@ def check_i18n(i18n_dir):
         h = langs[code]["hero"]
         if not h["store_aria"].lower().startswith((h["store_small"] + " App Store").lower()):
             err("%s: hero.store_aria powinien zaczynać się od '%s App Store'" % (code, h["store_small"]))
-        if not h["qr_aria"].lower().startswith(h["qr_label"].lower()):
-            err("%s: hero.qr_aria powinien zaczynać się od hero.qr_label" % code)
         # cena nie może się pojawić
         for key, val in flat.items():
             if re.search(r"\d+[.,]\d{2}\s*(zł|PLN|€|EUR|\$|USD)|(€|\$)\s*\d", str(val)):
@@ -443,8 +441,29 @@ def check_sitemap(codes, langs):
     robots = open(os.path.join(ROOT, "robots.txt"), encoding="utf-8").read()
     if "Sitemap: %s/sitemap.xml" % SITE not in robots:
         err("robots.txt: brak linii Sitemap")
-    if re.search(r"(?im)^\s*disallow:\s*/\s*$", robots):
-        err("robots.txt: blokuje całą stronę")
+    # grupy robots.txt: blokada całości jest dozwolona tylko dla botów trenujących AI, nie dla "*", Googlebota ani Binga
+    groups, agents, rules = [], [], []
+    for line in robots.splitlines():
+        line = line.split("#")[0].strip()
+        if not line:
+            continue
+        k, _, v = line.partition(":")
+        k, v = k.strip().lower(), v.strip()
+        if k == "user-agent":
+            if rules:
+                groups.append((agents, rules)); agents, rules = [], []
+            agents.append(v.lower())
+        elif k in ("allow", "disallow"):
+            rules.append((k, v))
+    if agents:
+        groups.append((agents, rules))
+    for ags, rls in groups:
+        if ("disallow", "/") in rls:
+            for ok_bot in ("*", "googlebot", "bingbot", "applebot", "oai-searchbot", "chatgpt-user", "claude-searchbot", "claude-user", "perplexitybot", "duckassistbot"):
+                if ok_bot in ags:
+                    err("robots.txt: blokuje całą stronę dla %s" % ok_bot)
+    if not any("*" in ags and ("allow", "/") in rls for ags, rls in groups):
+        err("robots.txt: brak Allow: / dla *")
 
 
 def check_fresh(i18n_dir):

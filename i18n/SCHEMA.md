@@ -57,8 +57,7 @@ Kolumna „Lista” oznacza liczbę elementów tablicy (identyczna we wszystkich
 | `hero.lead` | 230 | Akapit pod H1. Powinien zawierać naturalnie frazy: 'aplikacja do list zakupów', 'wspólna lista zakupów', 'lista zakupów na iPhone', 'rozliczanie wspólnych zakupów'. | Basket+ to aplikacja do list zakupów na iPhone’a: wspólna lista zak… |
 | `hero.store_small` | 22 | Mała etykieta nad 'App Store' w przycisku (EN: 'Download on the'). Samo 'App Store' nie jest tłumaczone. | Pobierz w |
 | `hero.store_aria` | 64 | aria-label przycisku App Store. MUSI zaczynać się od widocznego tekstu przycisku (store_small + 'App Store'), np. 'Pobierz w App Store – Basket+'. | Pobierz w App Store – Basket+ |
-| `hero.qr_label` | 30 | Podpis pod kodem QR. | Zeskanuj telefonem |
-| `hero.qr_aria` | 72 | aria-label linku z kodem QR. Zacznij od widocznego podpisu qr_label. | Zeskanuj telefonem – Basket+ w App Store |
+| `hero.qr_aria` | 72 | aria-label linku z kodem QR. | Zeskanuj telefonem – Basket+ w App Store |
 | `hero.qr_alt` | 80 | Alt obrazu kodu QR. | Kod QR prowadzący do Basket+ w App Store |
 | `hero.see_how` | 32 | Link tekstowy przewijający do funkcji (po nim jest dekoracyjna strzałka). | Zobacz, jak działa |
 | `hero.platform_note` | 80 | Uwaga pod przyciskami: iPhone, iPad, Apple Watch. | Projektowane dla iPhone’a, iPada i Apple Watch. |
